@@ -115,11 +115,42 @@ abstract class Controller extends BaseController
     {
         return app('index');
     }
+
     /**
      * @return BoolQuery
      */
     public function BoolQuery()
     {
         return app('BoolQuery');
+    }
+
+    public function success($data = null, $status = 200)
+    {
+        if (!empty($data) && !is_array($data)) {
+            $data = ['message' => $data];
+        }
+        if (is_null($data)) {
+            $data = [];
+        }
+        return new JsonResponse($data, $status);
+    }
+
+    public function failure($data, $status = 422)
+    {
+        if (!is_array($data)) {
+            $data = ['message' => $data];
+        }
+        if (is_null($data)) {
+            $data = [];
+        }
+        return new JsonResponse($data, $status);
+    }
+
+    public function failureField($data, $status = 422)
+    {
+        $data = [
+            'data' => $data
+        ];
+        return $this->failure($data, $status);
     }
 }
