@@ -1,0 +1,311 @@
+{
+  "settings": {
+    "max_result_window": 5000000,
+    "index": {
+      "refresh_interval": "300s",
+      "number_of_shards": "5",
+      "number_of_replicas": "1",
+      "translog": {
+        "flush_threshold_size": "5gb",
+        "sync_interval": "120s",
+        "durability": "async"
+      },
+      "merge": {
+        "scheduler": {
+          "max_thread_count": 1
+        }
+      }
+    }
+  },
+  "indices": {
+    "memory": {
+      "index_buffer_size": "50%"
+    }
+  },
+  "thread_pool": {
+    "bulk": {
+      "size": 20,
+      "queue_size": 1000
+    },
+    "warmer": {
+      "core": 48,
+      "max": 48
+    }
+  },
+  "mappings": {
+    "doc": {
+      "properties": {
+        "plafon_share": {
+          "type": "keyword"
+        },
+        "candle_lamp_vision": {
+          "type": "keyword"
+        },
+        "id": {
+          "type": "integer"
+        },
+        "category": {
+          "type": "integer"
+        },
+        "popular_selling": {
+          "type": "integer"
+        },
+        "sub_category": {
+          "type": "integer"
+        },
+        "parent": {
+          "type": "text",
+          "fielddata": true
+        },
+        "vendor": {
+          "type": "keyword"
+        },
+        "shop_availability": {
+          "type": "text",
+          "fielddata": true
+        },
+        "published": {
+          "type": "boolean"
+        },
+        "defective": {
+          "type": "boolean"
+        },
+        "new": {
+          "type": "text",
+          "fielddata": true
+        },
+        "mega_sale": {
+          "type": "text",
+          "fielddata": true
+        },
+        "sale": {
+          "type": "boolean"
+        },
+        "availability": {
+          "type": "boolean"
+        },
+        "price": {
+          "type": "long"
+        },
+        "diff_price": {
+          "type": "long"
+        },
+        "remain_count": {
+          "type": "long"
+        },
+        "colors": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "materials": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "forms": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "marker": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "color": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "armature_color": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "plafond_color": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "interer": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "lamp_style": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "krepej": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "tags": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "mesto_montaza": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "lamp_type": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "lamp_type2": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "lamp_socket": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "mesto_prim": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "forma": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "forma_plafona": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "armature_material": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "plafond_material": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "collection": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "osobennost": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "ottenok": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "pu_dimmer": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "light_temperatures": {
+          "type": "long"
+        },
+        "dopolnitelno": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "viklyuchatel": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "sub_lin_razm": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "sub_oc_razm": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "country_orig": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "size": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "tsvet_temp": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "shade_direction": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "diffuser": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "tip_upravleniya": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "vid_vyklyuchatelya": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "tip_poverhnosti_plafonov": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "tip_poverhnosti_plafonov_new": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "tip_podklyucheniya": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "tip_podklyucheniya_new": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "separate_on": {
+          "type": "boolean"
+        },
+        "diameter": {
+          "type": "float"
+        },
+        "diametr_plafona_sm": {
+          "type": "float"
+        },
+        "vysota_plafona_abazhura_sm": {
+          "type": "float"
+        },
+        "diametr_vrezki": {
+          "type": "long"
+        },
+        "dlina_vrezki": {
+          "type": "long"
+        },
+        "ip_class": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "height": {
+          "type": "long"
+        },
+        "num_of_socket": {
+          "type": "long"
+        },
+        "power": {
+          "type": "long"
+        },
+        "ploshad_osvesheniya": {
+          "type": "long"
+        },
+        "shirina_vrezki": {
+          "type": "long"
+        },
+        "width": {
+          "type": "integer"
+        },
+        "popular_count": {
+          "type": "integer"
+        },
+        "length": {
+          "type": "float"
+        },
+        "light_flow": {
+          "type": "long"
+        },
+        "pagetitle_not_artikul": {
+          "type": "text",
+          "fielddata": true
+        }
+      }
+    }
+  }
+}

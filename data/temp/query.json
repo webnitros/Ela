@@ -1,0 +1,92 @@
+{
+  "query": {
+    "bool": {
+      "must": {
+        "multi_match": {
+          "query": "настольная show_artikul лампа в детскую Белый",
+          "type": "cross_fields",
+          "fields": [
+            "artikul_1c^650",
+            "show_artikul^650",
+            "show_artikul.org^2000",
+            "show_artikul.keyword^250",
+            "show_artikul.keyword_rus^250",
+            "show_artikul.keyword_en^250",
+            "*.org^10",
+            "*.raw^5",
+            "*.ng",
+            "pagetitle.org^250",
+            "pagetitle.raw^125",
+            "pagetitle.ng^1",
+            "collection^3",
+            "category",
+            "sub_category^1",
+            "vendor_name^1",
+            "interer",
+            "color^2",
+            "armature_color^2",
+            "plafond_color^2",
+            "plafond_material^1",
+            "armature_material^1",
+            "lamp_type^1",
+            "forma_plafona^1",
+            "krepej^1",
+            "pu_dimmer^1",
+            "lamp_socket^1",
+            "lamp_style^2"
+          ],
+          "operator": "and",
+          "tie_breaker": 1,
+          "minimum_should_match": "80%"
+        }
+      }
+    }
+  },
+  "suggest": {
+    "text": "Люстра 3790",
+    "my-suggest-1": {
+      "term": {
+        "field": "pagetitle.org"
+      }
+    },
+    "my-suggest-2": {
+      "term": {
+        "field": "show_artikul.org"
+      }
+    }
+  },
+  "aggs": {
+    "lamp_styles": {
+      "filter": {
+        "bool": {
+          "must": {
+          }
+        }
+      },
+      "aggs": {
+        "lamp_styles": {
+          "terms": {
+            "field": "lamp_styles",
+            "size": 100
+          },
+          "aggs": {
+            "colors": {
+              "terms": {
+                "field": "colors",
+                "size": 100
+              },
+              "aggs": {
+                "interers": {
+                  "terms": {
+                    "field": "interers",
+                    "size": 100
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

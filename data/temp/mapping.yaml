@@ -1,0 +1,163 @@
+show_artikul:
+  type: keyword
+  fields:
+    org:
+      type: text
+    raw:
+      type: text
+      analyzer: my_analyzer
+      search_analyzer: russian_english
+    ng:
+      type: text
+      analyzer: index_edgengram
+      search_analyzer: russian_english
+    keyword:
+      type: text
+      analyzer: search_articles
+      search_analyzer: search_articles
+    keyword_rus:
+      type: text
+      analyzer: search_articles_rus
+      search_analyzer: search_articles_rus
+    keyword_en:
+      type: text
+      analyzer: search_articles_en
+      search_analyzer: search_articles_en
+      
+pagetitle:
+  type: keyword
+  fields:
+    org:
+      type: text
+    raw:
+      type: text
+      analyzer: russian_english
+      search_analyzer: russian_english
+    ng:
+      type: text
+      analyzer: index_edgengram
+      search_analyzer: russian_english
+category:
+  type: text
+  analyzer: russian_english
+  search_analyzer: russian_english
+artikul_1c:
+  type: keyword
+  ignore_above: 256
+sub_category:
+  type: text
+  analyzer: russian_english
+  search_analyzer: russian_english
+search_section:
+  type: keyword
+  ignore_above: 256
+interer:
+  type: text
+  analyzer: russian_english
+  search_analyzer: russian_english
+color:
+  type: text
+  analyzer: russian_english
+  search_analyzer: russian_english
+armature_color:
+  type: text
+  analyzer: russian_english
+  search_analyzer: russian_english
+plafond_color:
+  type: text
+  analyzer: russian_english
+  search_analyzer: russian_english
+plafond_material:
+  type: text
+  analyzer: russian_english
+  search_analyzer: russian_english
+pu_dimmer:
+  type: text
+  analyzer: russian_english
+  search_analyzer: russian_english
+colors:
+  type: keyword
+  ignore_above: 256
+interers:
+  type: keyword
+  ignore_above: 256
+lamp_styles:
+  type: keyword
+  ignore_above: 256
+collection:
+  type: text
+  analyzer: russian_english
+  search_analyzer: russian_english
+armature_material:
+  type: text
+  analyzer: russian_english
+  search_analyzer: russian_english
+lamp_type:
+  type: text
+  analyzer: russian_english
+  search_analyzer: russian_english
+krepej:
+  type: text
+  analyzer: russian_english
+  search_analyzer: russian_english
+vendor_name:
+  type: text
+  analyzer: russian_english
+  search_analyzer: russian_english
+forma_plafona:
+  type: text
+  analyzer: russian_english
+  search_analyzer: russian_english
+lamp_style:
+  type: text
+  analyzer: russian_english
+  search_analyzer: russian_english
+shop_availability:
+  type: text
+  fielddata: true
+vendor_id:
+  type: text
+  fielddata: true
+description:
+  type: keyword
+  fields:
+    org:
+      type: text
+    raw:
+      type: text
+      analyzer: russian_english
+      search_analyzer: russian_english
+    ng:
+      type: text
+      analyzer: index_edgengram
+      search_analyzer: russian_english
+article_suggest:
+  type: completion
+  analyzer: analyzer_text
+suggest_vendor:
+  type: completion
+  analyzer: analyzer_text
+suggest_vendor_simple:
+  type: completion
+  analyzer: suggest_vendor
+  preserve_separators: true
+  preserve_position_increments: true
+  max_input_length: 50
+suggest_sub_category_simple:
+  type: completion
+  analyzer: suggest_sub_category
+  preserve_separators: true
+  preserve_position_increments: true
+  max_input_length: 50
+suggest_interer_simple:
+  type: completion
+  analyzer: suggest_sub_category
+  preserve_separators: true
+  preserve_position_increments: true
+  max_input_length: 50
+suggest_style_simple:
+  type: completion
+  analyzer: suggest_sub_category
+  preserve_separators: true
+  preserve_position_increments: true
+  max_input_length: 50

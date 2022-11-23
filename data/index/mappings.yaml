@@ -1,0 +1,402 @@
+show_artikul:
+  type: keyword
+  fields:
+    org:
+      type: text
+    raw:
+      type: text
+      analyzer: my_analyzer
+      search_analyzer: russian_english
+    ng:
+      type: text
+      analyzer: index_edgengram
+      search_analyzer: russian_english
+    keyword:
+      type: text
+      analyzer: search_articles
+      search_analyzer: search_articles
+    keyword_rus:
+      type: text
+      analyzer: search_articles_rus
+      search_analyzer: search_articles_rus
+    keyword_en:
+      type: text
+      analyzer: search_articles_en
+      search_analyzer: search_articles_en
+pagetitle:
+  type: keyword
+  fields:
+    org:
+      type: text
+    raw:
+      type: text
+      analyzer: russian_english
+      search_analyzer: russian_english
+    ng:
+      type: text
+      analyzer: index_edgengram
+      search_analyzer: russian_english
+
+artikul_1c:
+  type: keyword
+  ignore_above: 256
+
+search_section:
+  type: keyword
+  ignore_above: 256
+
+interers:
+  type: keyword
+  ignore_above: 256
+lamp_styles:
+  type: keyword
+  ignore_above: 256
+
+vendor_name:
+  type: text
+  analyzer: russian_english
+  search_analyzer: russian_english
+
+
+######
+######
+###### Фильтровые поля
+######
+######
+vendor: # Id производителя
+  type: keyword
+
+# СОВПАЛИ С ПОИСКОВЫМИ ПОЛЯМИ
+category:
+  type: integer
+  fields:
+    search:
+      type: text
+      analyzer: russian_english
+      search_analyzer: russian_english
+
+category_name:
+  type: text
+
+sub_category:
+  type: integer
+  fields:
+    search:
+      type: text
+      analyzer: russian_english
+      search_analyzer: russian_english
+
+
+
+
+
+
+
+color:
+  type: keyword
+  ignore_above: 256
+  fields:
+    search:
+      type: text
+      analyzer: russian_english
+      search_analyzer: russian_english
+
+interer:
+  type: keyword
+  ignore_above: 256
+  fields:
+    search:
+      type: text
+      analyzer: russian_english
+      search_analyzer: russian_english
+
+
+armature_color:
+  type: keyword
+  ignore_above: 256
+  fields:
+    search:
+      type: text
+      analyzer: russian_english
+      search_analyzer: russian_english
+
+plafond_color:
+  type: keyword
+  ignore_above: 256
+  fields:
+    search:
+      type: text
+      analyzer: russian_english
+      search_analyzer: russian_english
+
+
+lamp_style:
+  type: keyword
+  ignore_above: 256
+  fields:
+    search:
+      type: text
+      analyzer: russian_english
+      search_analyzer: russian_english
+
+krepej:
+  type: keyword
+  ignore_above: 256
+  fields:
+    search:
+      type: text
+      analyzer: russian_english
+      search_analyzer: russian_english
+
+lamp_type:
+  type: keyword
+  ignore_above: 256
+  fields:
+    search:
+      type: text
+      analyzer: russian_english
+      search_analyzer: russian_english
+
+forma_plafona:
+  type: keyword
+  ignore_above: 256
+  fields:
+    search:
+      type: text
+      analyzer: russian_english
+      search_analyzer: russian_english
+
+armature_material:
+  type: keyword
+  ignore_above: 256
+  fields:
+    search:
+      type: text
+      analyzer: russian_english
+      search_analyzer: russian_english
+
+plafond_material:
+  type: keyword
+  ignore_above: 256
+  fields:
+    search:
+      type: text
+      analyzer: russian_english
+      search_analyzer: russian_english
+
+collection:
+  type: keyword
+  ignore_above: 256
+  fields:
+    search:
+      type: text
+      analyzer: russian_english
+      search_analyzer: russian_english
+
+
+pu_dimmer:
+  type: keyword
+  ignore_above: 256
+  fields:
+    search:
+      type: text
+      analyzer: russian_english
+      search_analyzer: russian_english
+
+
+popular_selling:
+  type: integer
+
+plafon_share:
+  type: keyword
+
+candle_lamp_vision:
+  type: keyword
+
+id:
+  type: integer
+
+parent:
+  type: text
+  fielddata: true
+
+published:
+  type: boolean
+
+defective:
+  type: boolean
+
+new:
+  type: text
+  fielddata: true
+
+mega_sale:
+  type: text
+  fielddata: true
+
+sale:
+  type: boolean
+
+availability:
+  type: boolean
+
+price:
+  type: long
+
+diff_price:
+  type: long
+
+remain_count:
+  type: long
+
+colors:
+  type: keyword
+  ignore_above: 256
+
+materials:
+  type: keyword
+  ignore_above: 256
+forms:
+  type: keyword
+  ignore_above: 256
+marker:
+  type: keyword
+  ignore_above: 256
+
+tags:
+  type: keyword
+  ignore_above: 256
+mesto_montaza:
+  type: keyword
+  ignore_above: 256
+
+lamp_socket:
+  type: keyword
+  ignore_above: 256
+mesto_prim:
+  type: keyword
+  ignore_above: 256
+forma:
+  type: keyword
+  ignore_above: 256
+
+osobennost:
+  type: keyword
+  ignore_above: 256
+
+ottenok:
+  type: keyword
+  ignore_above: 256
+
+
+light_temperatures:
+  type: long
+
+dopolnitelno:
+  type: keyword
+  ignore_above: 256
+
+viklyuchatel:
+  type: keyword
+  ignore_above: 256
+
+sub_lin_razm:
+  type: keyword
+  ignore_above: 256
+
+sub_oc_razm:
+  type: keyword
+  ignore_above: 256
+
+country_orig:
+  type: keyword
+  ignore_above: 256
+
+size:
+  type: keyword
+  ignore_above: 256
+
+tsvet_temp:
+  type: keyword
+  ignore_above: 256
+
+shade_direction:
+  type: keyword
+  ignore_above: 256
+
+diffuser:
+  type: keyword
+  ignore_above: 256
+
+tip_upravleniya:
+  type: keyword
+  ignore_above: 256
+
+vid_vyklyuchatelya:
+  type: keyword
+  ignore_above: 256
+
+tip_poverhnosti_plafonov:
+  type: keyword
+  ignore_above: 256
+
+tip_poverhnosti_plafonov_new:
+  type: keyword
+  ignore_above: 256
+
+tip_podklyucheniya:
+  type: keyword
+  ignore_above: 256
+
+tip_podklyucheniya_new:
+  type: keyword
+  ignore_above: 256
+
+separate_on:
+  type: boolean
+
+diameter:
+  type: float
+
+diametr_plafona_sm:
+  type: float
+
+vysota_plafona_abazhura_sm:
+  type: float
+
+diametr_vrezki:
+  type: long
+
+dlina_vrezki:
+  type: long
+
+ip_class:
+  type: keyword
+  ignore_above: 256
+
+height:
+  type: long
+
+num_of_socket:
+  type: long
+
+power:
+  type: long
+
+ploshad_osvesheniya:
+  type: long
+
+shirina_vrezki:
+  type: long
+
+width:
+  type: integer
+
+popular_count:
+  type: integer
+
+length:
+  type: float
+
+light_flow:
+  type: long

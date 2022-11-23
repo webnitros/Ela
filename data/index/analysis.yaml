@@ -1,0 +1,277 @@
+filter:
+  autocomplete_filter:
+    type: edge_ngram
+    min_gram: 1
+    max_gram: 20
+  russian_stop: # стопы для русских слов
+    type: stop
+    stopwords: _russian_
+  russian_keywords:
+    type: keyword_marker
+    keywords:
+      - пример
+  russian_stemmer:
+    type: stemmer
+    language: russian
+  russian_english_stopwords: # Стопы для английских слов
+    type: stop
+    stopwords: а,без,более,бы,был,была,были,было,быть,в,вам,вас,весь,во,вот,все,всего,всех,вы,где,да,даже,для,до,его,ее,если,есть,еще,же,за,здесь,и,из,или,им,их,к,как,ко,когда,кто,ли,либо,мне,может,мы,на,надо,наш,не,него,нее,нет,ни,них,но,ну,о,об,однако,он,она,они,оно,от,очень,по,под,при,с,со,так,также,такой,там,те,тем,то,того,тоже,той,только,том,ты,у,уже,хотя,чего,чей,чем,что,чтобы,чье,чья,эта,эти,это,я,a,an,and,are,as,at,be,but,by,for,if,in,into,is,it,no,not,of,on,or,such,that,the,their,then,there,these,they,this,to,was,will,with
+  english_stop:
+    type: stop
+    stopwords: _english_
+  english_stemmer:
+    type: stemmer
+    language: english
+  english_possessive_stemmer:
+    type: stemmer
+    language: possessive_english
+  edgengram:
+    type: edge_ngram
+    min_gram: 3
+    max_gram: 3
+analyzer:
+  autocomplete:
+    type: custom
+    tokenizer: standard
+    filter:
+      - lowercase
+      - autocomplete_filter
+  my_analyzer:
+    tokenizer: edge_ngram_tokenizer
+    filter:
+      - lowercase
+    char_filter:
+      - my_char_filter
+      - my_char_filter_slache
+  index_edgengram:
+    tokenizer: standard
+    filter:
+      - lowercase
+      - edgengram
+  russian_english:
+    type: custom
+    tokenizer: standard
+    filter:
+      - english_possessive_stemmer
+      - lowercase
+      - russian_stop
+      - english_stop
+      - russian_stemmer
+      - english_stemmer
+      - russian_english_stopwords
+  search_russian_english:
+    type: custom
+    tokenizer: standard
+    filter:
+      - lowercase
+      - russian_english_stopwords
+      - russian_stop
+      - english_stop
+      - russian_stemmer
+      - english_stemmer
+  search_articles:
+    tokenizer: search_articles
+    filter:
+      - lowercase
+  search_articles_rus:
+    tokenizer: search_articles
+    filter:
+      - lowercase
+    char_filter:
+      - pstranslit_char_filter_rus
+  search_articles_en:
+    tokenizer: search_articles
+    filter:
+      - lowercase
+    char_filter:
+      - pstranslit_char_filter_en
+  analyzer_text:
+    tokenizer: standard
+    char_filter:
+      - punctuation
+    filter:
+      - lowercase
+      - asciifolding
+  suggest_vendor:
+    tokenizer: suggest_my_tokenizer
+    char_filter:
+      - suggest_char_filter_rus
+    filter:
+      - english_possessive_stemmer
+      - lowercase
+      - russian_stemmer
+  suggest_sub_category:
+    tokenizer: suggest_my_tokenizer
+    filter:
+      - english_possessive_stemmer
+      - lowercase
+      - russian_stemmer
+char_filter:
+  my_char_filter:
+    type: pattern_replace
+    pattern: "(\\d+)-(?=\\d)"
+    replacement: "$1_"
+  word_splitter:
+    type: pattern_replace
+    pattern: "((?:\\w|#)+|[\\W&&[^#]]+)"
+    replacement: "$1 "
+  space_filter:
+    type: pattern_replace
+    pattern: "(?<=\\p{Lower})(?=\\p{Upper})"
+    replacement: ''
+  my_char_filter_slache:
+    type: pattern_replace
+    pattern: "(?<=\\p{Lower})(?=\\p{Upper})"
+    replacement: " "
+  pstranslit_char_filter_rus:
+    type: mapping
+    mappings:
+      - ф => a
+      - с => c
+      - е => e
+      - т => t
+      - о => o
+      - р => p
+      - а => a
+      - А => A
+      - Л => L
+      - н => h
+      - к => k
+      - х => x
+      - в => b
+      - м => m
+      - у => y
+      - ё => e
+      - ", => ."
+      - "* => x"
+      - "× => x"
+  pstranslit_char_filter_en:
+    type: mapping
+    mappings:
+      - C => С
+      - c => с
+      - l => л
+      - L => Л
+      - е => e
+      - E => Е
+      - т => t
+      - Т => T
+      - о => o
+      - О => О
+      - р => p
+      - P => Р
+      - а => a
+      - А => A
+      - н => h
+      - к => k
+      - х => x
+      - в => b
+      - м => m
+      - у => y
+      - ё => e
+      - ", => ."
+      - "* => x"
+      - "× => x"
+  suggest_char_filter_rus:
+    type: mapping
+    mappings:
+      - ф => a
+      - и => b
+      - с => c
+      - в => d
+      - у => e
+      - а => f
+      - п => g
+      - р => h
+      - ш => i
+      - о => j
+      - л => k
+      - д => l
+      - ь => m
+      - т => n
+      - щ => o
+      - з => p
+      - к => r
+      - ы => s
+      - е => t
+      - г => u
+      - м => v
+      - ц => w
+      - ч => x
+      - н => y
+      - я => z
+      - Ф => A
+      - И => B
+      - С => C
+      - В => D
+      - У => E
+      - А => F
+      - П => G
+      - Р => H
+      - Ш => I
+      - О => J
+      - Л => K
+      - Д => L
+      - Ь => M
+      - Т => N
+      - Щ => O
+      - З => P
+      - К => R
+      - Ы => S
+      - Е => T
+      - Г => U
+      - М => V
+      - Ц => W
+      - Ч => X
+      - Н => Y
+      - Я => Z
+      - х => [
+      - ъ => ]
+      - ж => ;
+      - б => <
+      - ю => >
+  punctuation:
+    type: mapping
+    mappings:
+      - ".=>"
+tokenizer:
+  suggest_my_tokenizer:
+    type: ngram
+    min_gram: 2
+    max_gram: 3
+    token_chars:
+      - letter
+      - digit
+      - whitespace
+  search_articles:
+    type: ngram
+    min_gram: 3
+    max_gram: 4
+    token_chars:
+      - letter
+      - digit
+      - whitespace
+  my_tokenizer:
+    type: ngram
+    min_gram: 3
+    max_gram: 3
+    token_chars:
+      - letter
+      - digit
+      - whitespace
+  my_tokenizer2:
+    type: edge_ngram
+    min_gram: 3
+    max_gram: 10
+    token_chars:
+      - letter
+      - digit
+      - whitespace
+  edge_ngram_tokenizer:
+    token_chars:
+      - letter
+      - digit
+      - whitespace
+    min_gram: '2'
+    type: edgeNGram
+    max_gram: '25'

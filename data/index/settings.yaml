@@ -1,0 +1,13 @@
+settings:
+  max_result_window: 5000000 # Максимальное количество документов для выборки
+  index:
+    refresh_interval: 300s # Как часто выполнять операцию обновления, которая делает последние изменения в индексе видимыми для поиска. По умолчанию 1
+    number_of_shards: '5'
+    number_of_replicas: '1'
+    translog:
+      flush_threshold_size: 5gb
+      sync_interval: 120s
+      durability: async
+    merge:
+      scheduler:
+        max_thread_count: 1

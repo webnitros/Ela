@@ -1,0 +1,61 @@
+{
+  "name": "webnitros/ela",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "webnitros",
+      "email": "info@bustep.ru"
+    }
+  ],
+  "scripts": {
+    "tests": "phpunit --bootstrap bootstrap.php",
+    "up:release": "gh release create \"v1.0.1\" --generate-notes"
+  },
+  "keywords": [
+    "client"
+  ],
+  "require": {
+    "php": ">=7.4",
+    "symfony/event-dispatcher": "^5.4",
+    "symfony/validator": "^5.4",
+    "symfony/routing": "^5.4",
+    "symfony/http-kernel": "^5.4",
+    "illuminate/container": "^8.83",
+    "illuminate/testing": "^8.83",
+    "illuminate/http": "^8.83",
+    "illuminate/routing": "^8.83",
+    "illuminate/filesystem": "^8.83",
+    "illuminate/translation": "^8.83",
+    "illuminate/validation": "^8.83",
+    "illuminate/cookie": "^8.83",
+    "illuminate/events": "^8.83",
+    "illuminate/auth": "^8.83",
+    "illuminate/notifications": "^8.83",
+    "tymon/jwt-auth": "^1.0",
+    "ruflin/elastica": "^7.2",
+    "symfony/dotenv": "^5.2",
+    "symfony/yaml": "^5.0",
+    "rodent/readline": "^0.2.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "phpunit/phpunit": "9.*",
+    "mockery/mockery": "^1.4",
+    "fakerphp/faker": "^1.9.1",
+    "symfony/phpunit-bridge": "^6.0"
+  },
+  "autoload": {
+    "files": [
+      "src/Foundation/helpers.php"
+    ],
+    "psr-4": {
+      "Ela\\": "src/",
+      "Database\\Factories\\": "database/factories/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
