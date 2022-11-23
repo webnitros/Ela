@@ -86,7 +86,7 @@ class Application
 
 
         // Kernel
-        $app->singleton(HttpKernel::class, function (Container $container) {
+        $app->singleton(Kernel::class, function (Container $container) {
 
             // регистрация событи
             /* @var EventDispatcher $dispatcher */
