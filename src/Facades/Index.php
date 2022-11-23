@@ -24,6 +24,6 @@ class Index extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return \Ela\Index::class;
+        return 'Index';
     }
 }
