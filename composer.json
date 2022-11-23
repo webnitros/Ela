@@ -28,7 +28,8 @@
     "ruflin/elastica": "^7.2",
     "symfony/dotenv": "^5.2",
     "symfony/yaml": "^5.0",
-    "rodent/readline": "^0.2.0"
+    "rodent/readline": "^0.2.0",
+    "illuminate/routing": "^8.83"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
