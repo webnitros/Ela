@@ -19,11 +19,11 @@ curl -X GET "localhost:9200/"
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/webnitros/auth"
+      "url": "https://github.com/webnitros/ela"
     }
   ],
   "require": {
-    "webnitros/auth": "^1.0.0"
+    "webnitros/ela": "^1.0.0"
   }
 }
 ```
