@@ -282,7 +282,16 @@ class Route extends RouteCollection
      */
     protected function prefix($uri)
     {
-        return trim(trim($this->getLastGroupPrefix(), '/') . '/' . trim($uri, '/'), '/') ?: '/';
+        $last = substr($uri, -1);
+        $addLast = false;
+        if ($last === '/') {
+            $addLast = true;
+        }
+        $res = trim(trim($this->getLastGroupPrefix(), '/') . '/' . trim($uri, '/'), '/') ?: '/';
+        if ($addLast) {
+            $res .= '/';
+        }
+        return $res;
     }
 
     /**
