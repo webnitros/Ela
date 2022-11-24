@@ -50,8 +50,13 @@ class Application
         ####################
         // Для поиска по ключевым словам
         $app->singleton('MultiMatch', MultiMatch::class);
+
+
         // Для фильтров
         $app->singleton('BoolQuery', BoolQuery::class);
+
+
+        $app->singleton('PostFilter', BoolQuery::class);
 
 
         // Запрос
@@ -124,4 +129,5 @@ class Application
 
         return $app;
     }
+
 }

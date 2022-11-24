@@ -6,6 +6,9 @@ https://elastica.io/projects/
 
 https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-centos-7
 
+Какая та писанина не понятная
+https://logz.io/blog/10-elasticsearch-concepts/
+
 # Проверить версию эластика
 
 ```bash

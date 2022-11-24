@@ -124,6 +124,14 @@ abstract class Controller extends BaseController
         return app('BoolQuery');
     }
 
+    /**
+     * @return BoolQuery
+     */
+    public function PostFilter()
+    {
+        return app('PostFilter');
+    }
+
     public function success($data = null, $status = 200)
     {
         if (!empty($data) && !is_array($data)) {

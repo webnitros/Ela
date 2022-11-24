@@ -3,6 +3,7 @@
 namespace Ela\Foundation;
 
 //use App\Console\Kernel as HttpKernel;
+use Ela\Http\Kernel;
 use Illuminate\Cookie\CookieValuePrefix;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
@@ -497,7 +498,7 @@ trait MakesHttpRequests
     public function call($method, $uri, $parameters = [], $cookies = [], $files = [], $server = [], $content = null)
     {
         /* @var HttpKernel $kernel */
-        $kernel = $this->app->make(HttpKernel::class);
+        $kernel = $this->app->make(Kernel::class);
         #$kernel = $this->app->make(HttpKernel::class);
 
 
