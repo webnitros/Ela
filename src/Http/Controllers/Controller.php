@@ -10,6 +10,8 @@ use Elastica\Search;
 
 abstract class Controller extends \AppM\Http\Controllers\Controller
 {
+    private array $searchs = [];
+
     public function newSearch(string $name, Query $query)
     {
         $Query = new Query($query->toArray());
@@ -25,6 +27,10 @@ abstract class Controller extends \AppM\Http\Controllers\Controller
         return $this;
     }
 
+    public function resetSearchs()
+    {
+        $this->searchs = [];
+    }
 
     public function addSearch(string $name, Search $search)
     {

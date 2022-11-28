@@ -26,6 +26,19 @@ class QueryTest extends TestCase
 
 
     /** @test */
+    public function searchQueryInaccurateSearch()
+    {
+        $this->postJson('/api/search', [
+            'query' => 'A3320SP-1WH Arte Lamp CUINa',
+            'published' => '1',
+            'inaccurate_search' => '1', // Не точный поиск
+        ])
+            ->assertSuccessful()
+            ->assertJsonStructure(['total', 'results']);
+    }
+
+
+    /** @test */
     public function searchQuery()
     {
         $this->postJson('/api/search', [

@@ -18,8 +18,22 @@ class QueryString implements Middleware
     {
         if ($request->has('query')) {
 
+            // Точный поиск, учавствую все фразы
+            $MinimumShouldMatch = '80%';
+            $operator = 'and';
+
+
+            // Для не точного поиска используем OR
+            if ($request->boolean('inaccurate_search')) {
+                $operator = 'or';
+                $MinimumShouldMatch = '50%';
+            }
+
+
             $query = $this->parse($request->get('query'));
+
             $request->query('query', $query);
+
 
             // Валидация запроса
             $controller->validatorResponse($request, [
@@ -60,10 +74,10 @@ class QueryString implements Middleware
                     "lamp_style.search^2",
                     "category.search"
                 ])
-                ->setOperator('and')
+                ->setOperator($operator)
                 #->setOperator('and')
                 ->setTieBreaker(1)
-                ->setMinimumShouldMatch('80%');
+                ->setMinimumShouldMatch($MinimumShouldMatch);
 
             BoolQuery::addMust($MultiMatch);
         }
