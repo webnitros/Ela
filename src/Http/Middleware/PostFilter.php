@@ -5,6 +5,7 @@
 
 namespace Ela\Http\Middleware;
 
+use AppM\Interfaces\ControllerInterface;
 use Ela\Traintes\TermsPostTrait;
 use AppM\Http\Controllers\Controller;
 use AppM\Interfaces\Middleware;
@@ -15,7 +16,7 @@ class PostFilter implements Middleware
 {
     use TermsPostTrait;
 
-    public function handle(Controller $controller, Request $request, Event $event): void
+    public function handle(ControllerInterface $controller, Request $request, Event $event): void
     {
         $this->request = $request;
 

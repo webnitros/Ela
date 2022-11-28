@@ -1,11 +1,7 @@
 <?php
 
-namespace Tests\Feature;
+namespace Tests;
 
-use Ela\Helpers\FacadePHPDocs;
-use Elastica\Query;
-use ReflectionException;
-use Tests\TestCase;
 
 class SuggestTest extends TestCase
 {

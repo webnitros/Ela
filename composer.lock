@@ -2007,6 +2007,64 @@
             "time": "2022-09-21T21:30:03+00:00"
         },
         {
+            "name": "illuminate/testing",
+            "version": "v8.83.26",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/testing.git",
+                "reference": "1c9ec9902df3b7a38b983bbf2242ce3c088de400"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/testing/zipball/1c9ec9902df3b7a38b983bbf2242ce3c088de400",
+                "reference": "1c9ec9902df3b7a38b983bbf2242ce3c088de400",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/collections": "^8.0",
+                "illuminate/contracts": "^8.0",
+                "illuminate/macroable": "^8.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.3|^8.0"
+            },
+            "suggest": {
+                "brianium/paratest": "Required to run tests in parallel (^6.0).",
+                "illuminate/console": "Required to assert console commands (^8.0).",
+                "illuminate/database": "Required to assert databases (^8.0).",
+                "illuminate/http": "Required to assert responses (^8.0).",
+                "mockery/mockery": "Required to use mocking (^1.4.4).",
+                "phpunit/phpunit": "Required to use assertions and run tests (^8.5.19|^9.5.8)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "8.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Testing\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Testing package.",
+            "homepage": "https://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
+            "time": "2022-05-24T14:00:18+00:00"
+        },
+        {
             "name": "illuminate/translation",
             "version": "v8.83.26",
             "source": {
@@ -4752,16 +4810,16 @@
         },
         {
             "name": "webnitros/appm",
-            "version": "v1.0.2",
+            "version": "v1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webnitros/appm.git",
-                "reference": "e5cad09a8b254fbc61b0f06983841ce73fa60fda"
+                "reference": "e0f750d8a7460ddedc87561c931ce278a37b40ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webnitros/appm/zipball/e5cad09a8b254fbc61b0f06983841ce73fa60fda",
-                "reference": "e5cad09a8b254fbc61b0f06983841ce73fa60fda",
+                "url": "https://api.github.com/repos/webnitros/appm/zipball/e0f750d8a7460ddedc87561c931ce278a37b40ec",
+                "reference": "e0f750d8a7460ddedc87561c931ce278a37b40ec",
                 "shasum": ""
             },
             "require": {
@@ -4770,6 +4828,7 @@
                 "illuminate/cookie": "^8.83",
                 "illuminate/http": "^8.83",
                 "illuminate/routing": "^8.83",
+                "illuminate/testing": "^8.83",
                 "illuminate/translation": "^8.83",
                 "illuminate/validation": "^8.83",
                 "php": ">=7.4.0",
@@ -4809,9 +4868,9 @@
             ],
             "support": {
                 "issues": "https://github.com/webnitros/appm/issues",
-                "source": "https://github.com/webnitros/appm/tree/v1.0.2"
+                "source": "https://github.com/webnitros/appm/tree/v1.0.7"
             },
-            "time": "2022-11-28T00:56:19+00:00"
+            "time": "2022-11-28T02:16:00+00:00"
         }
     ],
     "packages-dev": [
@@ -5002,64 +5061,6 @@
                 "source": "https://github.com/hamcrest/hamcrest-php/tree/v2.0.1"
             },
             "time": "2020-07-09T08:09:16+00:00"
-        },
-        {
-            "name": "illuminate/testing",
-            "version": "v8.83.26",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/illuminate/testing.git",
-                "reference": "1c9ec9902df3b7a38b983bbf2242ce3c088de400"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/testing/zipball/1c9ec9902df3b7a38b983bbf2242ce3c088de400",
-                "reference": "1c9ec9902df3b7a38b983bbf2242ce3c088de400",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/collections": "^8.0",
-                "illuminate/contracts": "^8.0",
-                "illuminate/macroable": "^8.0",
-                "illuminate/support": "^8.0",
-                "php": "^7.3|^8.0"
-            },
-            "suggest": {
-                "brianium/paratest": "Required to run tests in parallel (^6.0).",
-                "illuminate/console": "Required to assert console commands (^8.0).",
-                "illuminate/database": "Required to assert databases (^8.0).",
-                "illuminate/http": "Required to assert responses (^8.0).",
-                "mockery/mockery": "Required to use mocking (^1.4.4).",
-                "phpunit/phpunit": "Required to use assertions and run tests (^8.5.19|^9.5.8)."
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "8.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Illuminate\\Testing\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
-                }
-            ],
-            "description": "The Illuminate Testing package.",
-            "homepage": "https://laravel.com",
-            "support": {
-                "issues": "https://github.com/laravel/framework/issues",
-                "source": "https://github.com/laravel/framework"
-            },
-            "time": "2022-05-24T14:00:18+00:00"
         },
         {
             "name": "mockery/mockery",

@@ -1,8 +1,7 @@
 <?php
 
-namespace Tests\Feature;
+namespace Tests;
 
-use Ela\Index;
 use Tests\TestCase;
 
 class SearchTest extends TestCase
@@ -11,12 +10,16 @@ class SearchTest extends TestCase
     /** @test */
     public function search()
     {
-        $this->postJson('/api/search', [
+        $res = $this->postJson('/api/search', [
             'shop_availability' => [1, 3, 4],
             'published' => '1',
         ])
-            ->assertSuccessful()
-            ->assertJsonStructure(['total', 'results']);
+           /* ->assertSuccessful()
+            ->assertJsonStructure(['total', 'results'])*/;
+
+            echo '<pre>';
+            print_r($res->getContent()); die;
+
     }
 
 

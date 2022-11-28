@@ -5,6 +5,7 @@
 
 namespace Ela\Http\Middleware\Aggregation;
 
+use AppM\Interfaces\ControllerInterface;
 use Ela\Facades\Map;
 use AppM\Http\Controllers\Controller;
 use AppM\Interfaces\Middleware;
@@ -16,7 +17,7 @@ class CurrentPost implements Middleware
 {
     use AggregationTrait;
 
-    public function handle(Controller $controller, Request $request, Event $event): void
+    public function handle(ControllerInterface $controller, Request $request, Event $event): void
     {
         // Далее все агрегации нужно добавить в основной запрос чтобы тот вернул данны
         $Query = $controller->query();

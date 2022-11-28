@@ -5,6 +5,7 @@
 
 namespace Ela\Http\Middleware;
 
+use AppM\Interfaces\ControllerInterface;
 use Ela\Facades\BoolQuery;
 use AppM\Http\Controllers\Controller;
 use AppM\Interfaces\Middleware;
@@ -14,7 +15,7 @@ use Symfony\Contracts\EventDispatcher\Event;
 class QueryString implements Middleware
 {
 
-    public function handle(Controller $controller, Request $request, Event $event): void
+    public function handle(ControllerInterface $controller, Request $request, Event $event): void
     {
 
         if ($request->has('query')) {

@@ -5,6 +5,7 @@
 
 namespace Ela\Http\Middleware\Aggregation;
 
+use AppM\Interfaces\ControllerInterface;
 use Ela\Facades\Map;
 use Ela\Traintes\AggregationTrait;
 use AppM\Http\Controllers\Controller;
@@ -17,7 +18,7 @@ class Counting implements Middleware
 {
     use AggregationTrait;
 
-    public function handle(Controller $controller, Request $request, Event $event): void
+    public function handle(ControllerInterface $controller, Request $request, Event $event): void
     {
         $Query = new Query();
         $Query->setQuery($controller->BoolQuery());

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Feature;
+namespace Tests;
 
 use Ela\Facades\Index;
 use Tests\TestCase;
@@ -11,17 +11,11 @@ class QueryTest extends TestCase
     /** @test */
     public function search()
     {
-        $this->postJson('/api/search', [
+       $this->postJson('/api/query', [
             'shop_availability' => [1, 3, 4],
             'published' => '1',
         ])->assertSuccessful()
-            ->assertJsonStructure([
-                'total',
-                'results',
-                'params',
-                'suggest',
-                'aggs',
-            ]);
+            ->assertJsonStructure(['total']);
 
     }
 
