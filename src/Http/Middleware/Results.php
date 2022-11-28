@@ -5,8 +5,8 @@
 
 namespace Ela\Http\Middleware;
 
-use AppM\Interfaces\ControllerInterface;
-use AppM\Interfaces\Middleware;
+use Ela\Http\Controllers\Controller;
+use Ela\Interfaces\Middleware;
 use Ela\Facades\Map;
 use Ela\Facades\MultiSearch;
 use Ela\Filter;
@@ -18,7 +18,7 @@ use Symfony\Component\HttpKernel\KernelEvents;
 class Results implements Middleware
 {
 
-    public function handle(ControllerInterface $controller, Request $request, Event $event): void
+    public function handle(Controller $controller, Request $request, Event $event): void
     {
         /**
          * На выходе ловим событие отдачи ответа и добавляем в него результаты работы
@@ -52,7 +52,7 @@ class Results implements Middleware
             }
 
 
-            $arrays['aggs'] = $Filters->toArray();
+            $arrays['aggregations'] = $Filters->toArray();
 
 
             $Response->setContent($arrays);

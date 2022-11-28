@@ -2,11 +2,11 @@
 
 namespace Ela\Http\Middleware\Aggregation;
 
-use AppM\Interfaces\ControllerInterface;
+use Ela\Http\Controllers\Controller;
 use Ela\Facades\Map;
 use Ela\Facades\MultiSearch;
-use AppM\Http\Controllers\Controller;
-use AppM\Interfaces\Middleware;
+
+use Ela\Interfaces\Middleware;
 use Ela\Traintes\AggregationTrait;
 use Ela\Traintes\ResultsTrait;
 use Elastica\Query;
@@ -20,7 +20,7 @@ class OutOfStock implements Middleware
     use AggregationTrait;
     use ResultsTrait;
 
-    public function handle(ControllerInterface $controller, Request $request, Event $event): void
+    public function handle(Controller $controller, Request $request, Event $event): void
     {
 
         /**

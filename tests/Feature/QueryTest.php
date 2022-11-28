@@ -19,7 +19,7 @@ class QueryTest extends TestCase
                 'total',
                 'results',
                 'params',
-                'aggs',
+                'aggregations',
             ]);
 
     }

@@ -5,9 +5,9 @@
 
 namespace Ela\Http\Middleware;
 
-use AppM\Interfaces\ControllerInterface;
+use Ela\Http\Controllers\Controller;
 use Ela\Traintes\TermsPostTrait;
-use AppM\Interfaces\Middleware;
+use Ela\Interfaces\Middleware;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpKernel\Event\ControllerEvent as Event;
 
@@ -15,7 +15,7 @@ class PostFilter implements Middleware
 {
     use TermsPostTrait;
 
-    public function handle(ControllerInterface $controller, Request $request, Event $event): void
+    public function handle(Controller $controller, Request $request, Event $event): void
     {
         $this->request = $request;
 

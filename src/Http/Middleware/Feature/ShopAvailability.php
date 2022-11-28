@@ -8,17 +8,15 @@
 
 namespace Ela\Http\Middleware\Feature;
 
-
-use AppM\Http\Controllers\Controller;
-use AppM\Interfaces\ControllerInterface;
-use AppM\Interfaces\Middleware;
+use Ela\Http\Controllers\Controller;
+use Ela\Interfaces\Middleware;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpKernel\Event\ControllerEvent as Event;
 
 class ShopAvailability implements Middleware
 {
 
-    public function handle(ControllerInterface $controller, Request $request, Event $event): void
+    public function handle(Controller $controller, Request $request, Event $event): void
     {
         // Если наложили фильтр: Отсутствует в продаже
         if (!$request->boolean('out_of_stock')) {

@@ -5,8 +5,8 @@
 
 namespace Ela\Http\Middleware;
 
-use AppM\Interfaces\ControllerInterface;
-use AppM\Interfaces\Middleware;
+use Ela\Http\Controllers\Controller;
+use Ela\Interfaces\Middleware;
 use Ela\Traintes\TermsBoolTrait;
 use Elastica\Query\Term;
 use Illuminate\Http\Request;
@@ -16,7 +16,7 @@ class BoolQueryFilter implements Middleware
 {
     use TermsBoolTrait;
 
-    public function handle(ControllerInterface $controller, Request $request, Event $event): void
+    public function handle(Controller $controller, Request $request, Event $event): void
     {
 
         $value = $request->boolean('published', true);
