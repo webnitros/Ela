@@ -5,8 +5,8 @@
 
 namespace Ela\Http\Middleware;
 
-use Ela\Http\Controllers\Controller;
-use Ela\Interfaces\Middleware;
+use AppM\Http\Controllers\Controller;
+use AppM\Interfaces\Middleware;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpKernel\Event\ControllerEvent as Event;
 

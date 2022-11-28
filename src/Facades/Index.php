@@ -11,12 +11,7 @@ namespace Ela\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method static \Elastica\Index createIndex()
- * @method static \Elastica\Index createIndexAddDocuemnts()
- * @method static \Elastica\Response flush()
- * @method static array settings()
- * @method static array analysis()
- * @method static array mappings()
+
  *
  * @see \Ela\Index
  */

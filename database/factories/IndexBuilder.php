@@ -6,26 +6,27 @@
  * Time: 20:51
  */
 
-namespace Ela;
+namespace Database\Factories;
 
 use Elastica\Client;
 use Elastica\Document;
 use Elastica\Mapping;
 use Symfony\Component\Yaml\Yaml;
 
-class Index
+class IndexBuilder
 {
     /**
      * @return \Elastica\Index
      */
     public function createIndex()
     {
+
         $Client = new Client(['host' => getenv('ES_HOST'), 'port' => getenv('ES_PORT')]);
+
         $index = $Client->getIndex(getenv('ES_INDEX_PRODUCT'));
 
         ######## Создаем индекс
         $index->create(['settings' => ['analysis' => $this->analysis()]], ['recreate' => true]);
-
 
         ######## Добавляем карты полей
         $data = $this->mappings();

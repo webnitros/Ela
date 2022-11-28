@@ -6,9 +6,8 @@
 namespace Ela\Http\Middleware;
 
 use Ela\Facades\BoolQuery;
-use Ela\Http\Controllers\Controller;
-use Ela\Interfaces\Middleware;
-use Elastica\Query\MultiMatch;
+use AppM\Http\Controllers\Controller;
+use AppM\Interfaces\Middleware;
 use Illuminate\Http\Request;
 use Symfony\Contracts\EventDispatcher\Event;
 
@@ -63,16 +62,12 @@ class QueryString implements Middleware
                     "lamp_style.search^2",
                     "category.search"
                 ])
-                ->setOperator('or')
+                ->setOperator('and')
                 #->setOperator('and')
                 ->setTieBreaker(1)
                 ->setMinimumShouldMatch('80%');
 
-
-            #$controller->BoolQuery()->addShould($multiMatch);
             BoolQuery::addMust($MultiMatch);
-            #$controller->BoolQuery()->addFilter($multiMatch);
-            #app('BoolQuery')->addMust($multiMatch);
         }
 
     }

@@ -1,0 +1,292 @@
+diff_price:
+  filter: range
+  type: long
+  aggs: true
+price:
+  filter: range
+  type: long
+  aggs: true
+remain_count:
+  filter: range
+  type: long
+  aggs: false
+voltage:
+  filter: range
+  type: long
+  aggs: true
+colors:
+  filter: terms
+  type: keyword
+  aggs: true
+materials:
+  filter: terms
+  type: keyword
+  aggs: true
+forms:
+  filter: terms
+  type: keyword
+  aggs: true
+ip_class:
+  filter: terms
+  type: keyword
+  aggs: true
+ploshad_osvesheniya:
+  filter: range
+  type: long
+  aggs: true
+diametr_vrezki:
+  filter: range
+  type: long
+  aggs: true
+diametr_vrezkis:
+  filter: facets
+  field_rating: diametr_vrezki
+  type: long
+  aggs: true
+height:
+  filter: range
+  type: long
+  aggs: true
+diameter:
+  filter: range
+  type: float
+  aggs: true
+dlina_vrezki:
+  filter: range
+  type: long
+  aggs: true
+length:
+  filter: range
+  type: float
+  aggs: true
+shirina_vrezki:
+  filter: range
+  type: long
+  aggs: true
+width:
+  filter: range
+  type: integer
+  aggs: true
+power:
+  filter: range
+  type: long
+  aggs: true
+num_of_socket:
+  filter: range
+  type: long
+  aggs: true
+category:
+  filter: terms
+  type: keyword
+  aggs: false
+popular_selling:
+  filter: terms
+  type: keyword
+  aggs: false
+sub_category:
+  filter: terms
+  type: keyword
+  aggs: false
+parent:
+  filter: terms
+  type: text
+  aggs: false
+  bool: true  # Накладывается на агрегации и на результаты поиска
+  fielddata: true
+availability:
+  filter: term
+  type: boolean
+  aggs: true
+sale:
+  filter: term
+  type: boolean
+  aggs: false
+new:
+  filter: term
+  type: boolean
+  aggs: false
+mega_sale:
+  filter: term
+  type: boolean
+  aggs: false
+defective:
+  filter: term
+  type: boolean
+  aggs: false
+published:
+  filter: term
+  type: boolean
+  aggs: false
+  bool: true # Накладывается на агрегации и на результаты поиска
+separate_on:
+  filter: term
+  type: boolean
+  aggs: false
+marker:
+  filter: terms
+  type: keyword
+  aggs: true
+lamp_style:
+  filter: terms
+  type: keyword
+  aggs: true
+popular_count:
+  filter: terms
+  type: integer
+  aggs: true
+interer:
+  filter: terms
+  type: keyword
+  aggs: true
+krepej:
+  filter: terms
+  type: keyword
+  aggs: true
+tags:
+  filter: terms
+  type: keyword
+  aggs: false
+mesto_montaza:
+  filter: terms
+  type: keyword
+  aggs: true
+osobennost:
+  filter: terms
+  type: keyword
+  aggs: true
+lamp_type:
+  filter: terms
+  type: keyword
+  aggs: true
+ottenok:
+  filter: terms
+  type: keyword
+  aggs: true
+viklyuchatel:
+  filter: terms
+  type: keyword
+  aggs: true
+sub_lin_razm:
+  filter: terms
+  type: keyword
+  aggs: true
+sub_oc_razm:
+  filter: terms
+  type: keyword
+  aggs: true
+mesto_prim:
+  filter: terms
+  type: keyword
+  aggs: true
+country_orig:
+  filter: terms
+  type: keyword
+  aggs: true
+lamp_socket:
+  filter: terms
+  type: keyword
+  aggs: true
+pu_dimmer:
+  filter: terms
+  type: keyword
+  aggs: true
+forma:
+  filter: terms
+  type: keyword
+  aggs: true
+forma_plafona:
+  filter: terms
+  type: keyword
+  aggs: true
+armature_material:
+  filter: terms
+  type: keyword
+  aggs: true
+plafond_material:
+  filter: terms
+  type: keyword
+  aggs: true
+dopolnitelno:
+  filter: terms
+  type: keyword
+  aggs: true
+shop_availability:
+  filter: terms
+  type: keyword
+  aggs: true
+armature_color:
+  filter: terms
+  type: keyword
+  aggs: true
+plafond_color:
+  filter: terms
+  type: keyword
+  aggs: true
+tsvet_temp:
+  filter: terms
+  type: keyword
+  aggs: true
+light_flow:
+  filter: range
+  type: long
+  aggs: true
+light_temperatures:
+  filter: range
+  type: long
+  aggs: true
+diametr_plafona_sm:
+  filter: range
+  type: float
+  aggs: true
+vysota_plafona_abazhura_sm:
+  filter: range
+  type: float
+  aggs: true
+shade_direction:
+  filter: terms
+  type: keyword
+  aggs: true
+diffuser:
+  filter: terms
+  type: keyword
+  aggs: true
+tip_upravleniya:
+  filter: terms
+  type: keyword
+  aggs: true
+vid_vyklyuchatelya:
+  filter: terms
+  type: keyword
+  aggs: true
+tip_poverhnosti_plafonov_new:
+  filter: terms
+  type: keyword
+  aggs: true
+tip_podklyucheniya_new:
+  filter: terms
+  type: keyword
+  aggs: true
+napravlennyy_svet:
+  filter: term
+  type: boolean
+  aggs: true
+plafon_share:
+  filter: terms
+  type: keyword
+  aggs: true
+candle_lamp_vision:
+  filter: terms
+  type: keyword
+  aggs: true
+hrustal:
+  filter: terms
+  type: keyword
+  aggs: true
+file_is_3d_model:
+  filter: term
+  type: boolean
+  aggs: false
+file_is_manual:
+  filter: term
+  type: boolean
+  aggs: false

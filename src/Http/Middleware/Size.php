@@ -5,23 +5,26 @@
 
 namespace Ela\Http\Middleware;
 
-use Ela\Http\Controllers\Controller;
-use Ela\Interfaces\Middleware;
-use Elastica\Query\BoolQuery;
-use Elastica\Query\Term;
-use Elastica\Query\Terms;
+use AppM\Http\Controllers\Controller;
+use AppM\Interfaces\Middleware;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpKernel\Event\ControllerEvent as Event;
 
-class Aggregation implements Middleware
+class Size implements Middleware
 {
+
+    /**
+     * @var \Illuminate\Http\Request
+     */
+    private Request $request;
+    private $criteria;
+
 
     public function handle(Controller $controller, Request $request, Event $event): void
     {
 
-        #echo '<pre>';
-        #print_r($request->all());
-        #die;
+        $controller->query()->setSize(20);
 
     }
+
 }

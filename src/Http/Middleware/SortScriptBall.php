@@ -5,15 +5,11 @@
 
 namespace Ela\Http\Middleware;
 
-use Ela\Http\Controllers\Controller;
-use Ela\Interfaces\Middleware;
+use AppM\Http\Controllers\Controller;
+use AppM\Interfaces\Middleware;
 use Elastica\Query;
-use Elastica\Query\MultiMatch;
-use Elastica\Query\Script as ScriptQuery;
-use Elastica\Script\Script;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpKernel\Event\ControllerEvent as Event;
-use function DeepCopy\deep_copy;
 
 class SortScriptBall implements Middleware
 {
