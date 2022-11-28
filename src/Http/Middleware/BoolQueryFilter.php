@@ -5,7 +5,6 @@
 
 namespace Ela\Http\Middleware;
 
-use AppM\Http\Controllers\Controller;
 use AppM\Interfaces\ControllerInterface;
 use AppM\Interfaces\Middleware;
 use Ela\Traintes\TermsBoolTrait;

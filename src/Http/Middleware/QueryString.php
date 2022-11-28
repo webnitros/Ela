@@ -7,7 +7,6 @@ namespace Ela\Http\Middleware;
 
 use AppM\Interfaces\ControllerInterface;
 use Ela\Facades\BoolQuery;
-use AppM\Http\Controllers\Controller;
 use AppM\Interfaces\Middleware;
 use Illuminate\Http\Request;
 use Symfony\Contracts\EventDispatcher\Event;

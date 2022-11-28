@@ -7,7 +7,6 @@ namespace Ela\Http\Middleware;
 
 use AppM\Interfaces\ControllerInterface;
 use Ela\Traintes\TermsPostTrait;
-use AppM\Http\Controllers\Controller;
 use AppM\Interfaces\Middleware;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpKernel\Event\ControllerEvent as Event;
