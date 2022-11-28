@@ -90,7 +90,9 @@ abstract class Controller extends \AppM\Http\Controllers\Controller
 
     public function storages(Request $request)
     {
-        $storages = $request->get('storages');
+        if (!$storages = $request->get('shop_availability')) {
+            $storages = $request->get('storages');
+        }
         return new Terms('shop_availability', $storages);
     }
 
