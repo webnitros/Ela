@@ -6,7 +6,10 @@ use Elastica\Index;
 use Elastica\Multi\Search as MultiSearch;
 use Elastica\Query;
 use Elastica\Query\BoolQuery;
+use Elastica\Query\Terms;
 use Elastica\Search;
+use Illuminate\Http\Request;
+
 
 abstract class Controller extends \AppM\Http\Controllers\Controller
 {
@@ -83,6 +86,12 @@ abstract class Controller extends \AppM\Http\Controllers\Controller
     public function PostFilter()
     {
         return app('PostFilter');
+    }
+
+    public function storages(Request $request)
+    {
+        $storages = $request->get('storages');
+        return new Terms('shop_availability', $storages);
     }
 
 }
