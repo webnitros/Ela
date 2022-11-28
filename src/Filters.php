@@ -22,6 +22,16 @@ class Filters
         $this->aggs[$filter->field()] = $filter;
     }
 
+    public function unset(Filter $filter)
+    {
+        $field = $filter->field();
+        if (array_key_exists($field, $this->aggs)) {
+            unset($this->aggs[$field]);
+            return true;
+        }
+        return false;
+    }
+
     public function get(string $key)
     {
         if (array_key_exists($key, $this->aggs)) {

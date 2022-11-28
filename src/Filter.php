@@ -19,8 +19,6 @@ class Filter extends AggregationResult
 
         try {
             $field = $this->field();
-
-
             $filters = \Ela\Facades\MultiSearch::get('filters');
             if ($aggregation = $filters->getAggregation($field)) {
                 $this->bucket('addDocCountDefault', $aggregation);
@@ -71,8 +69,10 @@ class Filter extends AggregationResult
         $result = [];
         switch ($type) {
             case 'terms':
-            case 'term':
                 $this->buckets($method, $aggregation['labels'], $aggregation['selected']);
+                break;
+            case 'term':
+                $this->buckets($method, $aggregation['labels'], $aggregation['selected'], true);
                 break;
             case 'range':
 
@@ -98,7 +98,7 @@ class Filter extends AggregationResult
         return $result;
     }
 
-    public function buckets($method, $labels, $selected)
+    public function buckets($method, $labels, $selected, $term = false)
     {
         if (!empty($labels['buckets'])) {
             foreach ($labels['buckets'] as $bucket) {
@@ -110,6 +110,7 @@ class Filter extends AggregationResult
                 $this->{$method}($bucket['key'], $bucket['doc_count']);
             }
         }
+
     }
 
 
