@@ -16,12 +16,10 @@ class QueryString implements Middleware
 
     public function handle(ControllerInterface $controller, Request $request, Event $event): void
     {
-
         if ($request->has('query')) {
 
             $query = $this->parse($request->get('query'));
             $request->query('query', $query);
-
 
             // Валидация запроса
             $controller->validatorResponse($request, [

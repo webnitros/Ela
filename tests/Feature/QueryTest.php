@@ -30,6 +30,7 @@ class QueryTest extends TestCase
     {
         $this->postJson('/api/search', [
             'query' => 'arte',
+            'published' => '1',
         ])
             ->assertSuccessful()
             ->assertJsonStructure(['total', 'results']);

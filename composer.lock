@@ -1772,117 +1772,6 @@
             "time": "2021-11-16T13:57:03+00:00"
         },
         {
-            "name": "illuminate/pipeline",
-            "version": "v8.83.26",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/illuminate/pipeline.git",
-                "reference": "23aeff5b26ae4aee3f370835c76bd0f4e93f71d2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/pipeline/zipball/23aeff5b26ae4aee3f370835c76bd0f4e93f71d2",
-                "reference": "23aeff5b26ae4aee3f370835c76bd0f4e93f71d2",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/contracts": "^8.0",
-                "illuminate/support": "^8.0",
-                "php": "^7.3|^8.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "8.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Illuminate\\Pipeline\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
-                }
-            ],
-            "description": "The Illuminate Pipeline package.",
-            "homepage": "https://laravel.com",
-            "support": {
-                "issues": "https://github.com/laravel/framework/issues",
-                "source": "https://github.com/laravel/framework"
-            },
-            "time": "2021-03-26T18:39:16+00:00"
-        },
-        {
-            "name": "illuminate/routing",
-            "version": "v8.83.26",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/illuminate/routing.git",
-                "reference": "bcef07a281ee4a616eef66b22d46fff7050e9b29"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/routing/zipball/bcef07a281ee4a616eef66b22d46fff7050e9b29",
-                "reference": "bcef07a281ee4a616eef66b22d46fff7050e9b29",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "illuminate/collections": "^8.0",
-                "illuminate/container": "^8.0",
-                "illuminate/contracts": "^8.0",
-                "illuminate/http": "^8.0",
-                "illuminate/macroable": "^8.0",
-                "illuminate/pipeline": "^8.0",
-                "illuminate/session": "^8.0",
-                "illuminate/support": "^8.0",
-                "php": "^7.3|^8.0",
-                "symfony/http-foundation": "^5.4",
-                "symfony/http-kernel": "^5.4",
-                "symfony/routing": "^5.4"
-            },
-            "suggest": {
-                "illuminate/console": "Required to use the make commands (^8.0).",
-                "nyholm/psr7": "Required to use PSR-7 bridging features (^1.2).",
-                "symfony/psr-http-message-bridge": "Required to use PSR-7 bridging features (^2.0)."
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "8.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Illuminate\\Routing\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
-                }
-            ],
-            "description": "The Illuminate Routing package.",
-            "homepage": "https://laravel.com",
-            "support": {
-                "issues": "https://github.com/laravel/framework/issues",
-                "source": "https://github.com/laravel/framework"
-            },
-            "time": "2022-10-04T18:43:49+00:00"
-        },
-        {
             "name": "illuminate/session",
             "version": "v8.83.26",
             "source": {
@@ -4810,16 +4699,16 @@
         },
         {
             "name": "webnitros/appm",
-            "version": "v1.0.7",
+            "version": "v1.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webnitros/appm.git",
-                "reference": "e0f750d8a7460ddedc87561c931ce278a37b40ec"
+                "reference": "0a812f00251e02bc93c27a4d688b84b95e1135e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webnitros/appm/zipball/e0f750d8a7460ddedc87561c931ce278a37b40ec",
-                "reference": "e0f750d8a7460ddedc87561c931ce278a37b40ec",
+                "url": "https://api.github.com/repos/webnitros/appm/zipball/0a812f00251e02bc93c27a4d688b84b95e1135e8",
+                "reference": "0a812f00251e02bc93c27a4d688b84b95e1135e8",
                 "shasum": ""
             },
             "require": {
@@ -4827,7 +4716,6 @@
                 "illuminate/container": "^8.83",
                 "illuminate/cookie": "^8.83",
                 "illuminate/http": "^8.83",
-                "illuminate/routing": "^8.83",
                 "illuminate/testing": "^8.83",
                 "illuminate/translation": "^8.83",
                 "illuminate/validation": "^8.83",
@@ -4868,9 +4756,9 @@
             ],
             "support": {
                 "issues": "https://github.com/webnitros/appm/issues",
-                "source": "https://github.com/webnitros/appm/tree/v1.0.7"
+                "source": "https://github.com/webnitros/appm/tree/v1.0.12"
             },
-            "time": "2022-11-28T02:16:00+00:00"
+            "time": "2022-11-28T04:31:15+00:00"
         }
     ],
     "packages-dev": [

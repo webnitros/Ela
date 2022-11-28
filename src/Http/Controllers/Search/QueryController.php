@@ -66,8 +66,13 @@ class QueryController extends Controller
 
         $Query = $this->query();
 
-        $Query = $Query->setQuery($this->BoolQuery());
-        $Query = $Query->setPostFilter($this->PostFilter());
+        $Query->setQuery($this->BoolQuery());
+
+
+        $Post = $this->PostFilter();
+        if (is_array($Post->getParams())) {
+            $Query = $Query->setPostFilter($this->PostFilter());
+        }
 
         $this->newSearch('products', $Query);
 

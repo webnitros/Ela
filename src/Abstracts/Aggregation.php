@@ -44,19 +44,22 @@ abstract class Aggregation
         $filter = [];
         $unset = false;
         if (!empty($arrays['bool'])) {
-            if (!empty($arrays['bool']['filter'])) {
-                $filter = $arrays['bool']['filter'];
-                foreach ($filter as $k => $item) {
-                    if (!empty($item['terms'])) {
-                        $value = $item['terms'];
-                    } else if ($item['term']) {
-                        $value = $item['term'];
-                    } else if ($item['range']) {
-                        $value = $item['range'];
-                    }
-                    if (!empty($value[$field])) {
-                        unset($filter[$k]);
-                        $unset = true;
+
+            if (gettype($arrays['bool']) === 'array') {
+                if (!empty($arrays['bool']['filter'])) {
+                    $filter = $arrays['bool']['filter'];
+                    foreach ($filter as $k => $item) {
+                        if (!empty($item['terms'])) {
+                            $value = $item['terms'];
+                        } else if ($item['term']) {
+                            $value = $item['term'];
+                        } else if ($item['range']) {
+                            $value = $item['range'];
+                        }
+                        if (!empty($value[$field])) {
+                            unset($filter[$k]);
+                            $unset = true;
+                        }
                     }
                 }
             }
