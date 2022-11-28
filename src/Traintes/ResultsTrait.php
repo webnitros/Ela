@@ -19,13 +19,17 @@ trait ResultsTrait
         $aggregations = $result_set->getAggregations();
         foreach ($aggregations as $field => $aggregation) {
             $Result = Map::aggResult($field);
-            if (!$build) {
-                $Result->setDocCount($aggregation['doc_count']);
-                $Result->setValues($aggregation);
-            } else {
-                $Result->setDocCountBuild($aggregation['doc_count']);
-                $Result->setValuesBuild($aggregation);
+
+
+            $Result->setDocCount($aggregation['doc_count']);
+            $Result->setValues($aggregation);
+
+
+            if ($build) {
+                $Result->setValuesFilter($aggregation);
             }
+
+
         }
         return Map::getResults();
     }

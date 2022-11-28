@@ -198,4 +198,14 @@ class Map
     }
 
 
+    public function fieldsAggregation()
+    {
+        $arrays = [];
+        foreach ($this->map as $k => $v) {
+            if ($v['aggs']) {
+                $arrays[] = $k;
+            }
+        }
+        return $arrays;
+    }
 }

@@ -10,6 +10,7 @@ use Ela\Http\Middleware\MapFilter;
 use Ela\Http\Middleware\PostFilter;
 use Ela\Http\Middleware\QueryString;
 use Ela\Http\Middleware\QueryStringHighLight;
+use Ela\Http\Middleware\Results;
 use Ela\Http\Middleware\Size;
 use Ela\Http\Middleware\SortScriptBall;
 use Ela\Http\Middleware\Aggregation;
@@ -50,6 +51,7 @@ class QueryController extends Controller
         Aggregation\CurrentPost::class, // Текущие агре
         Aggregation\OutOfStock::class, // при построении фильтро POST фильтры не должны накладывать
         // --------------
+        Results::class // Записываем результаты поиска
     ];
 
     /**
@@ -76,28 +78,15 @@ class QueryController extends Controller
         // ВЫПОЛНЯЕМ ЗАПРОС НА СЕРВЕР
         MultiSearch::create($this->createSearch()->search());
 
+        // Выполняем запрос
         $params = $Query->toArray();
         try {
-
-            // Записываем результаты всех фильтров
-            if ($Aggregation = MultiSearch::get('filters')) {
-                $this->aggregations($Aggregation, false);
-                /*   $building_filters = [
-                       'query' => $Aggregation->getQuery()->toArray()
-                   ];*/
-            }
-
-
             $Products = MultiSearch::get('products');
-            $data = [
+            return new Response([
                 'total' => $Products->getTotalHits(),
                 'results' => $this->products(),
                 'params' => $params,
-                'suggest' => $Products->getSuggests(),
-                'aggs' => $this->aggregations($Products, true),
-            ];
-
-
+            ]);
         } catch (\Exception $e) {
             return new Response([
                 'params' => $params,
@@ -107,7 +96,6 @@ class QueryController extends Controller
             ]);
         }
 
-        return new Response($data);
 
     }
 

@@ -29,6 +29,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static \Illuminate\Http\Request request()
  * @method static AggregationInterface|Exception aggregation(string $field)
  * @method static AggregationResult aggResult(string $field)
+ * @method static array fieldsAggregation()
  * @method static array getResults()
  *
  * @see \Ela\Map

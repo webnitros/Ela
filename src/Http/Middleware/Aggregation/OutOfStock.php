@@ -58,40 +58,27 @@ class OutOfStock implements Middleware
         /**
          * На выходе ловим событие отдачи ответа и добавляем в него результаты работы
          */
-        app('dispatcher')->addListener(KernelEvents::RESPONSE, function (\Symfony\Component\HttpKernel\Event\ResponseEvent $event) {
+        /*    app('dispatcher')->addListener(KernelEvents::RESPONSE, function (\Symfony\Component\HttpKernel\Event\ResponseEvent $event) {
 
-            /* @var \Illuminate\Http\Response $Response */
-            $Response = $event->getResponse();
-            $arrays = $Response->getOriginalContent();
-
-
-            if ($Search = MultiSearch::get('out_of_stock')) {
-
-
-                $Result = Map::aggResult('marker');
-
-
-                $Result->addLabel('out_of_stock', $Search->getTotalHits());
-
-
-                $Products = MultiSearch::get('products');
-
-                #'aggs' => $this->aggregations($Products, true),
-                $arrays['aggs'] = [
-                    'full' => $this->aggregations($Products, false),
-                    'build' => $this->aggregations($Products, true),
-                ];
-
-
-                $Response->setContent($arrays);
-                $event->setResponse($Response);
-            }
-
-            /*  $content = $Response->getContent();
-          */
-
-
-        });
+                $Response = $event->getResponse();
+                $arrays = $Response->getOriginalContent();
+                if ($Search = MultiSearch::get('out_of_stock')) {
+                    $Result = Map::aggResult('marker');
+                    #$Result->addLabel('out_of_stock', $Search->getTotalHits());
+                    $Products = MultiSearch::get('products');
+                    $Marker = $Products->getAggregation('marker');
+                    #'aggs' => $this->aggregations($Products, true),
+                    $aggs = [
+                        'full' => $this->aggregations($Products, false),
+                        'build' => $this->aggregations($Products, true),
+                    ];
+                    echo '<pre>';
+                    print_r($aggs);
+                    die;
+                    $Response->setContent($arrays);
+                    $event->setResponse($Response);
+                }
+            });*/
 
 
     }

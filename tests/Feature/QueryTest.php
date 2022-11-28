@@ -19,7 +19,6 @@ class QueryTest extends TestCase
                 'total',
                 'results',
                 'params',
-                'suggest',
                 'aggs',
             ]);
 
