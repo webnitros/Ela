@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "tests": "phpunit --bootstrap bootstrap.php",
-    "up:release": "gh release create \"v1.1.10\" --generate-notes"
+    "up:release": "gh release create \"v1.1.11\" --generate-notes"
   },
   "keywords": [
     "client"
@@ -28,7 +28,8 @@
     "ruflin/elastica": "^7.2",
     "symfony/dotenv": "^5.2",
     "symfony/yaml": "^5.0",
-    "rodent/readline": "^0.2.0"
+    "rodent/readline": "^0.2.0",
+    "webnitros/appm": "^1.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
@@ -36,8 +37,7 @@
     "mockery/mockery": "^1.4",
     "fakerphp/faker": "^1.9.1",
     "symfony/phpunit-bridge": "^6.0",
-    "illuminate/testing": "^8.83",
-    "webnitros/appm": "^1.0.0"
+    "illuminate/testing": "^8.83"
   },
   "autoload": {
     "psr-4": {
@@ -49,11 +49,5 @@
     "psr-4": {
       "Tests\\": "tests/"
     }
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/webnitros/appm"
-    }
-  ]
+  }
 }
