@@ -39,6 +39,29 @@ class QueryTest extends TestCase
 
 
     /** @test */
+    public function searchQueryMarker()
+    {
+        $this->postJson('/api/search', [
+            'published' => '1',
+            'shop_availability' => [
+                12,
+                59,
+                88,
+                271
+            ],
+            'out_of_stock' => true,
+            #'in_order' => true,
+            'marker' => [
+                'availability',
+                'new'
+            ]
+        ])
+            ->assertSuccessful()
+            ->assertJsonStructure(['total', 'results']);
+    }
+
+
+    /** @test */
     public function searchQuery()
     {
         $this->postJson('/api/search', [

@@ -24,39 +24,40 @@ class Results implements Middleware
          * На выходе ловим событие отдачи ответа и добавляем в него результаты работы
          */
         app('dispatcher')->addListener(KernelEvents::RESPONSE, function (\Symfony\Component\HttpKernel\Event\ResponseEvent $event) {
-            /* @var \Illuminate\Http\Response $Response */
-            $Response = $event->getResponse();
-            $arrays = $Response->getOriginalContent();
+
+            $Request = $event->getRequest();
+
+            // Только если это не автокомплите
+            if (!$Request->get('autocomplite')) {
+
+                /* @var \Illuminate\Http\Response $Response */
+                $Response = $event->getResponse();
+                $arrays = $Response->getOriginalContent();
 
 
-            $Fileds = Map::fieldsAggregation();
-
-            $Filters = new Filters();
-
-
-            foreach ($Fileds as $filed) {
-                $Filter = new Filter($filed);
-                if ($Filter->buildValues()) {
-                    $Filters->add($Filter);
-                }
-            }
-
-
-            if ($Search = MultiSearch::get('out_of_stock')) {
-                if ($Marker = $Filters->get('marker')) {
-                    $total = $Search->getTotalHits();
-                    $Marker->addDocCountDefault('out_of_stock', $total);
-                    $Marker->addDocCount('out_of_stock', $total);
+                $Fileds = Map::fieldsAggregation();
+                $Filters = new Filters();
+                foreach ($Fileds as $filed) {
+                    $Filter = new Filter($filed);
+                    if ($Filter->buildValues()) {
+                        $Filters->add($Filter);
+                    }
                 }
 
+
+                if ($Search = MultiSearch::get('out_of_stock')) {
+                    if ($Marker = $Filters->get('marker')) {
+                        $total = $Search->getTotalHits();
+                        $Marker->addDocCountDefault('out_of_stock', $total);
+                        $Marker->addDocCount('out_of_stock', $total);
+                    }
+
+                }
+
+                $arrays['aggregations'] = $Filters->toArray();
+                $Response->setContent($arrays);
+                $event->setResponse($Response);
             }
-
-
-            $arrays['aggregations'] = $Filters->toArray();
-
-
-            $Response->setContent($arrays);
-            $event->setResponse($Response);
 
 
         });

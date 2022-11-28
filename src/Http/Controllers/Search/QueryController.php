@@ -5,6 +5,7 @@ namespace Ela\Http\Controllers\Search;
 use Ela\Facades\MultiSearch;
 use Ela\Http\Controllers\Controller;
 use Ela\Http\Middleware\BoolQueryFilter;
+use Ela\Http\Middleware\Feature\Marker;
 use Ela\Http\Middleware\Feature\ShopAvailability;
 use Ela\Http\Middleware\MapFilter;
 use Ela\Http\Middleware\PostFilter;
@@ -31,6 +32,7 @@ class QueryController extends Controller
         SortScriptBall::class, // Сортировка по баллам
 
         // Получаем все фильтры
+        Marker::class, // Фильтры по умолчанию
         BoolQueryFilter::class, // Фильтры по умолчанию
         PostFilter::class, // Наложение фильтров
 
@@ -82,6 +84,7 @@ class QueryController extends Controller
 
         // ВЫПОЛНЯЕМ ЗАПРОС НА СЕРВЕР
         MultiSearch::create($this->createSearch()->search());
+
 
         // Выполняем запрос
         $params = $Query->toArray();

@@ -26,17 +26,6 @@ class ShopAvailability implements Middleware
 
     public function default(Controller $controller, Request $request)
     {
-        /**
-         * Записиываем список складов на которых храняться остатки
-         */
-       /* if ($request->get('shop_availability')) {
-            $controller->validatorResponse($request, [
-                'shop_availability' => ['array']
-            ]);
-            if ($shop_availability = $request->get('shop_availability')) {
-                $Temrs = new Terms('shop_availability', $shop_availability);
-                \Ela\Facades\BoolQuery::addFilter($Temrs);
-            }
-        }*/
+
     }
 }

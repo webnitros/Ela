@@ -5,6 +5,7 @@
 
 namespace Ela\Http\Middleware;
 
+use Ela\Facades\BoolQuery;
 use Ela\Http\Controllers\Controller;
 use Ela\Traintes\TermsPostTrait;
 use Ela\Interfaces\Middleware;
@@ -51,8 +52,8 @@ class PostFilter implements Middleware
             ->addTerms('tip_upravleniya')
             ->addTerms('colors')
             ->addTerms('materials')
-            ->addTerms('forms')
-            ->addTerms('marker');
+            ->addTerms('forms');
+
 
 
         // Term

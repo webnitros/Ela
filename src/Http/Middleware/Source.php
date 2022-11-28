@@ -18,11 +18,9 @@ class Source implements Middleware
     private Request $request;
     private $criteria;
 
-
     public function handle(Controller $controller, Request $request, Event $event): void
     {
         $controller->query()->setSource(['*']);
-        #  $controller->query()->setSource(['shop_availability']);
 
     }
 
