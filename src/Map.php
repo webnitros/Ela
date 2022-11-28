@@ -114,6 +114,7 @@ class Map
         $class = null;
         switch ($filter) {
             case 'terms':
+            case 'term':
                 $class = \Ela\Aggregation\Terms::class;
                 break;
             case 'range':
