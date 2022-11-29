@@ -29,14 +29,14 @@ class QueryTest extends TestCase
     public function searchQueryInaccurateSearch()
     {
         $this->postJson('/api/search', [
-            'query' => 'ARTE SAMP',
-            #'query' => 'сибибристый',
+            #'query' => 'ARTE SAMP',
+            'query' => 'синия',
             #'query' => 'LdRGs',
             #'query' => 'Arte Lamp LARGO',
             #  'query' => 'Arte Lamp LARGO',
             #'query' => 'A3320SP-1WH Arte Lamp CUINa',
-            'published' => '1',
-            'inaccurate_search' => '1', // Не точный поиск
+            #'published' => '1',
+           # 'inaccurate_search' => '1', // Не точный поиск
         ])
             ->assertSuccessful()
             ->assertJsonStructure(['total', 'results']);

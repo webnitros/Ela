@@ -17,43 +17,41 @@ use Symfony\Component\HttpKernel\Event\ControllerEvent as Event;
 
 class Suggest implements Middleware
 {
-
-    /**
-     * @var array|string|null
-     */
-    public $query;
-
     public function handle(Controller $controller, Request $request, Event $event): void
     {
         $query = $request->get('query');
         if (!empty($query)) {
-            $this->add($query, 'vendor_name');
-            $this->add($query, 'colors');
-            $this->add($query, 'collection');
-            $this->add($query, 'pagetitle');
-            $this->add($query, 'armature_material');
-            $this->add($query, 'armature_color');
-            $this->add($query, 'country_orig');
-            $this->add($query, 'diffuser');
-            $this->add($query, 'dopolnitelno');
-            $this->add($query, 'forma');
-            $this->add($query, 'forma_plafona');
-            $this->add($query, 'interer');
-            $this->add($query, 'krepej');
-            $this->add($query, 'lamp_style');
-            $this->add($query, 'lamp_type');
-            $this->add($query, 'mesto_montaza');
-            $this->add($query, 'mesto_prim');
-            $this->add($query, 'osobennost');
-            $this->add($query, 'ottenok');
-            $this->add($query, 'plafond_color');
-            $this->add($query, 'plafond_material');
-            $this->add($query, 'sub_oc_razm');
-            $this->add($query, 'tip_poverhnosti_plafonov_new');
-            $this->add($query, 'colors');
-            $this->add($query, 'materials');
-            $this->add($query, 'forms');
-            #$controller->query()->setSuggest($controller->Suggest());
+
+            $controller->Suggest()->setGlobalText($query);
+
+
+            $this->add('vendor_name');
+            $this->add('colors');
+            $this->add('collection');
+            $this->add('pagetitle');
+            $this->add('armature_material');
+            $this->add('armature_color');
+            $this->add('country_orig');
+            $this->add('diffuser');
+            $this->add('dopolnitelno');
+            $this->add('forma');
+            $this->add('forma_plafona');
+            $this->add('interer');
+            $this->add('krepej');
+            $this->add('lamp_style');
+            $this->add('lamp_type');
+            $this->add('mesto_montaza');
+            $this->add('mesto_prim');
+            $this->add('osobennost');
+            $this->add('ottenok');
+            $this->add('plafond_color');
+            $this->add('plafond_material');
+            $this->add('sub_oc_razm');
+            $this->add('tip_poverhnosti_plafonov_new');
+            $this->add('colors');
+            $this->add('materials');
+            $this->add('forms');
+
 
             $index = $controller->index();
 
@@ -64,28 +62,22 @@ class Suggest implements Middleware
         }
     }
 
-    public function add($query, string $field)
+    public function add(string $field)
     {
         $suggest = new Term($field, $field);
+        # $suggest->setMinWordLength(4); // минимальная длина термина которая должна быть включена
+        #$suggest->setMinDocFrequency(10); // число фрагментов где слово совпало
+        #$suggest->setMinDocFrequency(100); // число фрагментов где слово совпало
+
+
         $suggest->setStringDistanceAlgorithm('jaro_winkler');
+
+
         # $suggest->setAnalyzer('search_articles_rus');
-        \Ela\Facades\Suggest::addSuggestion($suggest->setText($query));
 
-        # $this->add_($query, $field);
 
+        \Ela\Facades\Suggest::addSuggestion($suggest);
         return $this;
     }
 
-    public function add_($query, string $field)
-    {
-        $phraseSuggest = (new Phrase($field . '_suggest', $field))
-            ->setText($query)
-            ->setAnalyzer('simple')
-            ->setHighlight('<suggest>', '</suggest>')
-            ->setStupidBackoffSmoothing(Phrase::DEFAULT_STUPID_BACKOFF_DISCOUNT)
-            ->addCandidateGenerator(new DirectGenerator('text'));
-
-        \Ela\Facades\Suggest::addSuggestion($phraseSuggest);
-        return $this;
-    }
 }
