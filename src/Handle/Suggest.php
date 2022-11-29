@@ -43,8 +43,10 @@ class Suggest
         foreach ($suggeste as $item) {
             foreach ($item['options'] as $word) {
                 $this->words[$name] = $word;
+                return true;
             }
         }
+        return false;
     }
 
 
