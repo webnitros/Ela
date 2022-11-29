@@ -8,6 +8,8 @@
 
 namespace Ela;
 
+use Ela\Analysis\StopWords;
+use Ela\Analysis\Synonym;
 use Elastica\Client;
 use Elastica\Document;
 use Elastica\Mapping;
@@ -121,7 +123,13 @@ class IndexBuilder
     public function analysis()
     {
         $dir = getenv('ES_SETTINS_PATH');
-        return Yaml::parseFile($dir . 'analysis.yaml');
+        $analysis = Yaml::parseFile($dir . 'analysis.yaml');
+
+        $analysis = Synonym::words($analysis);
+        $analysis = StopWords::words($analysis);
+
+
+        return $analysis;
     }
 
     public function mappings()

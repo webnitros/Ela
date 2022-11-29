@@ -52,6 +52,12 @@ class Suggest implements Middleware
             $this->add('materials');
             $this->add('forms');
 
+            ##############################
+            ###### Для целых предложений
+            ##############################
+            $this->seggest_offer();
+            ##############################
+            ##############################
 
             $index = $controller->index();
 
@@ -67,17 +73,27 @@ class Suggest implements Middleware
         $suggest = new Term($field, $field);
         # $suggest->setMinWordLength(4); // минимальная длина термина которая должна быть включена
         #$suggest->setMinDocFrequency(10); // число фрагментов где слово совпало
-        #$suggest->setMinDocFrequency(100); // число фрагментов где слово совпало
-
-
         $suggest->setStringDistanceAlgorithm('jaro_winkler');
-
-
         # $suggest->setAnalyzer('search_articles_rus');
-
-
         \Ela\Facades\Suggest::addSuggestion($suggest);
         return $this;
     }
 
+
+    public function seggest_offer()
+    {
+        // Поле куда скидываются все значения
+        $field = 'suggest_word.trigram';
+
+        $text = new DirectGenerator($field);
+        $text->setSuggestMode($text::SUGGEST_MODE_ALWAYS);
+        $phraseSuggest = (new Phrase('suggest_word', $field))
+            ->setAnalyzer('simple')
+            ->setGramSize(3)
+            ->addDirectGenerator($text);
+
+        \Ela\Facades\Suggest::addSuggestion($phraseSuggest);
+
+        return $this;
+    }
 }

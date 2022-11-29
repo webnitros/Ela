@@ -13,26 +13,38 @@ use Ela\Facades\MultiSearch;
 
 class Suggest
 {
+    protected $words = [];
 
-    public static function create()
+    public static function create(\Elastica\ResultSet $suggest)
     {
-        if (!$suggest = MultiSearch::get('suggest')) {
-            return null;
-        }
-        if (!$suggest->hasSuggests()) {
-            return null;
-        }
-
         $suggestes = $suggest->getSuggests();
-        $words = [];
-        foreach ($suggestes as $name => $suggeste) {
-            foreach ($suggeste as $item) {
-                foreach ($item['options'] as $word) {
-                    $words[$name] = $word;
-                }
+        $Suggest = new Suggest();
+        if (count($suggestes) > 0) {
+            if (!empty($suggestes['suggest_word'])) {
+                $suggest_word = $suggestes['suggest_word'];
+                unset($suggestes['suggest_word']);
+                $Suggest->words('suggest_word', $suggest_word);
+            }
+
+            foreach ($suggestes as $name => $suggeste) {
+                $Suggest->words($name, $suggeste);
             }
         }
-        return $words;
+        return $Suggest->getWords();
+    }
+
+    public function getWords()
+    {
+        return $this->words;
+    }
+
+    public function words(string $name, array $suggeste)
+    {
+        foreach ($suggeste as $item) {
+            foreach ($item['options'] as $word) {
+                $this->words[$name] = $word;
+            }
+        }
     }
 
 

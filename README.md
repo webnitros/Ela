@@ -9,6 +9,10 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-el
 Какая та писанина не понятная
 https://logz.io/blog/10-elasticsearch-concepts/
 
+
+## Управление синонемами
+https://antonshell.me/post/elastic-search-synonyms
+
 # Проверить версию эластика
 
 ```bash

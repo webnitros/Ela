@@ -56,6 +56,13 @@ vendor_name:
   type: text
   analyzer: russian_english
   search_analyzer: russian_english
+  fields:
+    trigram:
+      type: text
+      analyzer: trigram
+    reverse:
+      type: text
+      analyzer: reverse
 
 
 ######
@@ -77,6 +84,11 @@ category:
 
 category_name:
   type: text
+  fields:
+    search:
+      type: text
+      analyzer: russian_english
+      search_analyzer: russian_english
 
 sub_category:
   type: integer
@@ -85,11 +97,6 @@ sub_category:
       type: text
       analyzer: russian_english
       search_analyzer: russian_english
-
-
-
-
-
 
 
 color:
@@ -109,7 +116,12 @@ interer:
       type: text
       analyzer: russian_english
       search_analyzer: russian_english
-
+    trigram:
+      type: text
+      analyzer: trigram
+    reverse:
+      type: text
+      analyzer: reverse
 
 armature_color:
   type: keyword
@@ -315,6 +327,13 @@ sub_oc_razm:
 country_orig:
   type: keyword
   ignore_above: 256
+  fields:
+    trigram:
+      type: text
+      analyzer: trigram
+    reverse:
+      type: text
+      analyzer: reverse
 
 size:
   type: keyword
@@ -404,3 +423,15 @@ length:
 
 light_flow:
   type: long
+
+suggest_word:
+  type: text
+  analyzer: russian_english
+  search_analyzer: russian_english
+  fields:
+    trigram:
+      type: text
+      analyzer: trigram
+    reverse:
+      type: text
+      analyzer: reverse

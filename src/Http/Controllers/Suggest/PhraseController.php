@@ -11,29 +11,37 @@ use Elastica\Suggest\Phrase;
 use Elastica\Suggest\Term;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
+use Symfony\Component\Yaml\Yaml;
 
 class PhraseController extends Controller
 {
 
     public function get(Request $request)
     {
-        $query = 'Суребристый';
+        /*$query = 'Arte Lamx';
         #$query = 'Серебристый';
 
-        $field = 'colors';
+        $field = 'vendor_name';
 
         $suggest = new \Elastica\Suggest();
+
+        $suggest->setGlobalText($query);
+
+
         $Term = new Term('suggest_' . $field, $field);
         $Term->setStringDistanceAlgorithm('jaro_winkler');
-        $suggest->addSuggestion($Term->setText($query));
 
-        $index = $this->index();
+        $Term->setAnalyzer('simple');
+
+        $suggest->addSuggestion($Term);
+
+        $index = $this->_getIndexForTest();
         $result = $index->search($suggest);
         $response = $result->getSuggests();
 
         echo '<pre>';
         print_r($response);
-        die;
+        die;*/
 
 
         /* $this->validatorResponse($request, [
@@ -41,29 +49,30 @@ class PhraseController extends Controller
          ]);
 
         $text = $request->get('text');*/
-        $text = new DirectGenerator('pagetitle');
+
+        $query = 'ручки Накладно';
+        #$query = 'arte lamp musxra матовый';
+        #$query = 'Arte Lxmx MUSxRA Мxтовый';
 
 
-        $phraseSuggest = (new Phrase('suggest1', 'pagetitle'))
-            #->setText('Светил')
-            ->setText('юстра')
-            #->setText('юстра Maytoni Ring MOD013PL-02B')
-            #->setText('люстра 4010 lianet')
-            #->setText('Maytoni люстра коричнвая')
-            #->setAnalyzer('simple')
-            #->setHighlight('<suggest>', '</suggest>')
-            #->setStupidBackoffSmoothing(Phrase::DEFAULT_STUPID_BACKOFF_DISCOUNT)
-                ->addDirectGenerator($text)
-        ;
+        $field = 'suggest_word.trigram';
+
+        $text = new DirectGenerator($field);
+        $text->setSuggestMode($text::SUGGEST_MODE_ALWAYS);
+        $phraseSuggest = (new Phrase('suggest_word', $field))
+            ->setAnalyzer('simple')
+            ->setGramSize(3)
+            ->addDirectGenerator($text);
 
 
         $suggest = (new Suggest())
+            ->setGlobalText($query)
             ->addSuggestion($phraseSuggest);
 
+        $index = $this->index();
 
-        # $index = $this->index();
-
-        $index = $this->_getIndexForTest();
+        #$index = $this->_getIndexForTest();
+        #$index = $this->index();
         $result = $index->search($suggest);
         $suggests = $result->getSuggests();
 
@@ -78,17 +87,16 @@ class PhraseController extends Controller
 
     protected function _getIndexForTest()
     {
+        $dir = getenv('ES_SETTINS_PATH');
+        $suggest = Yaml::parseFile($dir . 'suggest_word/words.yaml');
+        $words = [];
+        foreach ($suggest['words'] as $k => $word) {
+            $words[] = new Document($k, ['suggest_word' => $word]);
+        }
 
         $index = IndexBuilder::createIndexAddDocuemnts();
-        /*     $index->addDocuments([
-                 new Document('1', ['text' => 'Maytoni люстра коричневая']),
-                 new Document('2', ['text' => 'Люстра Divinare LIANTO']),
-                 new Document('3', ['text' => 'Люстра Divinare LIANTO 4010/02 PL-3']),
-                 new Document('4', ['text' => 'Светильник Maytoni РИНГ MOD013PL-02B']),
-                 new Document('5', ['text' => 'Люстра']),
-                 new Document('6', ['text' => 'Maytoni']),
-             ]);
-             $index->refresh();*/
+        $index->addDocuments($words);
+        $index->refresh();
         return $index;
     }
 
