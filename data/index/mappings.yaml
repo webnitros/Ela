@@ -234,6 +234,10 @@ mega_sale:
   type: text
   fielddata: true
 
+in_order:
+  type: text
+  fielddata: true
+
 sale:
   type: boolean
 

@@ -8,6 +8,7 @@ use Elastica\Query;
 use Elastica\Query\BoolQuery;
 use Elastica\Query\Terms;
 use Elastica\Search;
+use Elastica\Suggest;
 use Illuminate\Http\Request;
 
 
@@ -86,6 +87,14 @@ abstract class Controller extends \AppM\Http\Controllers\Controller
     public function PostFilter()
     {
         return app('PostFilter');
+    }
+
+    /**
+     * @return Suggest
+     */
+    public function Suggest()
+    {
+        return app('Suggest');
     }
 
     public function storages(Request $request)

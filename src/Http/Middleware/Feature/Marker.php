@@ -155,9 +155,12 @@ class Marker implements Middleware
      */
     public function storages(\AppM\Http\Controllers\Controller $controller, Request $request)
     {
-        if (!$storage = $request->get('shop_availability')) {
-            $modx = modY::getInstance('modY');
-            $storage = $modx->storage()->globalIds();
+        $storage = [];
+        if (class_exists('modY')) {
+            if (!$storage = $request->get('shop_availability')) {
+                $modx = modY::getInstance('modY');
+                $storage = $modx->storage()->globalIds();
+            }
         }
         return $storage;
     }

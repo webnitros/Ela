@@ -25,6 +25,8 @@ class CurrentPost implements Middleware
         Map::aggregation('marker')->add($Query);
         Map::aggregation('lamp_style')->filter($Post)->add($Query);
         Map::aggregation('price')->filter($Post)->add($Query);
+
+        Map::aggregation('availability')->filter($Post)->add($Query);
     }
 
 }

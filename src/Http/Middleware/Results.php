@@ -51,10 +51,17 @@ class Results implements Middleware
                         $Marker->addDocCountDefault('out_of_stock', $total);
                         $Marker->addDocCount('out_of_stock', $total);
                     }
-
                 }
 
                 $arrays['aggregations'] = $Filters->toArray();
+
+
+                $arrays['suggest'] = [];
+                if ($suggest = MultiSearch::get('suggest')) {
+                    $arrays['suggest'] = $suggest->getSuggests();
+                }
+
+
                 $Response->setContent($arrays);
                 $event->setResponse($Response);
             }

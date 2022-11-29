@@ -34,6 +34,7 @@ class IndexBuilder
         $mapping = new Mapping($data);
         $index->setMapping($mapping);
 
+
         return $index;
     }
 

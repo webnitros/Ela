@@ -27,6 +27,7 @@ class Counting implements Middleware
         Map::aggregation('lamp_style')->add($Query);
         Map::aggregation('price')->add($Query);
 
+        Map::aggregation('availability')->add($Query);
         $controller->newSearch('filters', $Query);
 
         // Наложение фильров

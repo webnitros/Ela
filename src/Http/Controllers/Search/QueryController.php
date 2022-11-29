@@ -16,6 +16,7 @@ use Ela\Http\Middleware\Size;
 use Ela\Http\Middleware\SortScriptBall;
 use Ela\Http\Middleware\Aggregation;
 use Ela\Http\Middleware\Source;
+use Ela\Http\Middleware\Suggest;
 use Ela\Traintes\ResultsTrait;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
@@ -53,6 +54,7 @@ class QueryController extends Controller
         Aggregation\CurrentPost::class, // Текущие агре
         Aggregation\OutOfStock::class, // при построении фильтро POST фильтры не должны накладывать
         // --------------
+        Suggest::class, // Предложения
         Results::class // Записываем результаты поиска
     ];
 
@@ -76,7 +78,9 @@ class QueryController extends Controller
             $Query = $Query->setPostFilter($this->PostFilter());
         }
 
+
         $this->newSearch('products', $Query);
+
 
         ########################
         ########################
@@ -92,6 +96,7 @@ class QueryController extends Controller
             $Products = MultiSearch::get('products');
             return new Response([
                 'total' => $Products->getTotalHits(),
+                'suggests' => $Products->getSuggests(),
                 'results' => $this->products(),
                 'params' => $params,
             ]);

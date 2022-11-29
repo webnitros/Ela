@@ -3,6 +3,7 @@
 namespace Tests;
 
 use Ela\Facades\Index;
+use Ela\Facades\IndexBuilder;
 use Tests\TestCase;
 
 class QueryTest extends TestCase
@@ -11,7 +12,7 @@ class QueryTest extends TestCase
     /** @test */
     public function search()
     {
-       $this->postJson('/api/query', [
+        $this->postJson('/api/query', [
             'shop_availability' => [1, 3, 4],
             'published' => '1',
         ])->assertSuccessful()
@@ -84,11 +85,10 @@ class QueryTest extends TestCase
     /** @test */
     public function searchQueryStr()
     {
-
-        #Index::createIndexAddDocuemnts();
+        IndexBuilder::createIndex();
 
         $this->postJson('/api/search', [
-            'vendor' => 7,
+            'vendor' => [7],
             'query' => 'Люстра 4010 LIANT',
         ])
             ->assertSuccessful()

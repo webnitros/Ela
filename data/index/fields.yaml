@@ -290,3 +290,8 @@ file_is_manual:
   filter: term
   type: boolean
   aggs: false
+in_order:
+  filter: term
+  type: boolean
+  aggs: true
+  fielddata: true
