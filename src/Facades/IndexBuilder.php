@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static array analysis()
  * @method static array mappings()
  *
- * @see \Database\Factories\IndexBuilder
+ * @see \Ela\IndexBuilder
  */
 class IndexBuilder extends Facade
 {
