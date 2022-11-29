@@ -8,6 +8,7 @@
 
 namespace Ela;
 
+use Ela\Analysis\CharFilter\TranslitToRussia;
 use Ela\Analysis\StopWords;
 use Ela\Analysis\Synonym;
 use Elastica\Client;
@@ -127,6 +128,9 @@ class IndexBuilder
 
         $analysis = Synonym::words($analysis);
         $analysis = StopWords::words($analysis);
+
+
+        $analysis = (new TranslitToRussia())->update($analysis);
 
 
         return $analysis;

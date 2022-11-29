@@ -69,10 +69,10 @@ class PhraseController extends Controller
             ->setGlobalText($query)
             ->addSuggestion($phraseSuggest);
 
-        $index = $this->index();
-
-        #$index = $this->_getIndexForTest();
         #$index = $this->index();
+
+        $index = $this->_getIndexForTest();
+
         $result = $index->search($suggest);
         $suggests = $result->getSuggests();
 
@@ -88,14 +88,21 @@ class PhraseController extends Controller
     protected function _getIndexForTest()
     {
         $dir = getenv('ES_SETTINS_PATH');
-        $suggest = Yaml::parseFile($dir . 'suggest_word/words.yaml');
-        $words = [];
-        foreach ($suggest['words'] as $k => $word) {
-            $words[] = new Document($k, ['suggest_word' => $word]);
+        $in = true;
+
+        if ($in) {
+            $suggest = Yaml::parseFile($dir . 'suggest_word/words.yaml');
+            $words = [];
+            foreach ($suggest['words'] as $k => $word) {
+                $words[] = new Document($k, ['suggest_word' => $word]);
+            }
+
+            $index = IndexBuilder::createIndexAddDocuemnts();
+            $index->addDocuments($words);
+        } else {
+            $index = IndexBuilder::createIndex();
         }
 
-        $index = IndexBuilder::createIndexAddDocuemnts();
-        $index->addDocuments($words);
         $index->refresh();
         return $index;
     }

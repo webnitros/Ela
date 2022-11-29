@@ -10,6 +10,14 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-el
 https://logz.io/blog/10-elasticsearch-concepts/
 
 
+
+sudo /usr/share/elasticsearch/bin/elasticsearch-plugin install analysis-icu
+
+# Мега подробное обьяснение как работает эластик
+
+https://sohabr.net/habr/post/433006/
+
+
 ## Управление синонемами
 https://antonshell.me/post/elastic-search-synonyms
 

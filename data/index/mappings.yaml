@@ -36,6 +36,10 @@ pagetitle:
       type: text
       analyzer: index_edgengram
       search_analyzer: russian_english
+    search:
+      type: text
+      analyzer: russian_english
+      search_analyzer: russian_english
 
 artikul_1c:
   type: keyword

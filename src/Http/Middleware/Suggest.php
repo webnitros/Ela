@@ -91,7 +91,8 @@ class Suggest implements Middleware
         $phraseSuggest = (new Phrase('suggest_word', $field))
             ->setAnalyzer('simple')
             ->setGramSize(3)
-            ->addDirectGenerator($text);
+            ->addDirectGenerator($text)
+            ->setStupidBackoffSmoothing(Phrase::DEFAULT_STUPID_BACKOFF_DISCOUNT);
 
 
         \Ela\Facades\Suggest::addSuggestion($phraseSuggest);

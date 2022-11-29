@@ -17,18 +17,6 @@ class Suggest
 
     public static function create(\Elastica\ResultSet $suggest)
     {
-
-        if (!function_exists('suggest_sort')) {
-            function suggest_sort($a, $b)
-            {
-                if (isset($a['score']) and isset($b['score'])) {
-                    return $a['score'] <=> $b['score'];
-                }
-                return -1;
-            }
-        }
-
-
         $suggestes = $suggest->getSuggests();
         $Suggest = new Suggest();
         if (count($suggestes) > 0) {
