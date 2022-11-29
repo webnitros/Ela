@@ -14,8 +14,9 @@ use Illuminate\Support\Facades\Facade;
 
 /**
  * @method static self addSuggestion(AbstractSuggest $suggestion): self
+ * @method static self setGlobalText(string $text): self
  *
- * @see \Elastica\Query\Suggest
+ * @see \Elastica\Suggest
  */
 class Suggest extends Facade
 {
