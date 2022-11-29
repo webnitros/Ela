@@ -6,7 +6,7 @@
  * Time: 20:51
  */
 
-namespace Database\Factories;
+namespace Ela;
 
 use Elastica\Client;
 use Elastica\Document;
