@@ -30,7 +30,8 @@ class QueryTest extends TestCase
     {
         $this->postJson('/api/search', [
             #'query' => 'ARTE SAMP',
-            'query' => 'синия',
+            'query' => 'Уличноx освещение',
+           # 'query' => 'синия',
             #'query' => 'LdRGs',
             #'query' => 'Arte Lamp LARGO',
             #  'query' => 'Arte Lamp LARGO',

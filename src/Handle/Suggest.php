@@ -17,6 +17,18 @@ class Suggest
 
     public static function create(\Elastica\ResultSet $suggest)
     {
+
+        if (!function_exists('suggest_sort')) {
+            function suggest_sort($a, $b)
+            {
+                if (isset($a['score']) and isset($b['score'])) {
+                    return $a['score'] <=> $b['score'];
+                }
+                return -1;
+            }
+        }
+
+
         $suggestes = $suggest->getSuggests();
         $Suggest = new Suggest();
         if (count($suggestes) > 0) {
@@ -40,14 +52,28 @@ class Suggest
 
     public function words(string $name, array $suggeste)
     {
+        $words = [];
+        $word = null;
         foreach ($suggeste as $item) {
-            foreach ($item['options'] as $word) {
-                $this->words[$name] = $word;
-                return true;
+            foreach ($item['options'] as $frag) {
+                $words[] = $frag;
             }
         }
+        if (count($words) > 0) {
+            usort($words, '\Ela\Handle\Suggest::suggest_sort');
+            $word = array_pop($words);
+        }
+
+        $this->words[$name] = $word;
         return false;
     }
 
+    public static function suggest_sort($a, $b)
+    {
+        if (isset($a['score']) and isset($b['score'])) {
+            return $a['score'] <=> $b['score'];
+        }
+        return -1;
+    }
 
 }

@@ -87,10 +87,12 @@ class Suggest implements Middleware
 
         $text = new DirectGenerator($field);
         $text->setSuggestMode($text::SUGGEST_MODE_ALWAYS);
+
         $phraseSuggest = (new Phrase('suggest_word', $field))
             ->setAnalyzer('simple')
             ->setGramSize(3)
             ->addDirectGenerator($text);
+
 
         \Ela\Facades\Suggest::addSuggestion($phraseSuggest);
 
