@@ -9,9 +9,8 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-el
 Какая та писанина не понятная
 https://logz.io/blog/10-elasticsearch-concepts/
 
-
-
-sudo /usr/share/elasticsearch/bin/elasticsearch-plugin install analysis-icu
+# Большая статья дополненеи к suggest
+https://habr.com/ru/company/directum/blog/460263/
 
 # Мега подробное обьяснение как работает эластик
 

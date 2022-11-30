@@ -56,9 +56,13 @@ class Results implements Middleware
                 $arrays['aggregations'] = $Filters->toArray();
 
                 $arrays['suggest'] = [];
+                $arrays['completion'] = [];
+
                 if ($suggest = MultiSearch::get('suggest')) {
+
                     if ($suggest->hasSuggests()) {
                         $arrays['suggest'] = \Ela\Handle\Suggest::create($suggest);
+                        $arrays['completion'] = \Ela\Handle\Completion::create($suggest);
                     }
                 }
 

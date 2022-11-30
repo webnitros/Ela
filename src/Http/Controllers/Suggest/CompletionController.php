@@ -2,61 +2,74 @@
 
 namespace Ela\Http\Controllers\Suggest;
 
+use Ela\Facades\IndexBuilder;
 use Ela\Http\Controllers\Controller;
-use Ela\Http\Middleware\Aggregation;
-use Ela\Http\Middleware\DefaultFilter;
-use Ela\Http\Middleware\DefaultSort;
-use Ela\Http\Middleware\ParamsTerms;
-use Ela\Http\Middleware\QueryString;
-use Ela\Http\Middleware\QueryStringHighLight;
-use Ela\Http\Middleware\SortScriptBall;
-use Elastica\Client;
 use Elastica\Document;
 use Elastica\Index;
 use Elastica\Mapping;
 use Elastica\Query;
-use Elastica\Query\BoolQuery;
+use Elastica\Suggest;
 use Elastica\Suggest\Completion;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
+use Symfony\Component\Yaml\Yaml;
 
 class CompletionController extends Controller
 {
 
+    public $field_search;
+
     public function get(Request $request)
     {
-        $this->validatorResponse($request, [
-            'text' => 'required',
-        ]);
-        $text = $request->get('text');
-        $size = 20;
 
-        $suggest = new Completion('suggestVendor', 'fieldName2');
-        $suggest->setPrefix($text)->setSize($size);
-        #$suggest->setFuzzy([
-        #    "fuzziness" => 1
-        #]);
+
+        /*   $this->validatorResponse($request, [
+               'text' => 'required',
+           ]);
+           $text = $request->get('text');*/
+        #$text = 'Уличный светильник';
+
 
         $index = $this->_getIndexForTest();
 
 
-        $Query = Query::create($suggest)->setSize($size);
+        $text = 'Световые фигуры Neon';
+        $size = 5;
+        $suggest = new Completion('suggest', $this->field_search);
+        $suggest->setSize($size);
+
+        /*$suggest->setFuzzy([
+            "fuzziness" => 2
+        ]);*/
+
+
+        $sug = new Suggest();
+        $sug->setGlobalText($text);
+        $sug->addSuggestion($suggest);
+        #$sug->addSuggestion($suggest2);
+
+
+        $Query = Query::create($sug)->setSize($size);
+        #$Query = Query::create($suggest)->setSize($size);
+
         $resultSet = $index->search($Query);
 
 
         $suggests = $resultSet->getSuggests();
 
-        $testx = [];
-        $results = $suggests['suggestVendor'];
+echo '<pre>';
+print_r($suggests); die;
 
-
-        foreach ($results[0]['options'] as $option) {
-            $testx[] = $option['text'];
+        $texts = [];
+        foreach ($suggests['suggest'][0]['options'] as $suggest) {
+            $texts[] = $suggest['text'];
         }
 
+
         echo '<pre>';
-        print_r($testx);
+        print_r($texts);
         die;
+
 
         return new JsonResponse($data, 200);
     }
@@ -64,113 +77,36 @@ class CompletionController extends Controller
 
     protected function _getIndexForTest(): Index
     {
-        $index = $this->index();
+         $index = IndexBuilder::createIndex();
+        #$index = $this->index();
+        $this->field_search = 'suggest_completion';
+
         $index->setMapping(new Mapping([
-            'fieldName2' => [
-                'type' => 'completion'
+            $this->field_search => [
+                'type' => 'completion',
+                'analyzer' => 'russian_english',
+                'search_analyzer' => 'russian_english',
             ]
         ]));
-        $res = $index->flush();
+
+        /*
+         *   analyzer: russian_english
+  search_analyzer: russian_english
+        */
 
 
-        $index->addDocuments([
+        $index->flush();
 
+        $suggest = Yaml::parseFile(getenv('ES_SETTINS_PATH') . 'completion/words.yaml');
+        $words = [];
 
-            /*new Document('1', [
-                'fieldName' => [
-                    'input' => [
-                        'уличный светильник',
-                        'уличный светильник arte lamp'
-                    ],
-                    'weight' => 7,
-                ],
-            ]),
-
-            new Document('2', [
-                'fieldName' => [
-                    'input' => [
-                        'Светильники потолочные',
-                        'Светильники потолочные arte lamp'
-                    ],
-                    'weight' => 7,
-                ],
-            ]),
-
-            new Document('3', [
-                'fieldName' => [
-                    'input' => [
-                        'Светильники arte lamp'
-                    ],
-                    'weight' => 8,
-                ],
-            ]),
-
-            new Document('4', [
-                'fieldName' => [
-                    'input' => [
-                        'Светильники потолочные светодиодный',
-                        'Светильники потолочные светодиодный квадратный',
-                    ],
-                    'weight' => 8,
-                ],
-            ]),
-
-            new Document('5', [
-                'fieldName' => [
-                    'input' => [
-                        'Светильник',
-                    ],
-                    'weight' => 5,
-                ],
-            ]),
-            new Document('6', [
-                'fieldName' => [
-                    'input' => [
-                        'Светильники потолочные квадратные',
-                    ],
-                    'weight' => 5,
-                ],
-            ]),
-
-            new Document('7', [
-                'fieldName' => [
-                    'input' => [
-                        'Светильники потолочные светодиодный квадратный',
-                    ],
-                    'weight' => 5,
-                ],
-            ]),*/
-
-            new Document('9', [
-                'fieldName2' => [
-                    'input' => [
-                        'светильник',
-                    ],
-                    'weight' => 20,
-                ],
-            ]),
-            new Document('10', [
-                'fieldName2' => [
-                    'input' => [
-                        'светильник подвесной',
-                    ],
-                    'weight' => 20,
-                ],
-            ]),
-            new Document('11', [
-                'fieldName2' => [
-                    'input' => [
-                        'светильник подвесной arte lamp',
-                    ],
-                    'weight' => 20,
-                ],
-            ]),
-
-
-        ]);
-
+        foreach ($suggest as $k => $word) {
+            $words[] = new Document($k, [
+                $this->field_search => $word
+            ]);
+        }
+        $index->addDocuments($words);
         $index->refresh();
-
         return $index;
     }
 

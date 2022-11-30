@@ -48,8 +48,8 @@ analyzer:
     filter:
       - lowercase
       - shingle
-    char_filter:
-      - ru_char_filter
+    #char_filter:
+    #  - ru_char_filter
 
   reverse:
     type: custom

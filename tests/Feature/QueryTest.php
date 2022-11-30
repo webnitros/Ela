@@ -31,13 +31,13 @@ class QueryTest extends TestCase
         $this->postJson('/api/search', [
             #'query' => 'ARTE SAMP',
             'query' => 'Уличноx освещение',
-           # 'query' => 'синия',
+            # 'query' => 'синия',
             #'query' => 'LdRGs',
             #'query' => 'Arte Lamp LARGO',
             #  'query' => 'Arte Lamp LARGO',
             #'query' => 'A3320SP-1WH Arte Lamp CUINa',
             #'published' => '1',
-           # 'inaccurate_search' => '1', // Не точный поиск
+            # 'inaccurate_search' => '1', // Не точный поиск
         ])
             ->assertSuccessful()
             ->assertJsonStructure(['total', 'results']);
@@ -87,6 +87,17 @@ class QueryTest extends TestCase
         ])
             ->assertStatus(422)
             ->assertJsonFragment(['message' => 'The given data was invalid.']);;
+    }
+
+
+    /** @test */
+    public function searchQueryComplition()
+    {
+        $this->postJson('/api/search', [
+            'query' => 'Свети',
+        ])
+            ->assertSuccessful()
+            ->assertJsonStructure(['total', 'completion']);
     }
 
 

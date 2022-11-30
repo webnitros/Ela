@@ -1,0 +1,4533 @@
+Подвесы:
+  weight: 10
+  input: [ Подвесы ]
+Люстры:
+  weight: 10
+  input: [ Люстры ]
+'Настенные светильники и бра':
+  weight: 10
+  input: [ 'Настенные светильники и бра' ]
+'Потолочные светильники':
+  weight: 10
+  input: [ 'Потолочные светильники' ]
+'Настенные светильники':
+  weight: 10
+  input: [ 'Настенные светильники' ]
+'Подвесные люстры':
+  weight: 10
+  input: [ 'Подвесные люстры' ]
+'Потолочные люстры':
+  weight: 10
+  input: [ 'Потолочные люстры' ]
+Споты:
+  weight: 10
+  input: [ Споты ]
+'Споты с одним плафоном':
+  weight: 10
+  input: [ 'Споты с одним плафоном' ]
+'Уличное освещение':
+  weight: 10
+  input: [ 'Уличное освещение' ]
+'Споты с двумя плафонами':
+  weight: 10
+  input: [ 'Споты с двумя плафонами' ]
+Торшеры:
+  weight: 10
+  input: [ Торшеры ]
+'Торшеры с одним плафоном':
+  weight: 10
+  input: [ 'Торшеры с одним плафоном' ]
+'Точечные светильники':
+  weight: 10
+  input: [ 'Точечные светильники' ]
+'С одной лампой':
+  weight: 10
+  input: [ 'С одной лампой' ]
+'Уличные настенные светильники':
+  weight: 10
+  input: [ 'Уличные настенные светильники' ]
+'Уличные встраиваемые светильники':
+  weight: 10
+  input: [ 'Уличные встраиваемые светильники' ]
+'Настольные лампы и ночники':
+  weight: 10
+  input: [ 'Настольные лампы и ночники' ]
+'Декоративные настольные лампы':
+  weight: 10
+  input: [ 'Декоративные настольные лампы' ]
+'Споты с тремя и более плафонами':
+  weight: 10
+  input: [ 'Споты с тремя и более плафонами' ]
+'Уличные потолочные светильники':
+  weight: 10
+  input: [ 'Уличные потолочные светильники' ]
+Аксессуары:
+  weight: 10
+  input: [ Аксессуары ]
+'С двумя лампами':
+  weight: 10
+  input: [ 'С двумя лампами' ]
+'Офисные настольные лампы':
+  weight: 10
+  input: [ 'Офисные настольные лампы' ]
+'Уличные наземные светильники':
+  weight: 10
+  input: [ 'Уличные наземные светильники' ]
+'С тремя и более лампами':
+  weight: 10
+  input: [ 'С тремя и более лампами' ]
+'Торшеры с двумя и более плафонами':
+  weight: 10
+  input: [ 'Торшеры с двумя и более плафонами' ]
+'Уличные подвесные светильники':
+  weight: 10
+  input: [ 'Уличные подвесные светильники' ]
+Прожекторы:
+  weight: 10
+  input: [ Прожекторы ]
+'Наружные светильники на солнечных батареях':
+  weight: 10
+  input: [ 'Наружные светильники на солнечных батареях' ]
+Лампы:
+  weight: 10
+  input: [ Лампы ]
+'Светодиодные ленты и комплектующие':
+  weight: 10
+  input: [ 'Светодиодные ленты и комплектующие' ]
+Ленты:
+  weight: 10
+  input: [ Ленты ]
+Гирлянды:
+  weight: 10
+  input: [ Гирлянды ]
+Дюралайты:
+  weight: 10
+  input: [ Дюралайты ]
+'Комплектующие декора':
+  weight: 10
+  input: [ 'Комплектующие декора' ]
+'Комплекты для украшения':
+  weight: 10
+  input: [ 'Комплекты для украшения' ]
+'Светодиодные фигуры':
+  weight: 10
+  input: [ 'Светодиодные фигуры' ]
+'Искусственные елки':
+  weight: 10
+  input: [ 'Искусственные елки' ]
+'Трековые системы':
+  weight: 10
+  input: [ 'Трековые системы' ]
+'Уличные декоративные светильники':
+  weight: 10
+  input: [ 'Уличные декоративные светильники' ]
+'Трековые светильники':
+  weight: 10
+  input: [ 'Трековые светильники' ]
+'Комплектующие для треков':
+  weight: 10
+  input: [ 'Комплектующие для треков' ]
+'Плафоны и абажуры':
+  weight: 10
+  input: [ 'Плафоны и абажуры' ]
+Патроны:
+  weight: 10
+  input: [ Патроны ]
+'Кольца и рамки':
+  weight: 10
+  input: [ 'Кольца и рамки' ]
+'Пульты ДУ':
+  weight: 10
+  input: [ 'Пульты ДУ' ]
+'Основания для светильников':
+  weight: 10
+  input: [ 'Основания для светильников' ]
+'Подвесные комплекты':
+  weight: 10
+  input: [ 'Подвесные комплекты' ]
+Крепления:
+  weight: 10
+  input: [ Крепления ]
+'Электроустановочные изделия':
+  weight: 10
+  input: [ 'Электроустановочные изделия' ]
+'Выключатели, переключатели':
+  weight: 10
+  input: [ 'Выключатели, переключатели' ]
+'Датчики движения':
+  weight: 10
+  input: [ 'Датчики движения' ]
+'Диммеры, светорегуляторы':
+  weight: 10
+  input: [ 'Диммеры, светорегуляторы' ]
+Звонки:
+  weight: 10
+  input: [ Звонки ]
+Розетки:
+  weight: 10
+  input: [ Розетки ]
+'Удлинители, сетевые фильтры':
+  weight: 10
+  input: [ 'Удлинители, сетевые фильтры' ]
+Шнуры:
+  weight: 10
+  input: [ Шнуры ]
+Декор:
+  weight: 10
+  input: [ Декор ]
+Картины:
+  weight: 10
+  input: [ Картины ]
+Ключницы:
+  weight: 10
+  input: [ Ключницы ]
+'Модульные картины':
+  weight: 10
+  input: [ 'Модульные картины' ]
+Часы-картины:
+  weight: 10
+  input: [ Часы-картины ]
+Зеркала:
+  weight: 10
+  input: [ Зеркала ]
+'Средства для чистки':
+  weight: 10
+  input: [ 'Средства для чистки' ]
+Цветы:
+  weight: 10
+  input: [ Цветы ]
+Рамки:
+  weight: 10
+  input: [ Рамки ]
+'Диммеры и светорегуляторы':
+  weight: 10
+  input: [ 'Диммеры и светорегуляторы' ]
+'Терморегуляторы и термостаты':
+  weight: 10
+  input: [ 'Терморегуляторы и термостаты' ]
+'Комплектующие для ЭУИ':
+  weight: 10
+  input: [ 'Комплектующие для ЭУИ' ]
+'Распаячные коробки':
+  weight: 10
+  input: [ 'Распаячные коробки' ]
+Клеммы:
+  weight: 10
+  input: [ Клеммы ]
+'Элементы питания':
+  weight: 10
+  input: [ 'Элементы питания' ]
+Трансформаторы:
+  weight: 10
+  input: [ Трансформаторы ]
+Таймеры:
+  weight: 10
+  input: [ Таймеры ]
+Шинопроводы:
+  weight: 10
+  input: [ Шинопроводы ]
+'Светодиодные лампы':
+  weight: 10
+  input: [ 'Светодиодные лампы' ]
+'Лампы накаливания':
+  weight: 10
+  input: [ 'Лампы накаливания' ]
+'Галогенные лампы':
+  weight: 10
+  input: [ 'Галогенные лампы' ]
+'Мебельные светильники':
+  weight: 10
+  input: [ 'Мебельные светильники' ]
+'Готовые трековые системы':
+  weight: 10
+  input: [ 'Готовые трековые системы' ]
+'Профили для лент':
+  weight: 10
+  input: [ 'Профили для лент' ]
+'Комплектующие для профилей':
+  weight: 10
+  input: [ 'Комплектующие для профилей' ]
+'Пульт управления':
+  weight: 10
+  input: [ 'Пульт управления' ]
+'Аксессуары для встройки':
+  weight: 10
+  input: [ 'Аксессуары для встройки' ]
+Фонарики:
+  weight: 10
+  input: [ Фонарики ]
+'Светодиодные свечи':
+  weight: 10
+  input: [ 'Светодиодные свечи' ]
+'Светодиодные ленты':
+  weight: 10
+  input: [ 'Светодиодные ленты' ]
+'Аксессуары для спотов':
+  weight: 10
+  input: [ 'Аксессуары для спотов' ]
+'Аксессуары для точечных светильников':
+  weight: 10
+  input: [ 'Аксессуары для точечных светильников' ]
+Бра:
+  weight: 10
+  input: [ Бра ]
+'Подвесные светильники':
+  weight: 10
+  input: [ 'Подвесные светильники' ]
+Подсветки:
+  weight: 10
+  input: [ Подсветки ]
+'Подсветки для картин':
+  weight: 10
+  input: [ 'Подсветки для картин' ]
+'Праздничное освещение':
+  weight: 10
+  input: [ 'Праздничное освещение' ]
+'Световые фигуры':
+  weight: 10
+  input: [ 'Световые фигуры' ]
+'На ручную проверку':
+  weight: 10
+  input: [ 'На ручную проверку' ]
+'Елочные игрушки':
+  weight: 10
+  input: [ 'Елочные игрушки' ]
+'Управление светодиодными лентами':
+  weight: 10
+  input: [ 'Управление светодиодными лентами' ]
+'Специализированные светильники':
+  weight: 10
+  input: [ 'Специализированные светильники' ]
+'Светильники для растений':
+  weight: 10
+  input: [ 'Светильники для растений' ]
+'Точечные встраиваемые светильники':
+  weight: 10
+  input: [ 'Точечные встраиваемые светильники' ]
+Терморегуляторы:
+  weight: 10
+  input: [ Терморегуляторы ]
+'Люстры на штанге':
+  weight: 10
+  input: [ 'Люстры на штанге' ]
+'Настенно-потолочные светильники':
+  weight: 10
+  input: [ 'Настенно-потолочные светильники' ]
+'Кабинетные настольные лампы':
+  weight: 10
+  input: [ 'Кабинетные настольные лампы' ]
+Ночники:
+  weight: 10
+  input: [ Ночники ]
+'Точечные накладные светильники':
+  weight: 10
+  input: [ 'Точечные накладные светильники' ]
+'Точечные подвесные светильники':
+  weight: 10
+  input: [ 'Точечные подвесные светильники' ]
+'Подсветки для зеркал':
+  weight: 10
+  input: [ 'Подсветки для зеркал' ]
+'Подсветки для лестниц':
+  weight: 10
+  input: [ 'Подсветки для лестниц' ]
+'Декоративные подсветки':
+  weight: 10
+  input: [ 'Декоративные подсветки' ]
+'Бактерицидные светильники':
+  weight: 10
+  input: [ 'Бактерицидные светильники' ]
+'Светильники с лупой':
+  weight: 10
+  input: [ 'Светильники с лупой' ]
+'Кольцевые лампы':
+  weight: 10
+  input: [ 'Кольцевые лампы' ]
+'Соляные лампы':
+  weight: 10
+  input: [ 'Соляные лампы' ]
+'Фасадные светильники':
+  weight: 10
+  input: [ 'Фасадные светильники' ]
+'Ландшафтные светильники':
+  weight: 10
+  input: [ 'Ландшафтные светильники' ]
+'Парковые светильники':
+  weight: 10
+  input: [ 'Парковые светильники' ]
+'Консольные светильники':
+  weight: 10
+  input: [ 'Консольные светильники' ]
+'Грунтовые светильники':
+  weight: 10
+  input: [ 'Грунтовые светильники' ]
+'Газонные светильники':
+  weight: 10
+  input: [ 'Газонные светильники' ]
+'Подводные светильники':
+  weight: 10
+  input: [ 'Подводные светильники' ]
+'Офисное освещение':
+  weight: 10
+  input: [ 'Офисное освещение' ]
+Даунлайты:
+  weight: 10
+  input: [ Даунлайты ]
+'Линейные светильники':
+  weight: 10
+  input: [ 'Линейные светильники' ]
+'Модульные светильники':
+  weight: 10
+  input: [ 'Модульные светильники' ]
+'Карданные светильники':
+  weight: 10
+  input: [ 'Карданные светильники' ]
+'Светодиодные панели':
+  weight: 10
+  input: [ 'Светодиодные панели' ]
+'Светильники грильято':
+  weight: 10
+  input: [ 'Светильники грильято' ]
+'Светильники армстронг':
+  weight: 10
+  input: [ 'Светильники армстронг' ]
+'Новогодние подвесы':
+  weight: 10
+  input: [ 'Новогодние подвесы' ]
+Белт-лайт:
+  weight: 10
+  input: [ Белт-лайт ]
+Дюралайт:
+  weight: 10
+  input: [ Дюралайт ]
+'Светодиодные деревья':
+  weight: 10
+  input: [ 'Светодиодные деревья' ]
+'Интерьерные украшения':
+  weight: 10
+  input: [ 'Интерьерные украшения' ]
+Свечи:
+  weight: 10
+  input: [ Свечи ]
+'Аксессуары для люстр':
+  weight: 10
+  input: [ 'Аксессуары для люстр' ]
+'Аксессуары для подвесных и потолочных светильников':
+  weight: 10
+  input: [ 'Аксессуары для подвесных и потолочных светильников' ]
+'Аксессуары для бра':
+  weight: 10
+  input: [ 'Аксессуары для бра' ]
+'Аксессуары для торшеров':
+  weight: 10
+  input: [ 'Аксессуары для торшеров' ]
+'Готовые комплекты':
+  weight: 10
+  input: [ 'Готовые комплекты' ]
+'Лицевые панели, заглушки':
+  weight: 10
+  input: [ 'Лицевые панели, заглушки' ]
+'Датчики освещенности':
+  weight: 10
+  input: [ 'Датчики освещенности' ]
+'Реле wifi':
+  weight: 10
+  input: [ 'Реле wifi' ]
+Разветвители:
+  weight: 10
+  input: [ Разветвители ]
+Постеры:
+  weight: 10
+  input: [ Постеры ]
+'Блоки питания':
+  weight: 10
+  input: [ 'Блоки питания' ]
+'Комплектующие для лент':
+  weight: 10
+  input: [ 'Комплектующие для лент' ]
+'Globo Акция':
+  weight: 10
+  input: [ 'Globo Акция' ]
+'Arte Lamp':
+  weight: 10
+  input: [ 'Arte Lamp' ]
+Novotech:
+  weight: 10
+  input: [ Novotech ]
+'Odeon Light':
+  weight: 10
+  input: [ 'Odeon Light' ]
+Sonex:
+  weight: 10
+  input: [ Sonex ]
+Divinare:
+  weight: 10
+  input: [ Divinare ]
+Lussole:
+  weight: 10
+  input: [ Lussole ]
+Chiaro:
+  weight: 10
+  input: [ Chiaro ]
+Citilux:
+  weight: 10
+  input: [ Citilux ]
+'Crystal Lux':
+  weight: 10
+  input: [ 'Crystal Lux' ]
+Eglo:
+  weight: 10
+  input: [ Eglo ]
+Lightstar:
+  weight: 10
+  input: [ Lightstar ]
+Mantra:
+  weight: 10
+  input: [ Mantra ]
+Maytoni:
+  weight: 10
+  input: [ Maytoni ]
+Osgona:
+  weight: 10
+  input: [ Osgona ]
+'Bohemia Ivele':
+  weight: 10
+  input: [ 'Bohemia Ivele' ]
+Gauss:
+  weight: 10
+  input: [ Gauss ]
+IDLamp:
+  weight: 10
+  input: [ IDLamp ]
+'Brizzi Modern':
+  weight: 10
+  input: [ 'Brizzi Modern' ]
+'AMBIENTE by Brizzi':
+  weight: 10
+  input: [ 'AMBIENTE by Brizzi' ]
+Mw-Light:
+  weight: 10
+  input: [ Mw-Light ]
+'Ideal Lux':
+  weight: 10
+  input: [ 'Ideal Lux' ]
+'ST Luce':
+  weight: 10
+  input: [ 'ST Luce' ]
+'Lucia Tucci':
+  weight: 10
+  input: [ 'Lucia Tucci' ]
+Lucide:
+  weight: 10
+  input: [ Lucide ]
+Nowodvorski:
+  weight: 10
+  input: [ Nowodvorski ]
+Artemide:
+  weight: 10
+  input: [ Artemide ]
+'AXO Light':
+  weight: 10
+  input: [ 'AXO Light' ]
+B.Lux:
+  weight: 10
+  input: [ B.Lux ]
+'Catellani&Smith':
+  weight: 10
+  input: [ 'Catellani&Smith' ]
+Dark:
+  weight: 10
+  input: [ Dark ]
+'Delta Light':
+  weight: 10
+  input: [ 'Delta Light' ]
+Egoluce:
+  weight: 10
+  input: [ Egoluce ]
+Elvan:
+  weight: 10
+  input: [ Elvan ]
+Eurolampart:
+  weight: 10
+  input: [ Eurolampart ]
+Fabbian:
+  weight: 10
+  input: [ Fabbian ]
+Favourite:
+  weight: 10
+  input: [ Favourite ]
+Flos:
+  weight: 10
+  input: [ Flos ]
+Foscarini:
+  weight: 10
+  input: [ Foscarini ]
+'Ingo Maurer':
+  weight: 10
+  input: [ 'Ingo Maurer' ]
+'Intra Lighting':
+  weight: 10
+  input: [ 'Intra Lighting' ]
+Kolarz:
+  weight: 10
+  input: [ Kolarz ]
+Leds:
+  weight: 10
+  input: [ Leds ]
+Leucos:
+  weight: 10
+  input: [ Leucos ]
+'Linea Light':
+  weight: 10
+  input: [ 'Linea Light' ]
+LucePlan:
+  weight: 10
+  input: [ LucePlan ]
+'Lumen Center Italia':
+  weight: 10
+  input: [ 'Lumen Center Italia' ]
+'Milan Iluminacion':
+  weight: 10
+  input: [ 'Milan Iluminacion' ]
+Modular:
+  weight: 10
+  input: [ Modular ]
+Morosini:
+  weight: 10
+  input: [ Morosini ]
+Panzeri:
+  weight: 10
+  input: [ Panzeri ]
+Riperlamp:
+  weight: 10
+  input: [ Riperlamp ]
+Slamp:
+  weight: 10
+  input: [ Slamp ]
+SLV:
+  weight: 10
+  input: [ SLV ]
+'Studio Italia Design':
+  weight: 10
+  input: [ 'Studio Italia Design' ]
+Sylcom:
+  weight: 10
+  input: [ Sylcom ]
+'Tobias Grau':
+  weight: 10
+  input: [ 'Tobias Grau' ]
+Vistosi:
+  weight: 10
+  input: [ Vistosi ]
+'Wever&Ducre':
+  weight: 10
+  input: [ 'Wever&Ducre' ]
+Oligo:
+  weight: 10
+  input: [ Oligo ]
+Prearo:
+  weight: 10
+  input: [ Prearo ]
+IDL:
+  weight: 10
+  input: [ IDL ]
+Traddel:
+  weight: 10
+  input: [ Traddel ]
+Fagerhult:
+  weight: 10
+  input: [ Fagerhult ]
+'Sil Lux':
+  weight: 10
+  input: [ 'Sil Lux' ]
+Britop:
+  weight: 10
+  input: [ Britop ]
+Spotlight:
+  weight: 10
+  input: [ Spotlight ]
+'Vele Luce':
+  weight: 10
+  input: [ 'Vele Luce' ]
+'Arti Lampadari':
+  weight: 10
+  input: [ 'Arti Lampadari' ]
+'Dio D''Arte':
+  weight: 10
+  input: [ 'Dio D''Arte' ]
+Markslojd:
+  weight: 10
+  input: [ Markslojd ]
+Globo:
+  weight: 10
+  input: [ Globo ]
+Toplight:
+  weight: 10
+  input: [ Toplight ]
+Neon-Night:
+  weight: 10
+  input: [ Neon-Night ]
+DeMarkt:
+  weight: 10
+  input: [ DeMarkt ]
+Freya:
+  weight: 10
+  input: [ Freya ]
+Voltega:
+  weight: 10
+  input: [ Voltega ]
+F-Promo:
+  weight: 10
+  input: [ F-Promo ]
+Elektrostandard:
+  weight: 10
+  input: [ Elektrostandard ]
+Eurosvet:
+  weight: 10
+  input: [ Eurosvet ]
+Bogate`s:
+  weight: 10
+  input: [ Bogate`s ]
+Abb:
+  weight: 10
+  input: [ Abb ]
+Camelion:
+  weight: 10
+  input: [ Camelion ]
+Denkirs:
+  weight: 10
+  input: [ Denkirs ]
+Feron:
+  weight: 10
+  input: [ Feron ]
+Fumagalli:
+  weight: 10
+  input: [ Fumagalli ]
+'Kink Light':
+  weight: 10
+  input: [ 'Kink Light' ]
+'L`Arte Luce':
+  weight: 10
+  input: [ 'L`Arte Luce' ]
+Legrand:
+  weight: 10
+  input: [ Legrand ]
+'Loft It':
+  weight: 10
+  input: [ 'Loft It' ]
+Lumion:
+  weight: 10
+  input: [ Lumion ]
+Omnilux:
+  weight: 10
+  input: [ Omnilux ]
+'Schneider Electric':
+  weight: 10
+  input: [ 'Schneider Electric' ]
+SunRise:
+  weight: 10
+  input: [ SunRise ]
+Uniel:
+  weight: 10
+  input: [ Uniel ]
+Velante:
+  weight: 10
+  input: [ Velante ]
+Vitaluce:
+  weight: 10
+  input: [ Vitaluce ]
+Werkel:
+  weight: 10
+  input: [ Werkel ]
+Zumaline:
+  weight: 10
+  input: [ Zumaline ]
+ЭРА:
+  weight: 10
+  input: [ ЭРА ]
+Azzardo:
+  weight: 10
+  input: [ Azzardo ]
+'L&B':
+  weight: 10
+  input: [ 'L&B' ]
+'Lumina Deco':
+  weight: 10
+  input: [ 'Lumina Deco' ]
+'Natali Kovaltseva':
+  weight: 10
+  input: [ 'Natali Kovaltseva' ]
+Volpe:
+  weight: 10
+  input: [ Volpe ]
+Rexant:
+  weight: 10
+  input: [ Rexant ]
+Гирлянда.РФ:
+  weight: 10
+  input: [ Гирлянда.РФ ]
+Arlight:
+  weight: 10
+  input: [ Arlight ]
+Rivoli:
+  weight: 10
+  input: [ Rivoli ]
+TopDecor:
+  weight: 10
+  input: [ TopDecor ]
+Evoluce:
+  weight: 10
+  input: [ Evoluce ]
+Brillica:
+  weight: 10
+  input: [ Brillica ]
+'GAUSS светильники':
+  weight: 10
+  input: [ 'GAUSS светильники' ]
+iLedex:
+  weight: 10
+  input: [ iLedex ]
+'Simple Story':
+  weight: 10
+  input: [ 'Simple Story' ]
+iLamp:
+  weight: 10
+  input: [ iLamp ]
+Ultraflash:
+  weight: 10
+  input: [ Ultraflash ]
+Rimini:
+  weight: 10
+  input: [ Rimini ]
+'Art Home Decor':
+  weight: 10
+  input: [ 'Art Home Decor' ]
+Aployt:
+  weight: 10
+  input: [ Aployt ]
+Syneil:
+  weight: 10
+  input: [ Syneil ]
+Ospel:
+  weight: 10
+  input: [ Ospel ]
+ABB_Levit:
+  weight: 10
+  input: [ ABB_Levit ]
+Bticino:
+  weight: 10
+  input: [ Bticino ]
+'Legrand Celiane':
+  weight: 10
+  input: [ 'Legrand Celiane' ]
+'Legrand Etika':
+  weight: 10
+  input: [ 'Legrand Etika' ]
+'Legrand Valena Allure Life':
+  weight: 10
+  input: [ 'Legrand Valena Allure Life' ]
+'Legrand ValenaClassic':
+  weight: 10
+  input: [ 'Legrand ValenaClassic' ]
+'SE AtlasDesign':
+  weight: 10
+  input: [ 'SE AtlasDesign' ]
+SE_Glossa:
+  weight: 10
+  input: [ SE_Glossa ]
+SE_Merten:
+  weight: 10
+  input: [ SE_Merten ]
+SE_Unica_Odace:
+  weight: 10
+  input: [ SE_Unica_Odace ]
+Runden:
+  weight: 10
+  input: [ Runden ]
+JUNG:
+  weight: 10
+  input: [ JUNG ]
+Evoled:
+  weight: 10
+  input: [ Evoled ]
+'Brillica LED':
+  weight: 10
+  input: [ 'Brillica LED' ]
+Vegas:
+  weight: 10
+  input: [ Vegas ]
+'Подвесные люстры Arte Lamp':
+  weight: 8
+  input: [ 'Подвесные люстры Arte Lamp' ]
+'Потолочные светильники Arte Lamp':
+  weight: 8
+  input: [ 'Потолочные светильники Arte Lamp' ]
+'Потолочные люстры Arte Lamp':
+  weight: 8
+  input: [ 'Потолочные люстры Arte Lamp' ]
+'Точечные встраиваемые светильники Arte Lamp':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Arte Lamp' ]
+'Подвесные светильники Arte Lamp':
+  weight: 8
+  input: [ 'Подвесные светильники Arte Lamp' ]
+'На ручную проверку Arte Lamp':
+  weight: 8
+  input: [ 'На ручную проверку Arte Lamp' ]
+'Споты с тремя и более плафонами Arte Lamp':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Arte Lamp' ]
+'Уличные потолочные светильники Arte Lamp':
+  weight: 8
+  input: [ 'Уличные потолочные светильники Arte Lamp' ]
+'Бра Arte Lamp':
+  weight: 8
+  input: [ 'Бра Arte Lamp' ]
+'Споты с двумя плафонами Arte Lamp':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Arte Lamp' ]
+'Уличные настенные светильники Arte Lamp':
+  weight: 8
+  input: [ 'Уличные настенные светильники Arte Lamp' ]
+'Споты с одним плафоном Arte Lamp':
+  weight: 8
+  input: [ 'Споты с одним плафоном Arte Lamp' ]
+'Подсветки для картин Arte Lamp':
+  weight: 8
+  input: [ 'Подсветки для картин Arte Lamp' ]
+'Трековые светильники Arte Lamp':
+  weight: 8
+  input: [ 'Трековые светильники Arte Lamp' ]
+'Офисные настольные лампы Arte Lamp':
+  weight: 8
+  input: [ 'Офисные настольные лампы Arte Lamp' ]
+'Настенные светильники Arte Lamp':
+  weight: 8
+  input: [ 'Настенные светильники Arte Lamp' ]
+'Декоративные настольные лампы Arte Lamp':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Arte Lamp' ]
+'Торшеры с двумя и более плафонами Arte Lamp':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Arte Lamp' ]
+'Уличные подвесные светильники Arte Lamp':
+  weight: 8
+  input: [ 'Уличные подвесные светильники Arte Lamp' ]
+'Декоративные подсветки Arte Lamp':
+  weight: 8
+  input: [ 'Декоративные подсветки Arte Lamp' ]
+'Парковые светильники Arte Lamp':
+  weight: 8
+  input: [ 'Парковые светильники Arte Lamp' ]
+'Торшеры с одним плафоном Arte Lamp':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Arte Lamp' ]
+'Подвесные светильники Odeon Light':
+  weight: 8
+  input: [ 'Подвесные светильники Odeon Light' ]
+'Настенные светильники Odeon Light':
+  weight: 8
+  input: [ 'Настенные светильники Odeon Light' ]
+'Потолочные светильники Odeon Light':
+  weight: 8
+  input: [ 'Потолочные светильники Odeon Light' ]
+'Точечные встраиваемые светильники Novotech':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Novotech' ]
+'Потолочные люстры Odeon Light':
+  weight: 8
+  input: [ 'Потолочные люстры Odeon Light' ]
+'Потолочные светильники Sonex':
+  weight: 8
+  input: [ 'Потолочные светильники Sonex' ]
+'Подвесные люстры Odeon Light':
+  weight: 8
+  input: [ 'Подвесные люстры Odeon Light' ]
+'Уличные настенные светильники Novotech':
+  weight: 8
+  input: [ 'Уличные настенные светильники Novotech' ]
+'Декоративные настольные лампы Odeon Light':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Odeon Light' ]
+'Бра Odeon Light':
+  weight: 8
+  input: [ 'Бра Odeon Light' ]
+'Наружные светильники на солнечных батареях Novotech':
+  weight: 8
+  input: [ 'Наружные светильники на солнечных батареях Novotech' ]
+'Торшеры с одним плафоном Odeon Light':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Odeon Light' ]
+'Торшеры с двумя и более плафонами Odeon Light':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Odeon Light' ]
+'Офисные настольные лампы Odeon Light':
+  weight: 8
+  input: [ 'Офисные настольные лампы Odeon Light' ]
+'Прожекторы Novotech':
+  weight: 8
+  input: [ 'Прожекторы Novotech' ]
+'Декоративные подсветки Odeon Light':
+  weight: 8
+  input: [ 'Декоративные подсветки Odeon Light' ]
+'Грунтовые светильники Novotech':
+  weight: 8
+  input: [ 'Грунтовые светильники Novotech' ]
+'Настенные светильники Sonex':
+  weight: 8
+  input: [ 'Настенные светильники Sonex' ]
+'На ручную проверку Novotech':
+  weight: 8
+  input: [ 'На ручную проверку Novotech' ]
+'Подсветки для зеркал Odeon Light':
+  weight: 8
+  input: [ 'Подсветки для зеркал Odeon Light' ]
+'Подсветки для картин Odeon Light':
+  weight: 8
+  input: [ 'Подсветки для картин Odeon Light' ]
+'Настенные светильники Novotech':
+  weight: 8
+  input: [ 'Настенные светильники Novotech' ]
+'Бра Sonex':
+  weight: 8
+  input: [ 'Бра Sonex' ]
+'На ручную проверку Odeon Light':
+  weight: 8
+  input: [ 'На ручную проверку Odeon Light' ]
+'Прожекторы Arte Lamp':
+  weight: 8
+  input: [ 'Прожекторы Arte Lamp' ]
+'Ландшафтные светильники Arte Lamp':
+  weight: 8
+  input: [ 'Ландшафтные светильники Arte Lamp' ]
+'Карданные светильники Arte Lamp':
+  weight: 8
+  input: [ 'Карданные светильники Arte Lamp' ]
+'Бра Divinare':
+  weight: 8
+  input: [ 'Бра Divinare' ]
+'Потолочные светильники Divinare':
+  weight: 8
+  input: [ 'Потолочные светильники Divinare' ]
+'Точечные встраиваемые светильники Divinare':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Divinare' ]
+'Декоративные настольные лампы Divinare':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Divinare' ]
+'Подвесные люстры Divinare':
+  weight: 8
+  input: [ 'Подвесные люстры Divinare' ]
+'Подвесные светильники Divinare':
+  weight: 8
+  input: [ 'Подвесные светильники Divinare' ]
+'Потолочные люстры Divinare':
+  weight: 8
+  input: [ 'Потолочные люстры Divinare' ]
+'Торшеры с одним плафоном Divinare':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Divinare' ]
+'Споты с одним плафоном Divinare':
+  weight: 8
+  input: [ 'Споты с одним плафоном Divinare' ]
+'Бра Lussole':
+  weight: 8
+  input: [ 'Бра Lussole' ]
+'Споты с одним плафоном Lussole':
+  weight: 8
+  input: [ 'Споты с одним плафоном Lussole' ]
+'Подвесные светильники Lussole':
+  weight: 8
+  input: [ 'Подвесные светильники Lussole' ]
+'Подвесные люстры Lussole':
+  weight: 8
+  input: [ 'Подвесные люстры Lussole' ]
+'Точечные встраиваемые светильники Lussole':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Lussole' ]
+'Потолочные светильники Lussole':
+  weight: 8
+  input: [ 'Потолочные светильники Lussole' ]
+'Подсветки для картин Lussole':
+  weight: 8
+  input: [ 'Подсветки для картин Lussole' ]
+'Споты с двумя плафонами Lussole':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Lussole' ]
+'Потолочные люстры Lussole':
+  weight: 8
+  input: [ 'Потолочные люстры Lussole' ]
+'Декоративные подсветки Lussole':
+  weight: 8
+  input: [ 'Декоративные подсветки Lussole' ]
+'Настенные светильники Lussole':
+  weight: 8
+  input: [ 'Настенные светильники Lussole' ]
+'Споты с тремя и более плафонами Lussole':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Lussole' ]
+'Декоративные настольные лампы Lussole':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Lussole' ]
+'Офисные настольные лампы Lussole':
+  weight: 8
+  input: [ 'Офисные настольные лампы Lussole' ]
+'Торшеры с одним плафоном Lussole':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Lussole' ]
+'Подсветки для зеркал Lussole':
+  weight: 8
+  input: [ 'Подсветки для зеркал Lussole' ]
+'Уличные настенные светильники Lussole':
+  weight: 8
+  input: [ 'Уличные настенные светильники Lussole' ]
+'Торшеры с двумя и более плафонами Lussole':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Lussole' ]
+'Бра Mantra':
+  weight: 8
+  input: [ 'Бра Mantra' ]
+'Потолочные люстры Mantra':
+  weight: 8
+  input: [ 'Потолочные люстры Mantra' ]
+'Декоративные настольные лампы Mantra':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Mantra' ]
+'Подвесные люстры Bohemia Ivele':
+  weight: 8
+  input: [ 'Подвесные люстры Bohemia Ivele' ]
+'Подвесные светильники Citilux':
+  weight: 8
+  input: [ 'Подвесные светильники Citilux' ]
+'Подвесные люстры Citilux':
+  weight: 8
+  input: [ 'Подвесные люстры Citilux' ]
+'Бра Bohemia Ivele':
+  weight: 8
+  input: [ 'Бра Bohemia Ivele' ]
+'Подвесные люстры Mantra':
+  weight: 8
+  input: [ 'Подвесные люстры Mantra' ]
+'Потолочные светильники Mantra':
+  weight: 8
+  input: [ 'Потолочные светильники Mantra' ]
+'Точечные встраиваемые светильники Lightstar':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Lightstar' ]
+'Потолочные светильники Lightstar':
+  weight: 8
+  input: [ 'Потолочные светильники Lightstar' ]
+'Торшеры с одним плафоном Mantra':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Mantra' ]
+'Уличные настенные светильники Maytoni':
+  weight: 8
+  input: [ 'Уличные настенные светильники Maytoni' ]
+'Подвесные светильники Mantra':
+  weight: 8
+  input: [ 'Подвесные светильники Mantra' ]
+'Уличные настенные светильники Eglo':
+  weight: 8
+  input: [ 'Уличные настенные светильники Eglo' ]
+'Подвесные светильники Eglo':
+  weight: 8
+  input: [ 'Подвесные светильники Eglo' ]
+'Уличные потолочные светильники Eglo':
+  weight: 8
+  input: [ 'Уличные потолочные светильники Eglo' ]
+'Офисные настольные лампы Mantra':
+  weight: 8
+  input: [ 'Офисные настольные лампы Mantra' ]
+'Потолочные светильники Eglo':
+  weight: 8
+  input: [ 'Потолочные светильники Eglo' ]
+'Потолочные светильники Citilux':
+  weight: 8
+  input: [ 'Потолочные светильники Citilux' ]
+'Бра Citilux':
+  weight: 8
+  input: [ 'Бра Citilux' ]
+'Споты с одним плафоном Mantra':
+  weight: 8
+  input: [ 'Споты с одним плафоном Mantra' ]
+'Споты с тремя и более плафонами Citilux':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Citilux' ]
+'Подвесные люстры Maytoni':
+  weight: 8
+  input: [ 'Подвесные люстры Maytoni' ]
+'Споты с одним плафоном Lightstar':
+  weight: 8
+  input: [ 'Споты с одним плафоном Lightstar' ]
+'Декоративные настольные лампы Eglo':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Eglo' ]
+'Декоративные настольные лампы Chiaro':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Chiaro' ]
+'Бра Maytoni':
+  weight: 8
+  input: [ 'Бра Maytoni' ]
+'Настенные светильники Citilux':
+  weight: 8
+  input: [ 'Настенные светильники Citilux' ]
+'Подвесные светильники Maytoni':
+  weight: 8
+  input: [ 'Подвесные светильники Maytoni' ]
+'Споты с одним плафоном Citilux':
+  weight: 8
+  input: [ 'Споты с одним плафоном Citilux' ]
+'Подвесные люстры Chiaro':
+  weight: 8
+  input: [ 'Подвесные люстры Chiaro' ]
+'Потолочные люстры Citilux':
+  weight: 8
+  input: [ 'Потолочные люстры Citilux' ]
+'Подсветки для картин Maytoni':
+  weight: 8
+  input: [ 'Подсветки для картин Maytoni' ]
+'Потолочные люстры Lightstar':
+  weight: 8
+  input: [ 'Потолочные люстры Lightstar' ]
+'Подвесные светильники Lightstar':
+  weight: 8
+  input: [ 'Подвесные светильники Lightstar' ]
+'Декоративные настольные лампы Mw-Light':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Mw-Light' ]
+'Потолочные люстры Mw-Light':
+  weight: 8
+  input: [ 'Потолочные люстры Mw-Light' ]
+'Подвесные люстры Mw-Light':
+  weight: 8
+  input: [ 'Подвесные люстры Mw-Light' ]
+'Торшеры с одним плафоном Lightstar':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Lightstar' ]
+'Офисные настольные лампы Lightstar':
+  weight: 8
+  input: [ 'Офисные настольные лампы Lightstar' ]
+'Потолочные люстры Chiaro':
+  weight: 8
+  input: [ 'Потолочные люстры Chiaro' ]
+'Бра Lightstar':
+  weight: 8
+  input: [ 'Бра Lightstar' ]
+'Торшеры с двумя и более плафонами Chiaro':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Chiaro' ]
+'Декоративные настольные лампы Citilux':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Citilux' ]
+'На ручную проверку Maytoni':
+  weight: 8
+  input: [ 'На ручную проверку Maytoni' ]
+'На ручную проверку Mantra':
+  weight: 8
+  input: [ 'На ручную проверку Mantra' ]
+'Уличные потолочные светильники Mantra':
+  weight: 8
+  input: [ 'Уличные потолочные светильники Mantra' ]
+'Потолочные светильники Chiaro':
+  weight: 8
+  input: [ 'Потолочные светильники Chiaro' ]
+'Споты с двумя плафонами Citilux':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Citilux' ]
+'Уличные подвесные светильники Mantra':
+  weight: 8
+  input: [ 'Уличные подвесные светильники Mantra' ]
+'Офисные настольные лампы Eglo':
+  weight: 8
+  input: [ 'Офисные настольные лампы Eglo' ]
+'Торшеры с одним плафоном Eglo':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Eglo' ]
+'Декоративные настольные лампы Maytoni':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Maytoni' ]
+'Настенные светильники Eglo':
+  weight: 8
+  input: [ 'Настенные светильники Eglo' ]
+'Настенные светильники Mantra':
+  weight: 8
+  input: [ 'Настенные светильники Mantra' ]
+'Торшеры с одним плафоном Mw-Light':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Mw-Light' ]
+'Бра Mw-Light':
+  weight: 8
+  input: [ 'Бра Mw-Light' ]
+'Споты с двумя плафонами Maytoni':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Maytoni' ]
+'Подвесные люстры Lightstar':
+  weight: 8
+  input: [ 'Подвесные люстры Lightstar' ]
+'Подвесные люстры Eglo':
+  weight: 8
+  input: [ 'Подвесные люстры Eglo' ]
+'Точечные встраиваемые светильники Mantra':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Mantra' ]
+'Торшеры с двумя и более плафонами Citilux':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Citilux' ]
+'Торшеры с двумя и более плафонами Eglo':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Eglo' ]
+'Потолочные светильники Maytoni':
+  weight: 8
+  input: [ 'Потолочные светильники Maytoni' ]
+'Споты с одним плафоном Eglo':
+  weight: 8
+  input: [ 'Споты с одним плафоном Eglo' ]
+'Уличные подвесные светильники Maytoni':
+  weight: 8
+  input: [ 'Уличные подвесные светильники Maytoni' ]
+'Споты с тремя и более плафонами Eglo':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Eglo' ]
+'Торшеры с одним плафоном Maytoni':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Maytoni' ]
+'Потолочные светильники Mw-Light':
+  weight: 8
+  input: [ 'Потолочные светильники Mw-Light' ]
+'Настенные светильники Chiaro':
+  weight: 8
+  input: [ 'Настенные светильники Chiaro' ]
+'Мебельные светильники Lightstar':
+  weight: 8
+  input: [ 'Мебельные светильники Lightstar' ]
+'Бра Chiaro':
+  weight: 8
+  input: [ 'Бра Chiaro' ]
+'На ручную проверку Eglo':
+  weight: 8
+  input: [ 'На ручную проверку Eglo' ]
+'Точечные встраиваемые светильники Eglo':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Eglo' ]
+'Декоративные настольные лампы Lightstar':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Lightstar' ]
+'Торшеры с одним плафоном Citilux':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Citilux' ]
+'Декоративные подсветки Citilux':
+  weight: 8
+  input: [ 'Декоративные подсветки Citilux' ]
+'Настенные светильники Lightstar':
+  weight: 8
+  input: [ 'Настенные светильники Lightstar' ]
+'Подвесные светильники Chiaro':
+  weight: 8
+  input: [ 'Подвесные светильники Chiaro' ]
+'Подвесные светильники Mw-Light':
+  weight: 8
+  input: [ 'Подвесные светильники Mw-Light' ]
+'Готовые трековые системы Citilux':
+  weight: 8
+  input: [ 'Готовые трековые системы Citilux' ]
+'Точечные встраиваемые светильники Mw-Light':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Mw-Light' ]
+'Потолочные люстры Maytoni':
+  weight: 8
+  input: [ 'Потолочные люстры Maytoni' ]
+'Точечные встраиваемые светильники Citilux':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Citilux' ]
+'Уличные подвесные светильники Chiaro':
+  weight: 8
+  input: [ 'Уличные подвесные светильники Chiaro' ]
+'Споты с двумя плафонами Lightstar':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Lightstar' ]
+'Споты с тремя и более плафонами Lightstar':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Lightstar' ]
+'Подсветки для зеркал Citilux':
+  weight: 8
+  input: [ 'Подсветки для зеркал Citilux' ]
+'Уличные настенные светильники Chiaro':
+  weight: 8
+  input: [ 'Уличные настенные светильники Chiaro' ]
+'Подсветки для картин Citilux':
+  weight: 8
+  input: [ 'Подсветки для картин Citilux' ]
+'Подсветки для картин Mw-Light':
+  weight: 8
+  input: [ 'Подсветки для картин Mw-Light' ]
+'Споты с двумя плафонами Eglo':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Eglo' ]
+'Бра Eglo':
+  weight: 8
+  input: [ 'Бра Eglo' ]
+'Подсветки для картин Eglo':
+  weight: 8
+  input: [ 'Подсветки для картин Eglo' ]
+'Потолочные люстры Eglo':
+  weight: 8
+  input: [ 'Потолочные люстры Eglo' ]
+'Декоративные подсветки Mantra':
+  weight: 8
+  input: [ 'Декоративные подсветки Mantra' ]
+'Подсветки для зеркал Eglo':
+  weight: 8
+  input: [ 'Подсветки для зеркал Eglo' ]
+'Декоративные подсветки Lightstar':
+  weight: 8
+  input: [ 'Декоративные подсветки Lightstar' ]
+'Уличные подвесные светильники Eglo':
+  weight: 8
+  input: [ 'Уличные подвесные светильники Eglo' ]
+'Торшеры с двумя и более плафонами Lightstar':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Lightstar' ]
+'Прожекторы Eglo':
+  weight: 8
+  input: [ 'Прожекторы Eglo' ]
+'Мебельные светильники Eglo':
+  weight: 8
+  input: [ 'Мебельные светильники Eglo' ]
+'Декоративные подсветки Eglo':
+  weight: 8
+  input: [ 'Декоративные подсветки Eglo' ]
+'Подсветки для зеркал Mantra':
+  weight: 8
+  input: [ 'Подсветки для зеркал Mantra' ]
+'Светодиодные лампы Gauss':
+  weight: 8
+  input: [ 'Светодиодные лампы Gauss' ]
+'Уличные настенные светильники Mantra':
+  weight: 8
+  input: [ 'Уличные настенные светильники Mantra' ]
+'Потолочные люстры Brizzi Modern':
+  weight: 8
+  input: [ 'Потолочные люстры Brizzi Modern' ]
+'Бра Brizzi Modern':
+  weight: 8
+  input: [ 'Бра Brizzi Modern' ]
+'Декоративные настольные лампы Brizzi Modern':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Brizzi Modern' ]
+'Подвесные люстры Brizzi Modern':
+  weight: 8
+  input: [ 'Подвесные люстры Brizzi Modern' ]
+'Торшеры с двумя и более плафонами Brizzi Modern':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Brizzi Modern' ]
+'Бра Crystal Lux':
+  weight: 8
+  input: [ 'Бра Crystal Lux' ]
+'Подвесные светильники Crystal Lux':
+  weight: 8
+  input: [ 'Подвесные светильники Crystal Lux' ]
+'Потолочные люстры Crystal Lux':
+  weight: 8
+  input: [ 'Потолочные люстры Crystal Lux' ]
+'Декоративные подсветки Crystal Lux':
+  weight: 8
+  input: [ 'Декоративные подсветки Crystal Lux' ]
+'Подвесные люстры Crystal Lux':
+  weight: 8
+  input: [ 'Подвесные люстры Crystal Lux' ]
+'Потолочные светильники Crystal Lux':
+  weight: 8
+  input: [ 'Потолочные светильники Crystal Lux' ]
+'Торшеры с одним плафоном Crystal Lux':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Crystal Lux' ]
+'Декоративные настольные лампы Crystal Lux':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Crystal Lux' ]
+'Споты с одним плафоном Crystal Lux':
+  weight: 8
+  input: [ 'Споты с одним плафоном Crystal Lux' ]
+'Подсветки для картин Crystal Lux':
+  weight: 8
+  input: [ 'Подсветки для картин Crystal Lux' ]
+'Основания для светильников Crystal Lux':
+  weight: 8
+  input: [ 'Основания для светильников Crystal Lux' ]
+'Аксессуары для точечных светильников Crystal Lux':
+  weight: 8
+  input: [ 'Аксессуары для точечных светильников Crystal Lux' ]
+'Бра Osgona':
+  weight: 8
+  input: [ 'Бра Osgona' ]
+'Аксессуары для точечных светильников Lightstar':
+  weight: 8
+  input: [ 'Аксессуары для точечных светильников Lightstar' ]
+'Уличные настенные светильники Odeon Light':
+  weight: 8
+  input: [ 'Уличные настенные светильники Odeon Light' ]
+'Подвесные люстры AMBIENTE by Brizzi':
+  weight: 8
+  input: [ 'Подвесные люстры AMBIENTE by Brizzi' ]
+'Подвесные светильники AMBIENTE by Brizzi':
+  weight: 8
+  input: [ 'Подвесные светильники AMBIENTE by Brizzi' ]
+'Споты с тремя и более плафонами Odeon Light':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Odeon Light' ]
+'Подвесные люстры Osgona':
+  weight: 8
+  input: [ 'Подвесные люстры Osgona' ]
+'Потолочные светильники AMBIENTE by Brizzi':
+  weight: 8
+  input: [ 'Потолочные светильники AMBIENTE by Brizzi' ]
+'Светодиодные ленты Gauss':
+  weight: 8
+  input: [ 'Светодиодные ленты Gauss' ]
+'Бра AMBIENTE by Brizzi':
+  weight: 8
+  input: [ 'Бра AMBIENTE by Brizzi' ]
+'Торшеры с двумя и более плафонами AMBIENTE by Brizzi':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами AMBIENTE by Brizzi' ]
+'Потолочные люстры AMBIENTE by Brizzi':
+  weight: 8
+  input: [ 'Потолочные люстры AMBIENTE by Brizzi' ]
+'Споты с одним плафоном Odeon Light':
+  weight: 8
+  input: [ 'Споты с одним плафоном Odeon Light' ]
+'Лампы накаливания Arte Lamp':
+  weight: 8
+  input: [ 'Лампы накаливания Arte Lamp' ]
+'Споты с двумя плафонами Odeon Light':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Odeon Light' ]
+'Светодиодные ленты Lightstar':
+  weight: 8
+  input: [ 'Светодиодные ленты Lightstar' ]
+'Потолочные люстры Osgona':
+  weight: 8
+  input: [ 'Потолочные люстры Osgona' ]
+'Кабинетные настольные лампы Arte Lamp':
+  weight: 8
+  input: [ 'Кабинетные настольные лампы Arte Lamp' ]
+'Уличные подвесные светильники Odeon Light':
+  weight: 8
+  input: [ 'Уличные подвесные светильники Odeon Light' ]
+'Галогенные лампы Arte Lamp':
+  weight: 8
+  input: [ 'Галогенные лампы Arte Lamp' ]
+'Кольца и рамки Lightstar':
+  weight: 8
+  input: [ 'Кольца и рамки Lightstar' ]
+'Подвесные люстры Ideal Lux':
+  weight: 8
+  input: [ 'Подвесные люстры Ideal Lux' ]
+'Подсветки для картин Ideal Lux':
+  weight: 8
+  input: [ 'Подсветки для картин Ideal Lux' ]
+'Торшеры с одним плафоном Ideal Lux':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Ideal Lux' ]
+'Прожекторы Ideal Lux':
+  weight: 8
+  input: [ 'Прожекторы Ideal Lux' ]
+'Потолочные люстры Ideal Lux':
+  weight: 8
+  input: [ 'Потолочные люстры Ideal Lux' ]
+'Потолочные светильники Ideal Lux':
+  weight: 8
+  input: [ 'Потолочные светильники Ideal Lux' ]
+'Уличные настенные светильники Ideal Lux':
+  weight: 8
+  input: [ 'Уличные настенные светильники Ideal Lux' ]
+'Бра Ideal Lux':
+  weight: 8
+  input: [ 'Бра Ideal Lux' ]
+'Декоративные настольные лампы Ideal Lux':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Ideal Lux' ]
+'Декоративные подсветки Ideal Lux':
+  weight: 8
+  input: [ 'Декоративные подсветки Ideal Lux' ]
+'Подвесные светильники Ideal Lux':
+  weight: 8
+  input: [ 'Подвесные светильники Ideal Lux' ]
+'На ручную проверку Ideal Lux':
+  weight: 8
+  input: [ 'На ручную проверку Ideal Lux' ]
+'Офисные настольные лампы Ideal Lux':
+  weight: 8
+  input: [ 'Офисные настольные лампы Ideal Lux' ]
+'Торшеры с двумя и более плафонами Ideal Lux':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Ideal Lux' ]
+'Споты с двумя плафонами Ideal Lux':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Ideal Lux' ]
+'Споты с одним плафоном Ideal Lux':
+  weight: 8
+  input: [ 'Споты с одним плафоном Ideal Lux' ]
+'Подсветки для зеркал Ideal Lux':
+  weight: 8
+  input: [ 'Подсветки для зеркал Ideal Lux' ]
+'Уличные потолочные светильники Ideal Lux':
+  weight: 8
+  input: [ 'Уличные потолочные светильники Ideal Lux' ]
+'Споты с тремя и более плафонами Ideal Lux':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Ideal Lux' ]
+'Точечные встраиваемые светильники Ideal Lux':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Ideal Lux' ]
+'Декоративные настольные лампы Novotech':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Novotech' ]
+'Декоративные настольные лампы AMBIENTE by Brizzi':
+  weight: 8
+  input: [ 'Декоративные настольные лампы AMBIENTE by Brizzi' ]
+'Потолочные светильники Novotech':
+  weight: 8
+  input: [ 'Потолочные светильники Novotech' ]
+'Торшеры с одним плафоном AMBIENTE by Brizzi':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном AMBIENTE by Brizzi' ]
+'Потолочные светильники Gauss':
+  weight: 8
+  input: [ 'Потолочные светильники Gauss' ]
+'Готовые трековые системы Arte Lamp':
+  weight: 8
+  input: [ 'Готовые трековые системы Arte Lamp' ]
+'Подсветки для зеркал Arte Lamp':
+  weight: 8
+  input: [ 'Подсветки для зеркал Arte Lamp' ]
+'Споты с двумя плафонами Divinare':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Divinare' ]
+'Декоративные настольные лампы ST Luce':
+  weight: 8
+  input: [ 'Декоративные настольные лампы ST Luce' ]
+'Бра ST Luce':
+  weight: 8
+  input: [ 'Бра ST Luce' ]
+'Подвесные люстры ST Luce':
+  weight: 8
+  input: [ 'Подвесные люстры ST Luce' ]
+'Потолочные светильники ST Luce':
+  weight: 8
+  input: [ 'Потолочные светильники ST Luce' ]
+'Торшеры с одним плафоном ST Luce':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном ST Luce' ]
+'Настенные светильники ST Luce':
+  weight: 8
+  input: [ 'Настенные светильники ST Luce' ]
+'Потолочные люстры ST Luce':
+  weight: 8
+  input: [ 'Потолочные люстры ST Luce' ]
+'Подвесные светильники ST Luce':
+  weight: 8
+  input: [ 'Подвесные светильники ST Luce' ]
+'На ручную проверку ST Luce':
+  weight: 8
+  input: [ 'На ручную проверку ST Luce' ]
+'Споты с одним плафоном ST Luce':
+  weight: 8
+  input: [ 'Споты с одним плафоном ST Luce' ]
+'Декоративные подсветки ST Luce':
+  weight: 8
+  input: [ 'Декоративные подсветки ST Luce' ]
+'Торшеры с двумя и более плафонами ST Luce':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами ST Luce' ]
+'Подсветки для картин ST Luce':
+  weight: 8
+  input: [ 'Подсветки для картин ST Luce' ]
+'Споты с двумя плафонами ST Luce':
+  weight: 8
+  input: [ 'Споты с двумя плафонами ST Luce' ]
+'Офисные настольные лампы ST Luce':
+  weight: 8
+  input: [ 'Офисные настольные лампы ST Luce' ]
+'Споты с тремя и более плафонами ST Luce':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами ST Luce' ]
+'Уличные настенные светильники ST Luce':
+  weight: 8
+  input: [ 'Уличные настенные светильники ST Luce' ]
+'Уличные потолочные светильники ST Luce':
+  weight: 8
+  input: [ 'Уличные потолочные светильники ST Luce' ]
+'Уличные подвесные светильники ST Luce':
+  weight: 8
+  input: [ 'Уличные подвесные светильники ST Luce' ]
+'Настенные светильники Ideal Lux':
+  weight: 8
+  input: [ 'Настенные светильники Ideal Lux' ]
+'Подвесные люстры Lucia Tucci':
+  weight: 8
+  input: [ 'Подвесные люстры Lucia Tucci' ]
+'Бра Lucia Tucci':
+  weight: 8
+  input: [ 'Бра Lucia Tucci' ]
+'Подвесные светильники Lucia Tucci':
+  weight: 8
+  input: [ 'Подвесные светильники Lucia Tucci' ]
+'Потолочные светильники Lucia Tucci':
+  weight: 8
+  input: [ 'Потолочные светильники Lucia Tucci' ]
+'Потолочные люстры Lucia Tucci':
+  weight: 8
+  input: [ 'Потолочные люстры Lucia Tucci' ]
+'Торшеры с одним плафоном Lucia Tucci':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Lucia Tucci' ]
+'Споты с одним плафоном Lucia Tucci':
+  weight: 8
+  input: [ 'Споты с одним плафоном Lucia Tucci' ]
+'Точечные встраиваемые светильники Lucia Tucci':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Lucia Tucci' ]
+'Декоративные настольные лампы Lucia Tucci':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Lucia Tucci' ]
+'Споты с тремя и более плафонами Lucia Tucci':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Lucia Tucci' ]
+'Декоративные подсветки Lucia Tucci':
+  weight: 8
+  input: [ 'Декоративные подсветки Lucia Tucci' ]
+'Споты с двумя плафонами Lucia Tucci':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Lucia Tucci' ]
+'Торшеры с двумя и более плафонами Lucia Tucci':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Lucia Tucci' ]
+'Уличные настенные светильники Lightstar':
+  weight: 8
+  input: [ 'Уличные настенные светильники Lightstar' ]
+'Трековые светильники Novotech':
+  weight: 8
+  input: [ 'Трековые светильники Novotech' ]
+'Аксессуары для точечных светильников Novotech':
+  weight: 8
+  input: [ 'Аксессуары для точечных светильников Novotech' ]
+'Уличные потолочные светильники Novotech':
+  weight: 8
+  input: [ 'Уличные потолочные светильники Novotech' ]
+'Споты с одним плафоном Novotech':
+  weight: 8
+  input: [ 'Споты с одним плафоном Novotech' ]
+'Мебельные светильники Novotech':
+  weight: 8
+  input: [ 'Мебельные светильники Novotech' ]
+'Подвесные светильники Novotech':
+  weight: 8
+  input: [ 'Подвесные светильники Novotech' ]
+'Споты с двумя плафонами Novotech':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Novotech' ]
+'Споты с тремя и более плафонами Novotech':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Novotech' ]
+'На ручную проверку Lightstar':
+  weight: 8
+  input: [ 'На ручную проверку Lightstar' ]
+'Уличные подвесные светильники Lightstar':
+  weight: 8
+  input: [ 'Уличные подвесные светильники Lightstar' ]
+'Потолочные светильники Nowodvorski':
+  weight: 8
+  input: [ 'Потолочные светильники Nowodvorski' ]
+'Уличные настенные светильники Nowodvorski':
+  weight: 8
+  input: [ 'Уличные настенные светильники Nowodvorski' ]
+'Подвесные светильники Nowodvorski':
+  weight: 8
+  input: [ 'Подвесные светильники Nowodvorski' ]
+'Подвесные люстры Nowodvorski':
+  weight: 8
+  input: [ 'Подвесные люстры Nowodvorski' ]
+'Декоративные подсветки Nowodvorski':
+  weight: 8
+  input: [ 'Декоративные подсветки Nowodvorski' ]
+'Бра Nowodvorski':
+  weight: 8
+  input: [ 'Бра Nowodvorski' ]
+'Точечные встраиваемые светильники Nowodvorski':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Nowodvorski' ]
+'Споты с одним плафоном Nowodvorski':
+  weight: 8
+  input: [ 'Споты с одним плафоном Nowodvorski' ]
+'На ручную проверку Nowodvorski':
+  weight: 8
+  input: [ 'На ручную проверку Nowodvorski' ]
+'Споты с тремя и более плафонами Nowodvorski':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Nowodvorski' ]
+'Подсветки для картин Nowodvorski':
+  weight: 8
+  input: [ 'Подсветки для картин Nowodvorski' ]
+'Потолочные люстры Nowodvorski':
+  weight: 8
+  input: [ 'Потолочные люстры Nowodvorski' ]
+'Споты с двумя плафонами Nowodvorski':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Nowodvorski' ]
+'Декоративные настольные лампы Nowodvorski':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Nowodvorski' ]
+'Настенные светильники Nowodvorski':
+  weight: 8
+  input: [ 'Настенные светильники Nowodvorski' ]
+'Трековые светильники Nowodvorski':
+  weight: 8
+  input: [ 'Трековые светильники Nowodvorski' ]
+'Подсветки для зеркал Nowodvorski':
+  weight: 8
+  input: [ 'Подсветки для зеркал Nowodvorski' ]
+'Офисные настольные лампы Nowodvorski':
+  weight: 8
+  input: [ 'Офисные настольные лампы Nowodvorski' ]
+'Прожекторы Nowodvorski':
+  weight: 8
+  input: [ 'Прожекторы Nowodvorski' ]
+'Уличные подвесные светильники Nowodvorski':
+  weight: 8
+  input: [ 'Уличные подвесные светильники Nowodvorski' ]
+'Уличные потолочные светильники Nowodvorski':
+  weight: 8
+  input: [ 'Уличные потолочные светильники Nowodvorski' ]
+'Подсветки для лестниц Nowodvorski':
+  weight: 8
+  input: [ 'Подсветки для лестниц Nowodvorski' ]
+'Готовые трековые системы Odeon Light':
+  weight: 8
+  input: [ 'Готовые трековые системы Odeon Light' ]
+'Декоративные настольные лампы Lucide':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Lucide' ]
+'Точечные встраиваемые светильники Lucide':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Lucide' ]
+'Потолочные светильники Lucide':
+  weight: 8
+  input: [ 'Потолочные светильники Lucide' ]
+'Споты с одним плафоном Lucide':
+  weight: 8
+  input: [ 'Споты с одним плафоном Lucide' ]
+'Подвесные светильники Lucide':
+  weight: 8
+  input: [ 'Подвесные светильники Lucide' ]
+'Мебельные светильники Lucide':
+  weight: 8
+  input: [ 'Мебельные светильники Lucide' ]
+'Споты с тремя и более плафонами Lucide':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Lucide' ]
+'Бра Lucide':
+  weight: 8
+  input: [ 'Бра Lucide' ]
+'Настенные светильники Lucide':
+  weight: 8
+  input: [ 'Настенные светильники Lucide' ]
+'Торшеры с одним плафоном Lucide':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Lucide' ]
+'Споты с двумя плафонами Lucide':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Lucide' ]
+'На ручную проверку Lucide':
+  weight: 8
+  input: [ 'На ручную проверку Lucide' ]
+'Офисные настольные лампы Lucide':
+  weight: 8
+  input: [ 'Офисные настольные лампы Lucide' ]
+'Декоративные подсветки Lucide':
+  weight: 8
+  input: [ 'Декоративные подсветки Lucide' ]
+'Подвесные люстры Lucide':
+  weight: 8
+  input: [ 'Подвесные люстры Lucide' ]
+'Уличные настенные светильники Lucide':
+  weight: 8
+  input: [ 'Уличные настенные светильники Lucide' ]
+'Подсветки для картин Lucide':
+  weight: 8
+  input: [ 'Подсветки для картин Lucide' ]
+'Торшеры с двумя и более плафонами Lucide':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Lucide' ]
+'Подсветки для зеркал Lucide':
+  weight: 8
+  input: [ 'Подсветки для зеркал Lucide' ]
+'Декоративные подсветки Sonex':
+  weight: 8
+  input: [ 'Декоративные подсветки Sonex' ]
+'Точечные встраиваемые светильники Crystal Lux':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Crystal Lux' ]
+'Настенные светильники Crystal Lux':
+  weight: 8
+  input: [ 'Настенные светильники Crystal Lux' ]
+'На ручную проверку Chiaro':
+  weight: 8
+  input: [ 'На ручную проверку Chiaro' ]
+'Настенно-потолочные светильники Mw-Light':
+  weight: 8
+  input: [ 'Настенно-потолочные светильники Mw-Light' ]
+'Потолочные светильники Leucos':
+  weight: 8
+  input: [ 'Потолочные светильники Leucos' ]
+'Бра Leucos':
+  weight: 8
+  input: [ 'Бра Leucos' ]
+'Точечные встраиваемые светильники Leucos':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Leucos' ]
+'Настенные светильники Leucos':
+  weight: 8
+  input: [ 'Настенные светильники Leucos' ]
+'Подвесные светильники Leucos':
+  weight: 8
+  input: [ 'Подвесные светильники Leucos' ]
+'Торшеры с одним плафоном Leucos':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Leucos' ]
+'Подвесные светильники Sylcom':
+  weight: 8
+  input: [ 'Подвесные светильники Sylcom' ]
+'Точечные встраиваемые светильники SLV':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники SLV' ]
+'Декоративные подсветки Linea Light':
+  weight: 8
+  input: [ 'Декоративные подсветки Linea Light' ]
+'Потолочные светильники Linea Light':
+  weight: 8
+  input: [ 'Потолочные светильники Linea Light' ]
+'Потолочные светильники Leds':
+  weight: 8
+  input: [ 'Потолочные светильники Leds' ]
+'Бра Leds':
+  weight: 8
+  input: [ 'Бра Leds' ]
+'Точечные встраиваемые светильники Intra Lighting':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Intra Lighting' ]
+'Декоративные подсветки AXO Light':
+  weight: 8
+  input: [ 'Декоративные подсветки AXO Light' ]
+'Бра Studio Italia Design':
+  weight: 8
+  input: [ 'Бра Studio Italia Design' ]
+'Мебельные светильники SLV':
+  weight: 8
+  input: [ 'Мебельные светильники SLV' ]
+'Бра Sylcom':
+  weight: 8
+  input: [ 'Бра Sylcom' ]
+'Споты с одним плафоном Wever&Ducre':
+  weight: 8
+  input: [ 'Споты с одним плафоном Wever&Ducre' ]
+'Подвесные светильники Linea Light':
+  weight: 8
+  input: [ 'Подвесные светильники Linea Light' ]
+'Бра Oligo':
+  weight: 8
+  input: [ 'Бра Oligo' ]
+'Потолочные светильники Kolarz':
+  weight: 8
+  input: [ 'Потолочные светильники Kolarz' ]
+'Бра Linea Light':
+  weight: 8
+  input: [ 'Бра Linea Light' ]
+'Споты с одним плафоном Intra Lighting':
+  weight: 8
+  input: [ 'Споты с одним плафоном Intra Lighting' ]
+'Потолочные светильники Intra Lighting':
+  weight: 8
+  input: [ 'Потолочные светильники Intra Lighting' ]
+'Подвесные светильники Leds':
+  weight: 8
+  input: [ 'Подвесные светильники Leds' ]
+'Торшеры с двумя и более плафонами Leds':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Leds' ]
+'Точечные встраиваемые светильники Modular':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Modular' ]
+'Подвесные светильники Ingo Maurer':
+  weight: 8
+  input: [ 'Подвесные светильники Ingo Maurer' ]
+'Потолочные люстры Sylcom':
+  weight: 8
+  input: [ 'Потолочные люстры Sylcom' ]
+'Подвесные люстры Riperlamp':
+  weight: 8
+  input: [ 'Подвесные люстры Riperlamp' ]
+'Точечные встраиваемые светильники Fabbian':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Fabbian' ]
+'Бра Riperlamp':
+  weight: 8
+  input: [ 'Бра Riperlamp' ]
+'Потолочные светильники B.Lux':
+  weight: 8
+  input: [ 'Потолочные светильники B.Lux' ]
+'Бра Foscarini':
+  weight: 8
+  input: [ 'Бра Foscarini' ]
+'Подвесные светильники Kolarz':
+  weight: 8
+  input: [ 'Подвесные светильники Kolarz' ]
+'Споты с тремя и более плафонами Egoluce':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Egoluce' ]
+'Бра SLV':
+  weight: 8
+  input: [ 'Бра SLV' ]
+'Подвесные светильники Fabbian':
+  weight: 8
+  input: [ 'Подвесные светильники Fabbian' ]
+'Подвесные светильники Lumen Center Italia':
+  weight: 8
+  input: [ 'Подвесные светильники Lumen Center Italia' ]
+'Точечные встраиваемые светильники Egoluce':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Egoluce' ]
+'Мебельные светильники Kolarz':
+  weight: 8
+  input: [ 'Мебельные светильники Kolarz' ]
+'Потолочные светильники Traddel':
+  weight: 8
+  input: [ 'Потолочные светильники Traddel' ]
+'Декоративные подсветки Delta Light':
+  weight: 8
+  input: [ 'Декоративные подсветки Delta Light' ]
+'Декоративные подсветки Leds':
+  weight: 8
+  input: [ 'Декоративные подсветки Leds' ]
+'Точечные встраиваемые светильники Linea Light':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Linea Light' ]
+'Подвесные светильники Prearo':
+  weight: 8
+  input: [ 'Подвесные светильники Prearo' ]
+'Подвесные светильники Milan Iluminacion':
+  weight: 8
+  input: [ 'Подвесные светильники Milan Iluminacion' ]
+'Подвесные люстры Kolarz':
+  weight: 8
+  input: [ 'Подвесные люстры Kolarz' ]
+'Потолочные светильники Delta Light':
+  weight: 8
+  input: [ 'Потолочные светильники Delta Light' ]
+'Торшеры с одним плафоном Leds':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Leds' ]
+'Настенные светильники Linea Light':
+  weight: 8
+  input: [ 'Настенные светильники Linea Light' ]
+'Потолочные светильники Sylcom':
+  weight: 8
+  input: [ 'Потолочные светильники Sylcom' ]
+'Точечные встраиваемые светильники Panzeri':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Panzeri' ]
+'Подвесные светильники Flos':
+  weight: 8
+  input: [ 'Подвесные светильники Flos' ]
+'Подвесные люстры Linea Light':
+  weight: 8
+  input: [ 'Подвесные люстры Linea Light' ]
+'Потолочные светильники Milan Iluminacion':
+  weight: 8
+  input: [ 'Потолочные светильники Milan Iluminacion' ]
+'Уличные настенные светильники Kolarz':
+  weight: 8
+  input: [ 'Уличные настенные светильники Kolarz' ]
+'Подсветки для зеркал Egoluce':
+  weight: 8
+  input: [ 'Подсветки для зеркал Egoluce' ]
+'Потолочные светильники Dark':
+  weight: 8
+  input: [ 'Потолочные светильники Dark' ]
+'Подвесные светильники Studio Italia Design':
+  weight: 8
+  input: [ 'Подвесные светильники Studio Italia Design' ]
+'Потолочные светильники Artemide':
+  weight: 8
+  input: [ 'Потолочные светильники Artemide' ]
+'Подсветки для зеркал Milan Iluminacion':
+  weight: 8
+  input: [ 'Подсветки для зеркал Milan Iluminacion' ]
+'Бра Sil Lux':
+  weight: 8
+  input: [ 'Бра Sil Lux' ]
+'Потолочные светильники Vistosi':
+  weight: 8
+  input: [ 'Потолочные светильники Vistosi' ]
+'Бра Kolarz':
+  weight: 8
+  input: [ 'Бра Kolarz' ]
+'Декоративные настольные лампы Ingo Maurer':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Ingo Maurer' ]
+'Подвесные люстры Ingo Maurer':
+  weight: 8
+  input: [ 'Подвесные люстры Ingo Maurer' ]
+'Декоративные подсветки Kolarz':
+  weight: 8
+  input: [ 'Декоративные подсветки Kolarz' ]
+'Точечные встраиваемые светильники Delta Light':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Delta Light' ]
+'Подсветки для зеркал Leds':
+  weight: 8
+  input: [ 'Подсветки для зеркал Leds' ]
+'Потолочные светильники AXO Light':
+  weight: 8
+  input: [ 'Потолочные светильники AXO Light' ]
+'Точечные встраиваемые светильники Wever&Ducre':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Wever&Ducre' ]
+'Подвесные светильники Foscarini':
+  weight: 8
+  input: [ 'Подвесные светильники Foscarini' ]
+'Потолочные светильники Foscarini':
+  weight: 8
+  input: [ 'Потолочные светильники Foscarini' ]
+'Подвесные светильники Morosini':
+  weight: 8
+  input: [ 'Подвесные светильники Morosini' ]
+'Подсветки для картин Egoluce':
+  weight: 8
+  input: [ 'Подсветки для картин Egoluce' ]
+'Бра LucePlan':
+  weight: 8
+  input: [ 'Бра LucePlan' ]
+'Декоративные подсветки Fabbian':
+  weight: 8
+  input: [ 'Декоративные подсветки Fabbian' ]
+'Подвесные светильники Panzeri':
+  weight: 8
+  input: [ 'Подвесные светильники Panzeri' ]
+'Потолочные светильники Oligo':
+  weight: 8
+  input: [ 'Потолочные светильники Oligo' ]
+'На ручную проверку LucePlan':
+  weight: 8
+  input: [ 'На ручную проверку LucePlan' ]
+'Декоративные настольные лампы Lumen Center Italia':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Lumen Center Italia' ]
+'Уличные настенные светильники Wever&Ducre':
+  weight: 8
+  input: [ 'Уличные настенные светильники Wever&Ducre' ]
+'Декоративные подсветки Wever&Ducre':
+  weight: 8
+  input: [ 'Декоративные подсветки Wever&Ducre' ]
+'Потолочные светильники Fagerhult':
+  weight: 8
+  input: [ 'Потолочные светильники Fagerhult' ]
+'Потолочные светильники Panzeri':
+  weight: 8
+  input: [ 'Потолочные светильники Panzeri' ]
+'Мебельные светильники Vistosi':
+  weight: 8
+  input: [ 'Мебельные светильники Vistosi' ]
+'Подсветки для картин Linea Light':
+  weight: 8
+  input: [ 'Подсветки для картин Linea Light' ]
+'Бра Slamp':
+  weight: 8
+  input: [ 'Бра Slamp' ]
+'Подсветки для картин Kolarz':
+  weight: 8
+  input: [ 'Подсветки для картин Kolarz' ]
+'Подвесные светильники LucePlan':
+  weight: 8
+  input: [ 'Подвесные светильники LucePlan' ]
+'Подвесные светильники B.Lux':
+  weight: 8
+  input: [ 'Подвесные светильники B.Lux' ]
+'Декоративные подсветки Artemide':
+  weight: 8
+  input: [ 'Декоративные подсветки Artemide' ]
+'Потолочные светильники SLV':
+  weight: 8
+  input: [ 'Потолочные светильники SLV' ]
+'Потолочные светильники Fabbian':
+  weight: 8
+  input: [ 'Потолочные светильники Fabbian' ]
+'Бра Egoluce':
+  weight: 8
+  input: [ 'Бра Egoluce' ]
+'Потолочные светильники Egoluce':
+  weight: 8
+  input: [ 'Потолочные светильники Egoluce' ]
+'Настенные светильники Flos':
+  weight: 8
+  input: [ 'Настенные светильники Flos' ]
+'Точечные встраиваемые светильники AXO Light':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники AXO Light' ]
+'Мебельные светильники Milan Iluminacion':
+  weight: 8
+  input: [ 'Мебельные светильники Milan Iluminacion' ]
+'Подвесные светильники Vistosi':
+  weight: 8
+  input: [ 'Подвесные светильники Vistosi' ]
+'Споты с двумя плафонами Milan Iluminacion':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Milan Iluminacion' ]
+'Декоративные подсветки Egoluce':
+  weight: 8
+  input: [ 'Декоративные подсветки Egoluce' ]
+'Декоративные подсветки Foscarini':
+  weight: 8
+  input: [ 'Декоративные подсветки Foscarini' ]
+'Точечные встраиваемые светильники Oligo':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Oligo' ]
+'Фонарики Flos':
+  weight: 8
+  input: [ 'Фонарики Flos' ]
+'Подвесные люстры Vele Luce':
+  weight: 8
+  input: [ 'Подвесные люстры Vele Luce' ]
+'Бра Vele Luce':
+  weight: 8
+  input: [ 'Бра Vele Luce' ]
+'Подвесные светильники Vele Luce':
+  weight: 8
+  input: [ 'Подвесные светильники Vele Luce' ]
+'Торшеры с одним плафоном Markslojd':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Markslojd' ]
+'Подвесные светильники Markslojd':
+  weight: 8
+  input: [ 'Подвесные светильники Markslojd' ]
+'Декоративные настольные лампы Markslojd':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Markslojd' ]
+'Бра Markslojd':
+  weight: 8
+  input: [ 'Бра Markslojd' ]
+'Подсветки для картин Markslojd':
+  weight: 8
+  input: [ 'Подсветки для картин Markslojd' ]
+'Уличные настенные светильники Markslojd':
+  weight: 8
+  input: [ 'Уличные настенные светильники Markslojd' ]
+'Настенные светильники Markslojd':
+  weight: 8
+  input: [ 'Настенные светильники Markslojd' ]
+'Мебельные светильники Markslojd':
+  weight: 8
+  input: [ 'Мебельные светильники Markslojd' ]
+'На ручную проверку Markslojd':
+  weight: 8
+  input: [ 'На ручную проверку Markslojd' ]
+'Торшеры с двумя и более плафонами Markslojd':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Markslojd' ]
+'Потолочные светильники Markslojd':
+  weight: 8
+  input: [ 'Потолочные светильники Markslojd' ]
+'Офисные настольные лампы Markslojd':
+  weight: 8
+  input: [ 'Офисные настольные лампы Markslojd' ]
+'Подвесные люстры Markslojd':
+  weight: 8
+  input: [ 'Подвесные люстры Markslojd' ]
+'Споты с одним плафоном Markslojd':
+  weight: 8
+  input: [ 'Споты с одним плафоном Markslojd' ]
+'Точечные встраиваемые светильники Markslojd':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Markslojd' ]
+'Потолочные люстры Markslojd':
+  weight: 8
+  input: [ 'Потолочные люстры Markslojd' ]
+'Споты с двумя плафонами Markslojd':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Markslojd' ]
+'Трековые светильники Markslojd':
+  weight: 8
+  input: [ 'Трековые светильники Markslojd' ]
+'Декоративные подсветки Markslojd':
+  weight: 8
+  input: [ 'Декоративные подсветки Markslojd' ]
+'Прожекторы Markslojd':
+  weight: 8
+  input: [ 'Прожекторы Markslojd' ]
+'Споты с тремя и более плафонами Markslojd':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Markslojd' ]
+'Подсветки для зеркал Markslojd':
+  weight: 8
+  input: [ 'Подсветки для зеркал Markslojd' ]
+'Уличные потолочные светильники Markslojd':
+  weight: 8
+  input: [ 'Уличные потолочные светильники Markslojd' ]
+'Зеркала Markslojd':
+  weight: 8
+  input: [ 'Зеркала Markslojd' ]
+'Подвесные люстры Arti Lampadari':
+  weight: 8
+  input: [ 'Подвесные люстры Arti Lampadari' ]
+'Подвесные люстры Dio D''Arte':
+  weight: 8
+  input: [ 'Подвесные люстры Dio D''Arte' ]
+'Бра Dio D''Arte':
+  weight: 8
+  input: [ 'Бра Dio D''Arte' ]
+'Потолочные светильники Dio D''Arte':
+  weight: 8
+  input: [ 'Потолочные светильники Dio D''Arte' ]
+'Потолочные люстры Arti Lampadari':
+  weight: 8
+  input: [ 'Потолочные люстры Arti Lampadari' ]
+'Декоративные настольные лампы Arti Lampadari':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Arti Lampadari' ]
+'Потолочные люстры Dio D''Arte':
+  weight: 8
+  input: [ 'Потолочные люстры Dio D''Arte' ]
+'Бра Arti Lampadari':
+  weight: 8
+  input: [ 'Бра Arti Lampadari' ]
+'Подвесные светильники Arti Lampadari':
+  weight: 8
+  input: [ 'Подвесные светильники Arti Lampadari' ]
+'Декоративные настольные лампы Dio D''Arte':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Dio D''Arte' ]
+'Торшеры с одним плафоном Arti Lampadari':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Arti Lampadari' ]
+'Подвесные светильники Dio D''Arte':
+  weight: 8
+  input: [ 'Подвесные светильники Dio D''Arte' ]
+'Торшеры с двумя и более плафонами Dio D''Arte':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Dio D''Arte' ]
+'Трековые светильники Lightstar':
+  weight: 8
+  input: [ 'Трековые светильники Lightstar' ]
+'Декоративные настольные лампы Bohemia Ivele':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Bohemia Ivele' ]
+'Торшеры с двумя и более плафонами Bohemia Ivele':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Bohemia Ivele' ]
+'Торшеры с двумя и более плафонами Nowodvorski':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Nowodvorski' ]
+'Торшеры с одним плафоном Nowodvorski':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Nowodvorski' ]
+'Прожекторы ST Luce':
+  weight: 8
+  input: [ 'Прожекторы ST Luce' ]
+'Потолочные люстры Vele Luce':
+  weight: 8
+  input: [ 'Потолочные люстры Vele Luce' ]
+'Декоративные настольные лампы Vele Luce':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Vele Luce' ]
+'Потолочные светильники Vele Luce':
+  weight: 8
+  input: [ 'Потолочные светильники Vele Luce' ]
+'Трековые светильники Eglo':
+  weight: 8
+  input: [ 'Трековые светильники Eglo' ]
+'Декоративные подсветки Novotech':
+  weight: 8
+  input: [ 'Декоративные подсветки Novotech' ]
+'Трековые светильники Odeon Light':
+  weight: 8
+  input: [ 'Трековые светильники Odeon Light' ]
+'Офисные настольные лампы Vele Luce':
+  weight: 8
+  input: [ 'Офисные настольные лампы Vele Luce' ]
+'Торшеры с одним плафоном Vele Luce':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Vele Luce' ]
+'Точечные подвесные светильники Arte Lamp':
+  weight: 8
+  input: [ 'Точечные подвесные светильники Arte Lamp' ]
+'Потолочные светильники Globo':
+  weight: 8
+  input: [ 'Потолочные светильники Globo' ]
+'Подвесные люстры Globo':
+  weight: 8
+  input: [ 'Подвесные люстры Globo' ]
+'Подвесные светильники Globo':
+  weight: 8
+  input: [ 'Подвесные светильники Globo' ]
+'Споты с тремя и более плафонами Globo':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Globo' ]
+'На ручную проверку Globo':
+  weight: 8
+  input: [ 'На ручную проверку Globo' ]
+'Потолочные люстры Globo':
+  weight: 8
+  input: [ 'Потолочные люстры Globo' ]
+'Споты с двумя плафонами Globo':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Globo' ]
+'Торшеры с одним плафоном Globo':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Globo' ]
+'Споты с одним плафоном Globo':
+  weight: 8
+  input: [ 'Споты с одним плафоном Globo' ]
+'Наружные светильники на солнечных батареях Globo':
+  weight: 8
+  input: [ 'Наружные светильники на солнечных батареях Globo' ]
+'Прожекторы Globo':
+  weight: 8
+  input: [ 'Прожекторы Globo' ]
+'Декоративные настольные лампы Globo':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Globo' ]
+'Точечные встраиваемые светильники Globo':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Globo' ]
+'Бра Globo':
+  weight: 8
+  input: [ 'Бра Globo' ]
+'Уличные настенные светильники Globo':
+  weight: 8
+  input: [ 'Уличные настенные светильники Globo' ]
+'Настенные светильники Globo':
+  weight: 8
+  input: [ 'Настенные светильники Globo' ]
+'Торшеры с двумя и более плафонами Globo':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Globo' ]
+'Светодиодные ленты Globo':
+  weight: 8
+  input: [ 'Светодиодные ленты Globo' ]
+'Офисные настольные лампы Globo':
+  weight: 8
+  input: [ 'Офисные настольные лампы Globo' ]
+'Декоративные подсветки Globo':
+  weight: 8
+  input: [ 'Декоративные подсветки Globo' ]
+'Мебельные светильники Globo':
+  weight: 8
+  input: [ 'Мебельные светильники Globo' ]
+'Уличные подвесные светильники Globo':
+  weight: 8
+  input: [ 'Уличные подвесные светильники Globo' ]
+'Подсветки для картин Globo':
+  weight: 8
+  input: [ 'Подсветки для картин Globo' ]
+'Уличные потолочные светильники Globo':
+  weight: 8
+  input: [ 'Уличные потолочные светильники Globo' ]
+'Газонные светильники Globo':
+  weight: 8
+  input: [ 'Газонные светильники Globo' ]
+'Соляные лампы Globo':
+  weight: 8
+  input: [ 'Соляные лампы Globo' ]
+'Интерьерные украшения Globo':
+  weight: 8
+  input: [ 'Интерьерные украшения Globo' ]
+'Зеркала Globo':
+  weight: 8
+  input: [ 'Зеркала Globo' ]
+'Гирлянды Globo':
+  weight: 8
+  input: [ 'Гирлянды Globo' ]
+'Светодиодные ленты Markslojd':
+  weight: 8
+  input: [ 'Светодиодные ленты Markslojd' ]
+'Потолочные светильники Toplight':
+  weight: 8
+  input: [ 'Потолочные светильники Toplight' ]
+'Потолочные люстры Toplight':
+  weight: 8
+  input: [ 'Потолочные люстры Toplight' ]
+'Бра Toplight':
+  weight: 8
+  input: [ 'Бра Toplight' ]
+'Подвесные люстры Toplight':
+  weight: 8
+  input: [ 'Подвесные люстры Toplight' ]
+'Споты с одним плафоном Toplight':
+  weight: 8
+  input: [ 'Споты с одним плафоном Toplight' ]
+'Споты с тремя и более плафонами Toplight':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Toplight' ]
+'Споты с двумя плафонами Toplight':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Toplight' ]
+'Подвесные светильники Toplight':
+  weight: 8
+  input: [ 'Подвесные светильники Toplight' ]
+'Торшеры с одним плафоном Toplight':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Toplight' ]
+'Декоративные настольные лампы Toplight':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Toplight' ]
+'Уличные потолочные светильники Lightstar':
+  weight: 8
+  input: [ 'Уличные потолочные светильники Lightstar' ]
+'Подсветки для зеркал Globo':
+  weight: 8
+  input: [ 'Подсветки для зеркал Globo' ]
+'Фонарики Globo':
+  weight: 8
+  input: [ 'Фонарики Globo' ]
+'Кольца и рамки Globo':
+  weight: 8
+  input: [ 'Кольца и рамки Globo' ]
+'Светодиодные ленты Eglo':
+  weight: 8
+  input: [ 'Светодиодные ленты Eglo' ]
+'Уличные подвесные светильники Novotech':
+  weight: 8
+  input: [ 'Уличные подвесные светильники Novotech' ]
+'Торшеры с одним плафоном Novotech':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Novotech' ]
+'Подвесные люстры Novotech':
+  weight: 8
+  input: [ 'Подвесные люстры Novotech' ]
+'Торшеры с двумя и более плафонами Mw-Light':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Mw-Light' ]
+'Комплекты для украшения Neon-Night':
+  weight: 8
+  input: [ 'Комплекты для украшения Neon-Night' ]
+'Гирлянды Neon-Night':
+  weight: 8
+  input: [ 'Гирлянды Neon-Night' ]
+'Световые фигуры Neon-Night':
+  weight: 8
+  input: [ 'Световые фигуры Neon-Night' ]
+'Дюралайты Neon-Night':
+  weight: 8
+  input: [ 'Дюралайты Neon-Night' ]
+'Трековые светильники Lussole':
+  weight: 8
+  input: [ 'Трековые светильники Lussole' ]
+'Готовые комплекты Eglo':
+  weight: 8
+  input: [ 'Готовые комплекты Eglo' ]
+'Споты с одним плафоном Vele Luce':
+  weight: 8
+  input: [ 'Споты с одним плафоном Vele Luce' ]
+'Настенные светильники Vele Luce':
+  weight: 8
+  input: [ 'Настенные светильники Vele Luce' ]
+'Настенные светильники Mw-Light':
+  weight: 8
+  input: [ 'Настенные светильники Mw-Light' ]
+'Потолочные люстры Evoluce':
+  weight: 8
+  input: [ 'Потолочные люстры Evoluce' ]
+'Потолочные светильники Arti Lampadari':
+  weight: 8
+  input: [ 'Потолочные светильники Arti Lampadari' ]
+'Модульные светильники Novotech':
+  weight: 8
+  input: [ 'Модульные светильники Novotech' ]
+'Точечные встраиваемые светильники DeMarkt':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники DeMarkt' ]
+'Споты с одним плафоном DeMarkt':
+  weight: 8
+  input: [ 'Споты с одним плафоном DeMarkt' ]
+'Потолочные люстры DeMarkt':
+  weight: 8
+  input: [ 'Потолочные люстры DeMarkt' ]
+'Подвесные люстры DeMarkt':
+  weight: 8
+  input: [ 'Подвесные люстры DeMarkt' ]
+'Потолочные светильники DeMarkt':
+  weight: 8
+  input: [ 'Потолочные светильники DeMarkt' ]
+'Бра DeMarkt':
+  weight: 8
+  input: [ 'Бра DeMarkt' ]
+'Декоративные подсветки DeMarkt':
+  weight: 8
+  input: [ 'Декоративные подсветки DeMarkt' ]
+'На ручную проверку DeMarkt':
+  weight: 8
+  input: [ 'На ручную проверку DeMarkt' ]
+'Подвесные светильники DeMarkt':
+  weight: 8
+  input: [ 'Подвесные светильники DeMarkt' ]
+'Уличные подвесные светильники DeMarkt':
+  weight: 8
+  input: [ 'Уличные подвесные светильники DeMarkt' ]
+'Настенные светильники DeMarkt':
+  weight: 8
+  input: [ 'Настенные светильники DeMarkt' ]
+'Уличные настенные светильники DeMarkt':
+  weight: 8
+  input: [ 'Уличные настенные светильники DeMarkt' ]
+'Трековые светильники DeMarkt':
+  weight: 8
+  input: [ 'Трековые светильники DeMarkt' ]
+'Споты с тремя и более плафонами DeMarkt':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами DeMarkt' ]
+'Споты с двумя плафонами DeMarkt':
+  weight: 8
+  input: [ 'Споты с двумя плафонами DeMarkt' ]
+'Подсветки для картин DeMarkt':
+  weight: 8
+  input: [ 'Подсветки для картин DeMarkt' ]
+'Готовые трековые системы DeMarkt':
+  weight: 8
+  input: [ 'Готовые трековые системы DeMarkt' ]
+'Офисные настольные лампы DeMarkt':
+  weight: 8
+  input: [ 'Офисные настольные лампы DeMarkt' ]
+'Декоративные настольные лампы DeMarkt':
+  weight: 8
+  input: [ 'Декоративные настольные лампы DeMarkt' ]
+'Наружные светильники на солнечных батареях Eglo':
+  weight: 8
+  input: [ 'Наружные светильники на солнечных батареях Eglo' ]
+'Точечные встраиваемые светильники Maytoni':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Maytoni' ]
+'Декоративные подсветки Maytoni':
+  weight: 8
+  input: [ 'Декоративные подсветки Maytoni' ]
+'Трековые светильники Maytoni':
+  weight: 8
+  input: [ 'Трековые светильники Maytoni' ]
+'Споты с тремя и более плафонами Maytoni':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Maytoni' ]
+'Торшеры с двумя и более плафонами Maytoni':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Maytoni' ]
+'Споты с одним плафоном Maytoni':
+  weight: 8
+  input: [ 'Споты с одним плафоном Maytoni' ]
+'Подсветки для зеркал Maytoni':
+  weight: 8
+  input: [ 'Подсветки для зеркал Maytoni' ]
+'Офисные настольные лампы Maytoni':
+  weight: 8
+  input: [ 'Офисные настольные лампы Maytoni' ]
+'Потолочные светильники Freya':
+  weight: 8
+  input: [ 'Потолочные светильники Freya' ]
+'Потолочные люстры Freya':
+  weight: 8
+  input: [ 'Потолочные люстры Freya' ]
+'Бра Freya':
+  weight: 8
+  input: [ 'Бра Freya' ]
+'Подвесные люстры Freya':
+  weight: 8
+  input: [ 'Подвесные люстры Freya' ]
+'Подвесные светильники Freya':
+  weight: 8
+  input: [ 'Подвесные светильники Freya' ]
+'Декоративные настольные лампы Freya':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Freya' ]
+'Споты с двумя плафонами Freya':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Freya' ]
+'Споты с тремя и более плафонами Freya':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Freya' ]
+'Споты с одним плафоном Freya':
+  weight: 8
+  input: [ 'Споты с одним плафоном Freya' ]
+'Торшеры с одним плафоном Freya':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Freya' ]
+'Светодиодные лампы Voltega':
+  weight: 8
+  input: [ 'Светодиодные лампы Voltega' ]
+'Лампы накаливания Voltega':
+  weight: 8
+  input: [ 'Лампы накаливания Voltega' ]
+'Светодиодные лампы Novotech':
+  weight: 8
+  input: [ 'Светодиодные лампы Novotech' ]
+'Настенные светильники Elektrostandard':
+  weight: 8
+  input: [ 'Настенные светильники Elektrostandard' ]
+'Трековые светильники Elektrostandard':
+  weight: 8
+  input: [ 'Трековые светильники Elektrostandard' ]
+'Офисные настольные лампы Elektrostandard':
+  weight: 8
+  input: [ 'Офисные настольные лампы Elektrostandard' ]
+'Декоративные подсветки Elektrostandard':
+  weight: 8
+  input: [ 'Декоративные подсветки Elektrostandard' ]
+'Уличные настенные светильники Elektrostandard':
+  weight: 8
+  input: [ 'Уличные настенные светильники Elektrostandard' ]
+'На ручную проверку Elektrostandard':
+  weight: 8
+  input: [ 'На ручную проверку Elektrostandard' ]
+'Подсветки для картин Elektrostandard':
+  weight: 8
+  input: [ 'Подсветки для картин Elektrostandard' ]
+'Подвесные светильники Elektrostandard':
+  weight: 8
+  input: [ 'Подвесные светильники Elektrostandard' ]
+'Декоративные настольные лампы Elektrostandard':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Elektrostandard' ]
+'Мебельные светильники Elektrostandard':
+  weight: 8
+  input: [ 'Мебельные светильники Elektrostandard' ]
+'Прожекторы Elektrostandard':
+  weight: 8
+  input: [ 'Прожекторы Elektrostandard' ]
+'Потолочные светильники Elektrostandard':
+  weight: 8
+  input: [ 'Потолочные светильники Elektrostandard' ]
+'Споты с одним плафоном Elektrostandard':
+  weight: 8
+  input: [ 'Споты с одним плафоном Elektrostandard' ]
+'Уличные подвесные светильники Elektrostandard':
+  weight: 8
+  input: [ 'Уличные подвесные светильники Elektrostandard' ]
+'Споты с двумя плафонами Eurosvet':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Eurosvet' ]
+'Потолочные люстры Eurosvet':
+  weight: 8
+  input: [ 'Потолочные люстры Eurosvet' ]
+'Бра Eurosvet':
+  weight: 8
+  input: [ 'Бра Eurosvet' ]
+'Торшеры с одним плафоном Bogate`s':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Bogate`s' ]
+'Подвесные светильники Eurosvet':
+  weight: 8
+  input: [ 'Подвесные светильники Eurosvet' ]
+'Торшеры с одним плафоном Eurosvet':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Eurosvet' ]
+'Споты с тремя и более плафонами Eurosvet':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Eurosvet' ]
+'Подвесные люстры Eurosvet':
+  weight: 8
+  input: [ 'Подвесные люстры Eurosvet' ]
+'Потолочные светильники Eurosvet':
+  weight: 8
+  input: [ 'Потолочные светильники Eurosvet' ]
+'Декоративные настольные лампы Eurosvet':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Eurosvet' ]
+'Споты с одним плафоном Eurosvet':
+  weight: 8
+  input: [ 'Споты с одним плафоном Eurosvet' ]
+'Подвесные люстры Bogate`s':
+  weight: 8
+  input: [ 'Подвесные люстры Bogate`s' ]
+'Бра Bogate`s':
+  weight: 8
+  input: [ 'Бра Bogate`s' ]
+'Настенные светильники Eurosvet':
+  weight: 8
+  input: [ 'Настенные светильники Eurosvet' ]
+'Подвесные светильники Bogate`s':
+  weight: 8
+  input: [ 'Подвесные светильники Bogate`s' ]
+'Офисные настольные лампы Eurosvet':
+  weight: 8
+  input: [ 'Офисные настольные лампы Eurosvet' ]
+'Декоративные подсветки Eurosvet':
+  weight: 8
+  input: [ 'Декоративные подсветки Eurosvet' ]
+'Торшеры с двумя и более плафонами Eurosvet':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Eurosvet' ]
+'Потолочные люстры Bogate`s':
+  weight: 8
+  input: [ 'Потолочные люстры Bogate`s' ]
+'Декоративные настольные лампы Bogate`s':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Bogate`s' ]
+'Настенные светильники Lucia Tucci':
+  weight: 8
+  input: [ 'Настенные светильники Lucia Tucci' ]
+'Точечные накладные светильники Arte Lamp':
+  weight: 8
+  input: [ 'Точечные накладные светильники Arte Lamp' ]
+'Подвесные светильники Globo Акция':
+  weight: 8
+  input: [ 'Подвесные светильники Globo Акция' ]
+'Споты с тремя и более плафонами Mantra':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Mantra' ]
+'Споты с двумя плафонами Mantra':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Mantra' ]
+'Фасадные светильники Eglo':
+  weight: 8
+  input: [ 'Фасадные светильники Eglo' ]
+'Торшеры с одним плафоном Chiaro':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Chiaro' ]
+'Торшеры с двумя и более плафонами Crystal Lux':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Crystal Lux' ]
+'Уличные потолочные светильники Odeon Light':
+  weight: 8
+  input: [ 'Уличные потолочные светильники Odeon Light' ]
+'Трековые светильники Oligo':
+  weight: 8
+  input: [ 'Трековые светильники Oligo' ]
+'Потолочные светильники Catellani&Smith':
+  weight: 8
+  input: [ 'Потолочные светильники Catellani&Smith' ]
+'Потолочные светильники Tobias Grau':
+  weight: 8
+  input: [ 'Потолочные светильники Tobias Grau' ]
+'Трековые светильники Citilux':
+  weight: 8
+  input: [ 'Трековые светильники Citilux' ]
+'Уличные настенные светильники Citilux':
+  weight: 8
+  input: [ 'Уличные настенные светильники Citilux' ]
+'Офисные настольные лампы Citilux':
+  weight: 8
+  input: [ 'Офисные настольные лампы Citilux' ]
+'На ручную проверку Citilux':
+  weight: 8
+  input: [ 'На ручную проверку Citilux' ]
+'Подсветки для лестниц Citilux':
+  weight: 8
+  input: [ 'Подсветки для лестниц Citilux' ]
+'Аксессуары для спотов Citilux':
+  weight: 8
+  input: [ 'Аксессуары для спотов Citilux' ]
+'Управление светодиодными лентами Citilux':
+  weight: 8
+  input: [ 'Управление светодиодными лентами Citilux' ]
+'Светодиодные лампы Citilux':
+  weight: 8
+  input: [ 'Светодиодные лампы Citilux' ]
+'Лампы накаливания Citilux':
+  weight: 8
+  input: [ 'Лампы накаливания Citilux' ]
+'Уличные подвесные светильники Citilux':
+  weight: 8
+  input: [ 'Уличные подвесные светильники Citilux' ]
+'Точечные встраиваемые светильники Elektrostandard':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Elektrostandard' ]
+'Светодиодные ленты Elektrostandard':
+  weight: 8
+  input: [ 'Светодиодные ленты Elektrostandard' ]
+'Споты с двумя плафонами Elektrostandard':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Elektrostandard' ]
+'Споты с тремя и более плафонами Elektrostandard':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Elektrostandard' ]
+'Подсветки для зеркал Lumion':
+  weight: 8
+  input: [ 'Подсветки для зеркал Lumion' ]
+'Подвесные светильники Lumion':
+  weight: 8
+  input: [ 'Подвесные светильники Lumion' ]
+'Потолочные люстры Lumion':
+  weight: 8
+  input: [ 'Потолочные люстры Lumion' ]
+'Бра Lumion':
+  weight: 8
+  input: [ 'Бра Lumion' ]
+'Декоративные настольные лампы Lumion':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Lumion' ]
+'Подвесные люстры Lumion':
+  weight: 8
+  input: [ 'Подвесные люстры Lumion' ]
+'Потолочные светильники Lumion':
+  weight: 8
+  input: [ 'Потолочные светильники Lumion' ]
+'Офисные настольные лампы Lumion':
+  weight: 8
+  input: [ 'Офисные настольные лампы Lumion' ]
+'Подсветки для картин Lumion':
+  weight: 8
+  input: [ 'Подсветки для картин Lumion' ]
+'Торшеры с одним плафоном Lumion':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Lumion' ]
+'Торшеры с двумя и более плафонами Lumion':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Lumion' ]
+'Настенные светильники Lumion':
+  weight: 8
+  input: [ 'Настенные светильники Lumion' ]
+'Споты с двумя плафонами Lumion':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Lumion' ]
+'Споты с тремя и более плафонами Lumion':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Lumion' ]
+'Споты с одним плафоном Lumion':
+  weight: 8
+  input: [ 'Споты с одним плафоном Lumion' ]
+'Люстры на штанге Lumion':
+  weight: 8
+  input: [ 'Люстры на штанге Lumion' ]
+'Настенные светильники AXO Light':
+  weight: 8
+  input: [ 'Настенные светильники AXO Light' ]
+'Настенные светильники Leds':
+  weight: 8
+  input: [ 'Настенные светильники Leds' ]
+'Бра Fabbian':
+  weight: 8
+  input: [ 'Бра Fabbian' ]
+'Настенные светильники Slamp':
+  weight: 8
+  input: [ 'Настенные светильники Slamp' ]
+'Трековые светильники Crystal Lux':
+  weight: 8
+  input: [ 'Трековые светильники Crystal Lux' ]
+'Споты с двумя плафонами Crystal Lux':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Crystal Lux' ]
+'Споты с тремя и более плафонами Crystal Lux':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Crystal Lux' ]
+'Комплектующие для треков Novotech':
+  weight: 8
+  input: [ 'Комплектующие для треков Novotech' ]
+'Основания для светильников Novotech':
+  weight: 8
+  input: [ 'Основания для светильников Novotech' ]
+'Бра Milan Iluminacion':
+  weight: 8
+  input: [ 'Бра Milan Iluminacion' ]
+'Настенные светильники Milan Iluminacion':
+  weight: 8
+  input: [ 'Настенные светильники Milan Iluminacion' ]
+'Настенные светильники Egoluce':
+  weight: 8
+  input: [ 'Настенные светильники Egoluce' ]
+'Бра Delta Light':
+  weight: 8
+  input: [ 'Бра Delta Light' ]
+'Зеркала Odeon Light':
+  weight: 8
+  input: [ 'Зеркала Odeon Light' ]
+'Управление светодиодными лентами Eglo':
+  weight: 8
+  input: [ 'Управление светодиодными лентами Eglo' ]
+'Подвесные светильники Loft It':
+  weight: 8
+  input: [ 'Подвесные светильники Loft It' ]
+'Бра Loft It':
+  weight: 8
+  input: [ 'Бра Loft It' ]
+'Торшеры с одним плафоном Loft It':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Loft It' ]
+'Потолочные светильники Loft It':
+  weight: 8
+  input: [ 'Потолочные светильники Loft It' ]
+'Декоративные настольные лампы Loft It':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Loft It' ]
+'Подвесные люстры Loft It':
+  weight: 8
+  input: [ 'Подвесные люстры Loft It' ]
+'Декоративные подсветки Loft It':
+  weight: 8
+  input: [ 'Декоративные подсветки Loft It' ]
+'Торшеры с двумя и более плафонами Loft It':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Loft It' ]
+'Потолочные люстры Loft It':
+  weight: 8
+  input: [ 'Потолочные люстры Loft It' ]
+'Споты с одним плафоном Loft It':
+  weight: 8
+  input: [ 'Споты с одним плафоном Loft It' ]
+'Мебельные светильники Loft It':
+  weight: 8
+  input: [ 'Мебельные светильники Loft It' ]
+'Точечные встраиваемые светильники Loft It':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Loft It' ]
+'Лампы накаливания Loft It':
+  weight: 8
+  input: [ 'Лампы накаливания Loft It' ]
+'Светодиодные лампы Loft It':
+  weight: 8
+  input: [ 'Светодиодные лампы Loft It' ]
+'Бра Omnilux':
+  weight: 8
+  input: [ 'Бра Omnilux' ]
+'Потолочные люстры Omnilux':
+  weight: 8
+  input: [ 'Потолочные люстры Omnilux' ]
+'Подвесные светильники Omnilux':
+  weight: 8
+  input: [ 'Подвесные светильники Omnilux' ]
+'Подвесные люстры Omnilux':
+  weight: 8
+  input: [ 'Подвесные люстры Omnilux' ]
+'Декоративные настольные лампы Omnilux':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Omnilux' ]
+'Торшеры с одним плафоном Omnilux':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Omnilux' ]
+'Споты с тремя и более плафонами Omnilux':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Omnilux' ]
+'Потолочные светильники Omnilux':
+  weight: 8
+  input: [ 'Потолочные светильники Omnilux' ]
+'Настенные светильники Omnilux':
+  weight: 8
+  input: [ 'Настенные светильники Omnilux' ]
+'Подсветки для картин Omnilux':
+  weight: 8
+  input: [ 'Подсветки для картин Omnilux' ]
+'Торшеры с двумя и более плафонами Omnilux':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Omnilux' ]
+'Декоративные подсветки Omnilux':
+  weight: 8
+  input: [ 'Декоративные подсветки Omnilux' ]
+'Споты с одним плафоном Omnilux':
+  weight: 8
+  input: [ 'Споты с одним плафоном Omnilux' ]
+'Споты с двумя плафонами Omnilux':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Omnilux' ]
+'Потолочные светильники Velante':
+  weight: 8
+  input: [ 'Потолочные светильники Velante' ]
+'Мебельные светильники Velante':
+  weight: 8
+  input: [ 'Мебельные светильники Velante' ]
+'Подсветки для зеркал Velante':
+  weight: 8
+  input: [ 'Подсветки для зеркал Velante' ]
+'Подсветки для картин Velante':
+  weight: 8
+  input: [ 'Подсветки для картин Velante' ]
+'Подвесные светильники Velante':
+  weight: 8
+  input: [ 'Подвесные светильники Velante' ]
+'Подвесные люстры Velante':
+  weight: 8
+  input: [ 'Подвесные люстры Velante' ]
+'Торшеры с одним плафоном Velante':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Velante' ]
+'Декоративные настольные лампы Velante':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Velante' ]
+'Торшеры с двумя и более плафонами Velante':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Velante' ]
+'Потолочные люстры Velante':
+  weight: 8
+  input: [ 'Потолочные люстры Velante' ]
+'На ручную проверку Fumagalli':
+  weight: 8
+  input: [ 'На ручную проверку Fumagalli' ]
+'Уличные подвесные светильники Fumagalli':
+  weight: 8
+  input: [ 'Уличные подвесные светильники Fumagalli' ]
+'Уличные настенные светильники Fumagalli':
+  weight: 8
+  input: [ 'Уличные настенные светильники Fumagalli' ]
+'Прожекторы Fumagalli':
+  weight: 8
+  input: [ 'Прожекторы Fumagalli' ]
+'Уличные потолочные светильники Fumagalli':
+  weight: 8
+  input: [ 'Уличные потолочные светильники Fumagalli' ]
+'Декоративные подсветки Vele Luce':
+  weight: 8
+  input: [ 'Декоративные подсветки Vele Luce' ]
+'Выключатели, переключатели Werkel':
+  weight: 8
+  input: [ 'Выключатели, переключатели Werkel' ]
+'Розетки Werkel':
+  weight: 8
+  input: [ 'Розетки Werkel' ]
+'Диммеры, светорегуляторы Werkel':
+  weight: 8
+  input: [ 'Диммеры, светорегуляторы Werkel' ]
+'Кольца и рамки Werkel':
+  weight: 8
+  input: [ 'Кольца и рамки Werkel' ]
+'Звонки Werkel':
+  weight: 8
+  input: [ 'Звонки Werkel' ]
+'Удлинители, сетевые фильтры Werkel':
+  weight: 8
+  input: [ 'Удлинители, сетевые фильтры Werkel' ]
+'Искусственные елки Neon-Night':
+  weight: 8
+  input: [ 'Искусственные елки Neon-Night' ]
+'На ручную проверку Neon-Night':
+  weight: 8
+  input: [ 'На ручную проверку Neon-Night' ]
+'Белт-лайт Neon-Night':
+  weight: 8
+  input: [ 'Белт-лайт Neon-Night' ]
+'Елочные игрушки Neon-Night':
+  weight: 8
+  input: [ 'Елочные игрушки Neon-Night' ]
+'Гирлянды Eurosvet':
+  weight: 8
+  input: [ 'Гирлянды Eurosvet' ]
+'Точечные встраиваемые светильники L`Arte Luce':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники L`Arte Luce' ]
+'Подвесные люстры L`Arte Luce':
+  weight: 8
+  input: [ 'Подвесные люстры L`Arte Luce' ]
+'Бра L`Arte Luce':
+  weight: 8
+  input: [ 'Бра L`Arte Luce' ]
+'Подвесные светильники L`Arte Luce':
+  weight: 8
+  input: [ 'Подвесные светильники L`Arte Luce' ]
+'Декоративные настольные лампы L`Arte Luce':
+  weight: 8
+  input: [ 'Декоративные настольные лампы L`Arte Luce' ]
+'Торшеры с одним плафоном L`Arte Luce':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном L`Arte Luce' ]
+'Потолочные люстры L`Arte Luce':
+  weight: 8
+  input: [ 'Потолочные люстры L`Arte Luce' ]
+'Уличные настенные светильники L`Arte Luce':
+  weight: 8
+  input: [ 'Уличные настенные светильники L`Arte Luce' ]
+'Настенные светильники L`Arte Luce':
+  weight: 8
+  input: [ 'Настенные светильники L`Arte Luce' ]
+'Потолочные светильники L`Arte Luce':
+  weight: 8
+  input: [ 'Потолочные светильники L`Arte Luce' ]
+'Подсветки для картин L`Arte Luce':
+  weight: 8
+  input: [ 'Подсветки для картин L`Arte Luce' ]
+'На ручную проверку L`Arte Luce':
+  weight: 8
+  input: [ 'На ручную проверку L`Arte Luce' ]
+'Уличные подвесные светильники L`Arte Luce':
+  weight: 8
+  input: [ 'Уличные подвесные светильники L`Arte Luce' ]
+'Прожекторы L`Arte Luce':
+  weight: 8
+  input: [ 'Прожекторы L`Arte Luce' ]
+'Декоративные подсветки L`Arte Luce':
+  weight: 8
+  input: [ 'Декоративные подсветки L`Arte Luce' ]
+'Офисные настольные лампы Rexant':
+  weight: 8
+  input: [ 'Офисные настольные лампы Rexant' ]
+'Светодиодные лампы Rexant':
+  weight: 8
+  input: [ 'Светодиодные лампы Rexant' ]
+'Светильники с лупой Rexant':
+  weight: 8
+  input: [ 'Светильники с лупой Rexant' ]
+'Основания для светильников Rexant':
+  weight: 8
+  input: [ 'Основания для светильников Rexant' ]
+'Гирлянды Гирлянда.РФ':
+  weight: 8
+  input: [ 'Гирлянды Гирлянда.РФ' ]
+'Комплекты для украшения Гирлянда.РФ':
+  weight: 8
+  input: [ 'Комплекты для украшения Гирлянда.РФ' ]
+'Подсветки для картин Vele Luce':
+  weight: 8
+  input: [ 'Подсветки для картин Vele Luce' ]
+'Гирлянды Arlight':
+  weight: 8
+  input: [ 'Гирлянды Arlight' ]
+'Светодиодные ленты Arlight':
+  weight: 8
+  input: [ 'Светодиодные ленты Arlight' ]
+'На ручную проверку Arlight':
+  weight: 8
+  input: [ 'На ручную проверку Arlight' ]
+'Световые фигуры Arlight':
+  weight: 8
+  input: [ 'Световые фигуры Arlight' ]
+'Дюралайты Arlight':
+  weight: 8
+  input: [ 'Дюралайты Arlight' ]
+'Дюралайт Arlight':
+  weight: 8
+  input: [ 'Дюралайт Arlight' ]
+'Диммеры, светорегуляторы Arlight':
+  weight: 8
+  input: [ 'Диммеры, светорегуляторы Arlight' ]
+'Управление светодиодными лентами Arlight':
+  weight: 8
+  input: [ 'Управление светодиодными лентами Arlight' ]
+'Выключатели, переключатели Arlight':
+  weight: 8
+  input: [ 'Выключатели, переключатели Arlight' ]
+'Датчики движения Arlight':
+  weight: 8
+  input: [ 'Датчики движения Arlight' ]
+'Розетки Arlight':
+  weight: 8
+  input: [ 'Розетки Arlight' ]
+'Разветвители Arlight':
+  weight: 8
+  input: [ 'Разветвители Arlight' ]
+'Подвесные светильники Arlight':
+  weight: 8
+  input: [ 'Подвесные светильники Arlight' ]
+'Комплектующие для профилей Arlight':
+  weight: 8
+  input: [ 'Комплектующие для профилей Arlight' ]
+'Аксессуары для точечных светильников Arlight':
+  weight: 8
+  input: [ 'Аксессуары для точечных светильников Arlight' ]
+'Точечные встраиваемые светильники Arlight':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Arlight' ]
+'Даунлайты Arlight':
+  weight: 8
+  input: [ 'Даунлайты Arlight' ]
+'Споты с одним плафоном Arlight':
+  weight: 8
+  input: [ 'Споты с одним плафоном Arlight' ]
+'Споты с двумя плафонами Arlight':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Arlight' ]
+'Потолочные светильники Arlight':
+  weight: 8
+  input: [ 'Потолочные светильники Arlight' ]
+'Трековые светильники Arlight':
+  weight: 8
+  input: [ 'Трековые светильники Arlight' ]
+'Удлинители, сетевые фильтры Arlight':
+  weight: 8
+  input: [ 'Удлинители, сетевые фильтры Arlight' ]
+'Шинопроводы Arlight':
+  weight: 8
+  input: [ 'Шинопроводы Arlight' ]
+'Мебельные светильники Arlight':
+  weight: 8
+  input: [ 'Мебельные светильники Arlight' ]
+'Уличные настенные светильники Arlight':
+  weight: 8
+  input: [ 'Уличные настенные светильники Arlight' ]
+'Прожекторы Arlight':
+  weight: 8
+  input: [ 'Прожекторы Arlight' ]
+'Подводные светильники Arlight':
+  weight: 8
+  input: [ 'Подводные светильники Arlight' ]
+'Трековые светильники Mantra':
+  weight: 8
+  input: [ 'Трековые светильники Mantra' ]
+'Подсветки для лестниц Mantra':
+  weight: 8
+  input: [ 'Подсветки для лестниц Mantra' ]
+'Бра Kink Light':
+  weight: 8
+  input: [ 'Бра Kink Light' ]
+'Торшеры с двумя и более плафонами Kink Light':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Kink Light' ]
+'Подвесные люстры Kink Light':
+  weight: 8
+  input: [ 'Подвесные люстры Kink Light' ]
+'Потолочные люстры Kink Light':
+  weight: 8
+  input: [ 'Потолочные люстры Kink Light' ]
+'Подвесные светильники Kink Light':
+  weight: 8
+  input: [ 'Подвесные светильники Kink Light' ]
+'Потолочные светильники Kink Light':
+  weight: 8
+  input: [ 'Потолочные светильники Kink Light' ]
+'Декоративные подсветки Kink Light':
+  weight: 8
+  input: [ 'Декоративные подсветки Kink Light' ]
+'Уличные настенные светильники Kink Light':
+  weight: 8
+  input: [ 'Уличные настенные светильники Kink Light' ]
+'Трековые светильники Kink Light':
+  weight: 8
+  input: [ 'Трековые светильники Kink Light' ]
+'Точечные встраиваемые светильники Kink Light':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Kink Light' ]
+'Офисные настольные лампы Kink Light':
+  weight: 8
+  input: [ 'Офисные настольные лампы Kink Light' ]
+'Торшеры с одним плафоном Kink Light':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Kink Light' ]
+'Декоративные настольные лампы Kink Light':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Kink Light' ]
+'Светодиодные лампы Kink Light':
+  weight: 8
+  input: [ 'Светодиодные лампы Kink Light' ]
+'Светодиодные лампы L&B':
+  weight: 8
+  input: [ 'Светодиодные лампы L&B' ]
+'Лампы накаливания Lussole':
+  weight: 8
+  input: [ 'Лампы накаливания Lussole' ]
+'Споты с двумя плафонами Vele Luce':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Vele Luce' ]
+'Споты с тремя и более плафонами Vele Luce':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Vele Luce' ]
+'Комплектующие для треков Maytoni':
+  weight: 8
+  input: [ 'Комплектующие для треков Maytoni' ]
+'Подвесные люстры Vitaluce':
+  weight: 8
+  input: [ 'Подвесные люстры Vitaluce' ]
+'Бра Vitaluce':
+  weight: 8
+  input: [ 'Бра Vitaluce' ]
+'Декоративные настольные лампы Vitaluce':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Vitaluce' ]
+'Потолочные люстры Vitaluce':
+  weight: 8
+  input: [ 'Потолочные люстры Vitaluce' ]
+'Торшеры с двумя и более плафонами Vitaluce':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Vitaluce' ]
+'Торшеры с одним плафоном Vitaluce':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Vitaluce' ]
+'Настенные светильники Vitaluce':
+  weight: 8
+  input: [ 'Настенные светильники Vitaluce' ]
+'Споты с тремя и более плафонами Vitaluce':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Vitaluce' ]
+'Подвесные светильники Vitaluce':
+  weight: 8
+  input: [ 'Подвесные светильники Vitaluce' ]
+'Потолочные светильники Vitaluce':
+  weight: 8
+  input: [ 'Потолочные светильники Vitaluce' ]
+'Споты с двумя плафонами Vitaluce':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Vitaluce' ]
+'Споты с одним плафоном Vitaluce':
+  weight: 8
+  input: [ 'Споты с одним плафоном Vitaluce' ]
+'Уличные настенные светильники Feron':
+  weight: 8
+  input: [ 'Уличные настенные светильники Feron' ]
+'На ручную проверку Feron':
+  weight: 8
+  input: [ 'На ручную проверку Feron' ]
+'Шинопроводы Feron':
+  weight: 8
+  input: [ 'Шинопроводы Feron' ]
+'Комплектующие для треков Feron':
+  weight: 8
+  input: [ 'Комплектующие для треков Feron' ]
+'Уличные подвесные светильники Feron':
+  weight: 8
+  input: [ 'Уличные подвесные светильники Feron' ]
+'Мебельные светильники Feron':
+  weight: 8
+  input: [ 'Мебельные светильники Feron' ]
+'Прожекторы Feron':
+  weight: 8
+  input: [ 'Прожекторы Feron' ]
+'Уличные потолочные светильники Feron':
+  weight: 8
+  input: [ 'Уличные потолочные светильники Feron' ]
+'Точечные встраиваемые светильники Feron':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Feron' ]
+'Потолочные светильники Feron':
+  weight: 8
+  input: [ 'Потолочные светильники Feron' ]
+'Офисные настольные лампы Feron':
+  weight: 8
+  input: [ 'Офисные настольные лампы Feron' ]
+'Светодиодные ленты Feron':
+  weight: 8
+  input: [ 'Светодиодные ленты Feron' ]
+'Споты с одним плафоном Feron':
+  weight: 8
+  input: [ 'Споты с одним плафоном Feron' ]
+'Трековые светильники Feron':
+  weight: 8
+  input: [ 'Трековые светильники Feron' ]
+'Подсветки для зеркал Feron':
+  weight: 8
+  input: [ 'Подсветки для зеркал Feron' ]
+'Подвесные светильники Feron':
+  weight: 8
+  input: [ 'Подвесные светильники Feron' ]
+'Подвесные люстры Rivoli':
+  weight: 8
+  input: [ 'Подвесные люстры Rivoli' ]
+'Бра Rivoli':
+  weight: 8
+  input: [ 'Бра Rivoli' ]
+'Подвесные светильники Rivoli':
+  weight: 8
+  input: [ 'Подвесные светильники Rivoli' ]
+'Потолочные люстры Rivoli':
+  weight: 8
+  input: [ 'Потолочные люстры Rivoli' ]
+'Декоративные настольные лампы Rivoli':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Rivoli' ]
+'Офисные настольные лампы Rivoli':
+  weight: 8
+  input: [ 'Офисные настольные лампы Rivoli' ]
+'Споты с одним плафоном Rivoli':
+  weight: 8
+  input: [ 'Споты с одним плафоном Rivoli' ]
+'Споты с двумя плафонами Rivoli':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Rivoli' ]
+'Споты с тремя и более плафонами Rivoli':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Rivoli' ]
+'Офисные настольные лампы ЭРА':
+  weight: 8
+  input: [ 'Офисные настольные лампы ЭРА' ]
+'Точечные встраиваемые светильники ЭРА':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники ЭРА' ]
+'Декоративные настольные лампы ЭРА':
+  weight: 8
+  input: [ 'Декоративные настольные лампы ЭРА' ]
+'Настенные светильники ЭРА':
+  weight: 8
+  input: [ 'Настенные светильники ЭРА' ]
+'Потолочные светильники ЭРА':
+  weight: 8
+  input: [ 'Потолочные светильники ЭРА' ]
+'Прожекторы ЭРА':
+  weight: 8
+  input: [ 'Прожекторы ЭРА' ]
+'Прожекторы Lucide':
+  weight: 8
+  input: [ 'Прожекторы Lucide' ]
+'Наружные светильники на солнечных батареях Lucide':
+  weight: 8
+  input: [ 'Наружные светильники на солнечных батареях Lucide' ]
+'Потолочные люстры Lucide':
+  weight: 8
+  input: [ 'Потолочные люстры Lucide' ]
+'Настенные светильники Bogate`s':
+  weight: 8
+  input: [ 'Настенные светильники Bogate`s' ]
+'Потолочные светильники Bogate`s':
+  weight: 8
+  input: [ 'Потолочные светильники Bogate`s' ]
+'Торшеры с двумя и более плафонами Bogate`s':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Bogate`s' ]
+'Галогенные лампы Novotech':
+  weight: 8
+  input: [ 'Галогенные лампы Novotech' ]
+'Настенные светильники Velante':
+  weight: 8
+  input: [ 'Настенные светильники Velante' ]
+'Подсветки для картин Mantra':
+  weight: 8
+  input: [ 'Подсветки для картин Mantra' ]
+'Подсветки для зеркал ST Luce':
+  weight: 8
+  input: [ 'Подсветки для зеркал ST Luce' ]
+'Потолочные светильники TopDecor':
+  weight: 8
+  input: [ 'Потолочные светильники TopDecor' ]
+'Подвесные светильники TopDecor':
+  weight: 8
+  input: [ 'Подвесные светильники TopDecor' ]
+'Настенные светильники TopDecor':
+  weight: 8
+  input: [ 'Настенные светильники TopDecor' ]
+'Торшеры с одним плафоном TopDecor':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном TopDecor' ]
+'Декоративные настольные лампы TopDecor':
+  weight: 8
+  input: [ 'Декоративные настольные лампы TopDecor' ]
+'Бра TopDecor':
+  weight: 8
+  input: [ 'Бра TopDecor' ]
+'Споты с одним плафоном TopDecor':
+  weight: 8
+  input: [ 'Споты с одним плафоном TopDecor' ]
+'Декоративные подсветки TopDecor':
+  weight: 8
+  input: [ 'Декоративные подсветки TopDecor' ]
+'Потолочные люстры TopDecor':
+  weight: 8
+  input: [ 'Потолочные люстры TopDecor' ]
+'Настенные светильники Maytoni':
+  weight: 8
+  input: [ 'Настенные светильники Maytoni' ]
+'Прожекторы Maytoni':
+  weight: 8
+  input: [ 'Прожекторы Maytoni' ]
+'Подвесные светильники Evoluce':
+  weight: 8
+  input: [ 'Подвесные светильники Evoluce' ]
+'Бра Evoluce':
+  weight: 8
+  input: [ 'Бра Evoluce' ]
+'Подвесные люстры Evoluce':
+  weight: 8
+  input: [ 'Подвесные люстры Evoluce' ]
+'Декоративные настольные лампы Evoluce':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Evoluce' ]
+'Торшеры с одним плафоном Evoluce':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Evoluce' ]
+'Галогенные лампы Voltega':
+  weight: 8
+  input: [ 'Галогенные лампы Voltega' ]
+'Основания для светильников Feron':
+  weight: 8
+  input: [ 'Основания для светильников Feron' ]
+'Звонки Feron':
+  weight: 8
+  input: [ 'Звонки Feron' ]
+'Диммеры, светорегуляторы Feron':
+  weight: 8
+  input: [ 'Диммеры, светорегуляторы Feron' ]
+'Розетки Feron':
+  weight: 8
+  input: [ 'Розетки Feron' ]
+'Датчики движения Feron':
+  weight: 8
+  input: [ 'Датчики движения Feron' ]
+'Датчики освещенности Feron':
+  weight: 8
+  input: [ 'Датчики освещенности Feron' ]
+'Наружные светильники на солнечных батареях Feron':
+  weight: 8
+  input: [ 'Наружные светильники на солнечных батареях Feron' ]
+'Трековые светильники Eurosvet':
+  weight: 8
+  input: [ 'Трековые светильники Eurosvet' ]
+'Подсветки для картин Eurosvet':
+  weight: 8
+  input: [ 'Подсветки для картин Eurosvet' ]
+'Комплектующие для треков Arte Lamp':
+  weight: 8
+  input: [ 'Комплектующие для треков Arte Lamp' ]
+'Шинопроводы Arte Lamp':
+  weight: 8
+  input: [ 'Шинопроводы Arte Lamp' ]
+'Комплектующие для треков Lightstar':
+  weight: 8
+  input: [ 'Комплектующие для треков Lightstar' ]
+'Шинопроводы Novotech':
+  weight: 8
+  input: [ 'Шинопроводы Novotech' ]
+'Шинопроводы Lightstar':
+  weight: 8
+  input: [ 'Шинопроводы Lightstar' ]
+'Комплектующие для треков DeMarkt':
+  weight: 8
+  input: [ 'Комплектующие для треков DeMarkt' ]
+'Шинопроводы DeMarkt':
+  weight: 8
+  input: [ 'Шинопроводы DeMarkt' ]
+'Шинопроводы Maytoni':
+  weight: 8
+  input: [ 'Шинопроводы Maytoni' ]
+'Комплектующие для треков Citilux':
+  weight: 8
+  input: [ 'Комплектующие для треков Citilux' ]
+'Шинопроводы Citilux':
+  weight: 8
+  input: [ 'Шинопроводы Citilux' ]
+'Комплектующие для треков Odeon Light':
+  weight: 8
+  input: [ 'Комплектующие для треков Odeon Light' ]
+'Шинопроводы Crystal Lux':
+  weight: 8
+  input: [ 'Шинопроводы Crystal Lux' ]
+'Комплектующие для треков Crystal Lux':
+  weight: 8
+  input: [ 'Комплектующие для треков Crystal Lux' ]
+'Профили для лент Arlight':
+  weight: 8
+  input: [ 'Профили для лент Arlight' ]
+'Комплектующие для треков Arlight':
+  weight: 8
+  input: [ 'Комплектующие для треков Arlight' ]
+'Комплектующие для треков Kink Light':
+  weight: 8
+  input: [ 'Комплектующие для треков Kink Light' ]
+'Шинопроводы Kink Light':
+  weight: 8
+  input: [ 'Шинопроводы Kink Light' ]
+'Торшеры с двумя и более плафонами Mantra':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Mantra' ]
+'Выключатели, переключатели ЭРА':
+  weight: 8
+  input: [ 'Выключатели, переключатели ЭРА' ]
+'Розетки ЭРА':
+  weight: 8
+  input: [ 'Розетки ЭРА' ]
+'Диммеры, светорегуляторы ЭРА':
+  weight: 8
+  input: [ 'Диммеры, светорегуляторы ЭРА' ]
+'Терморегуляторы ЭРА':
+  weight: 8
+  input: [ 'Терморегуляторы ЭРА' ]
+'Кольца и рамки ЭРА':
+  weight: 8
+  input: [ 'Кольца и рамки ЭРА' ]
+'Потолочные люстры Natali Kovaltseva':
+  weight: 8
+  input: [ 'Потолочные люстры Natali Kovaltseva' ]
+'Бра Natali Kovaltseva':
+  weight: 8
+  input: [ 'Бра Natali Kovaltseva' ]
+'Подвесные светильники Natali Kovaltseva':
+  weight: 8
+  input: [ 'Подвесные светильники Natali Kovaltseva' ]
+'Мебельные светильники Natali Kovaltseva':
+  weight: 8
+  input: [ 'Мебельные светильники Natali Kovaltseva' ]
+'Потолочные светильники Natali Kovaltseva':
+  weight: 8
+  input: [ 'Потолочные светильники Natali Kovaltseva' ]
+'Подвесные люстры Natali Kovaltseva':
+  weight: 8
+  input: [ 'Подвесные люстры Natali Kovaltseva' ]
+'Торшеры с одним плафоном Natali Kovaltseva':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Natali Kovaltseva' ]
+'Декоративные настольные лампы Natali Kovaltseva':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Natali Kovaltseva' ]
+'Декоративные подсветки Natali Kovaltseva':
+  weight: 8
+  input: [ 'Декоративные подсветки Natali Kovaltseva' ]
+'Споты с тремя и более плафонами Natali Kovaltseva':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Natali Kovaltseva' ]
+'Аксессуары для точечных светильников Maytoni':
+  weight: 8
+  input: [ 'Аксессуары для точечных светильников Maytoni' ]
+'Аксессуары для спотов Maytoni':
+  weight: 8
+  input: [ 'Аксессуары для спотов Maytoni' ]
+'Картины Toplight':
+  weight: 8
+  input: [ 'Картины Toplight' ]
+'Постеры Toplight':
+  weight: 8
+  input: [ 'Постеры Toplight' ]
+'Ключницы Toplight':
+  weight: 8
+  input: [ 'Ключницы Toplight' ]
+'Ночники Arte Lamp':
+  weight: 8
+  input: [ 'Ночники Arte Lamp' ]
+'Шинопроводы Elektrostandard':
+  weight: 8
+  input: [ 'Шинопроводы Elektrostandard' ]
+'Светодиодные лампы Elektrostandard':
+  weight: 8
+  input: [ 'Светодиодные лампы Elektrostandard' ]
+'Бра Elektrostandard':
+  weight: 8
+  input: [ 'Бра Elektrostandard' ]
+'Подсветки для зеркал Elektrostandard':
+  weight: 8
+  input: [ 'Подсветки для зеркал Elektrostandard' ]
+'Основания для светильников Citilux':
+  weight: 8
+  input: [ 'Основания для светильников Citilux' ]
+'Торшеры с одним плафоном DeMarkt':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном DeMarkt' ]
+'Торшеры с двумя и более плафонами DeMarkt':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами DeMarkt' ]
+'Офисные настольные лампы GAUSS светильники':
+  weight: 8
+  input: [ 'Офисные настольные лампы GAUSS светильники' ]
+'Кольцевые лампы GAUSS светильники':
+  weight: 8
+  input: [ 'Кольцевые лампы GAUSS светильники' ]
+'Основания для светильников GAUSS светильники':
+  weight: 8
+  input: [ 'Основания для светильников GAUSS светильники' ]
+'Зеркала Brillica':
+  weight: 8
+  input: [ 'Зеркала Brillica' ]
+'Звонки Elektrostandard':
+  weight: 8
+  input: [ 'Звонки Elektrostandard' ]
+'Комплектующие для треков Elektrostandard':
+  weight: 8
+  input: [ 'Комплектующие для треков Elektrostandard' ]
+'Датчики движения Elektrostandard':
+  weight: 8
+  input: [ 'Датчики движения Elektrostandard' ]
+'Розетки Elektrostandard':
+  weight: 8
+  input: [ 'Розетки Elektrostandard' ]
+'Таймеры Elektrostandard':
+  weight: 8
+  input: [ 'Таймеры Elektrostandard' ]
+'Патроны Elektrostandard':
+  weight: 8
+  input: [ 'Патроны Elektrostandard' ]
+'На ручную проверку Denkirs':
+  weight: 8
+  input: [ 'На ручную проверку Denkirs' ]
+'Точечные встраиваемые светильники Denkirs':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Denkirs' ]
+'Подсветки для лестниц Denkirs':
+  weight: 8
+  input: [ 'Подсветки для лестниц Denkirs' ]
+'Потолочные светильники Denkirs':
+  weight: 8
+  input: [ 'Потолочные светильники Denkirs' ]
+'Споты с одним плафоном Denkirs':
+  weight: 8
+  input: [ 'Споты с одним плафоном Denkirs' ]
+'Аксессуары для точечных светильников Denkirs':
+  weight: 8
+  input: [ 'Аксессуары для точечных светильников Denkirs' ]
+'Декоративные подсветки Denkirs':
+  weight: 8
+  input: [ 'Декоративные подсветки Denkirs' ]
+'Подвесные светильники Denkirs':
+  weight: 8
+  input: [ 'Подвесные светильники Denkirs' ]
+'Настенные светильники Denkirs':
+  weight: 8
+  input: [ 'Настенные светильники Denkirs' ]
+'Трековые светильники Denkirs':
+  weight: 8
+  input: [ 'Трековые светильники Denkirs' ]
+'Шинопроводы Denkirs':
+  weight: 8
+  input: [ 'Шинопроводы Denkirs' ]
+'Комплектующие для треков Denkirs':
+  weight: 8
+  input: [ 'Комплектующие для треков Denkirs' ]
+'Уличные настенные светильники Camelion':
+  weight: 8
+  input: [ 'Уличные настенные светильники Camelion' ]
+'Декоративные настольные лампы Camelion':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Camelion' ]
+'Подвесные светильники Camelion':
+  weight: 8
+  input: [ 'Подвесные светильники Camelion' ]
+'Офисные настольные лампы Camelion':
+  weight: 8
+  input: [ 'Офисные настольные лампы Camelion' ]
+'Торшеры с одним плафоном Camelion':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Camelion' ]
+'Бра Camelion':
+  weight: 8
+  input: [ 'Бра Camelion' ]
+'Торшеры с двумя и более плафонами Camelion':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Camelion' ]
+'Споты с одним плафоном Camelion':
+  weight: 8
+  input: [ 'Споты с одним плафоном Camelion' ]
+'Споты с двумя плафонами Camelion':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Camelion' ]
+'Споты с тремя и более плафонами Camelion':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Camelion' ]
+'Потолочные светильники Camelion':
+  weight: 8
+  input: [ 'Потолочные светильники Camelion' ]
+'На ручную проверку Camelion':
+  weight: 8
+  input: [ 'На ручную проверку Camelion' ]
+'Уличные подвесные светильники Camelion':
+  weight: 8
+  input: [ 'Уличные подвесные светильники Camelion' ]
+'Точечные встраиваемые светильники Camelion':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Camelion' ]
+'Наружные светильники на солнечных батареях Camelion':
+  weight: 8
+  input: [ 'Наружные светильники на солнечных батареях Camelion' ]
+'Мебельные светильники Camelion':
+  weight: 8
+  input: [ 'Мебельные светильники Camelion' ]
+'Прожекторы Camelion':
+  weight: 8
+  input: [ 'Прожекторы Camelion' ]
+'Подсветки для лестниц Werkel':
+  weight: 8
+  input: [ 'Подсветки для лестниц Werkel' ]
+'Точечные встраиваемые светильники Werkel':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Werkel' ]
+'Аксессуары для точечных светильников Werkel':
+  weight: 8
+  input: [ 'Аксессуары для точечных светильников Werkel' ]
+'Диммеры, светорегуляторы Elektrostandard':
+  weight: 8
+  input: [ 'Диммеры, светорегуляторы Elektrostandard' ]
+'Управление светодиодными лентами Novotech':
+  weight: 8
+  input: [ 'Управление светодиодными лентами Novotech' ]
+'Точечные встраиваемые светильники ST Luce':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники ST Luce' ]
+'Торшеры с двумя и более плафонами Vele Luce':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Vele Luce' ]
+'Настенные светильники Evoluce':
+  weight: 8
+  input: [ 'Настенные светильники Evoluce' ]
+'Торшеры с двумя и более плафонами Evoluce':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Evoluce' ]
+'Потолочные светильники Evoluce':
+  weight: 8
+  input: [ 'Потолочные светильники Evoluce' ]
+'Управление светодиодными лентами Eurosvet':
+  weight: 8
+  input: [ 'Управление светодиодными лентами Eurosvet' ]
+'Светодиодные лампы Eurosvet':
+  weight: 8
+  input: [ 'Светодиодные лампы Eurosvet' ]
+'Бактерицидные светильники Elektrostandard':
+  weight: 8
+  input: [ 'Бактерицидные светильники Elektrostandard' ]
+'Основания для светильников Elektrostandard':
+  weight: 8
+  input: [ 'Основания для светильников Elektrostandard' ]
+'Средства для чистки Eurosvet':
+  weight: 8
+  input: [ 'Средства для чистки Eurosvet' ]
+'Прожекторы Gauss':
+  weight: 8
+  input: [ 'Прожекторы Gauss' ]
+'Точечные встраиваемые светильники Gauss':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Gauss' ]
+'Средства для чистки Maytoni':
+  weight: 8
+  input: [ 'Средства для чистки Maytoni' ]
+'Основания для светильников Loft It':
+  weight: 8
+  input: [ 'Основания для светильников Loft It' ]
+'Профили для лент Lightstar':
+  weight: 8
+  input: [ 'Профили для лент Lightstar' ]
+'Шинопроводы ST Luce':
+  weight: 8
+  input: [ 'Шинопроводы ST Luce' ]
+'Комплектующие для треков ST Luce':
+  weight: 8
+  input: [ 'Комплектующие для треков ST Luce' ]
+'Трековые светильники ST Luce':
+  weight: 8
+  input: [ 'Трековые светильники ST Luce' ]
+'Офисные настольные лампы Ultraflash':
+  weight: 8
+  input: [ 'Офисные настольные лампы Ultraflash' ]
+'Прожекторы Ultraflash':
+  weight: 8
+  input: [ 'Прожекторы Ultraflash' ]
+'Мебельные светильники Ultraflash':
+  weight: 8
+  input: [ 'Мебельные светильники Ultraflash' ]
+'Споты с одним плафоном Evoluce':
+  weight: 8
+  input: [ 'Споты с одним плафоном Evoluce' ]
+'Бра Simple Story':
+  weight: 8
+  input: [ 'Бра Simple Story' ]
+'Подвесные люстры Simple Story':
+  weight: 8
+  input: [ 'Подвесные люстры Simple Story' ]
+'Декоративные настольные лампы Simple Story':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Simple Story' ]
+'Потолочные светильники Simple Story':
+  weight: 8
+  input: [ 'Потолочные светильники Simple Story' ]
+'Потолочные люстры Simple Story':
+  weight: 8
+  input: [ 'Потолочные люстры Simple Story' ]
+'Подвесные светильники Simple Story':
+  weight: 8
+  input: [ 'Подвесные светильники Simple Story' ]
+'Торшеры с одним плафоном Simple Story':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Simple Story' ]
+'Точечные встраиваемые светильники Simple Story':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Simple Story' ]
+'Бра iLamp':
+  weight: 8
+  input: [ 'Бра iLamp' ]
+'Подвесные люстры iLamp':
+  weight: 8
+  input: [ 'Подвесные люстры iLamp' ]
+'Декоративные настольные лампы iLamp':
+  weight: 8
+  input: [ 'Декоративные настольные лампы iLamp' ]
+'Торшеры с одним плафоном iLamp':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном iLamp' ]
+'Потолочные люстры iLamp':
+  weight: 8
+  input: [ 'Потолочные люстры iLamp' ]
+'Подвесные светильники iLamp':
+  weight: 8
+  input: [ 'Подвесные светильники iLamp' ]
+'Настенные светильники iLamp':
+  weight: 8
+  input: [ 'Настенные светильники iLamp' ]
+'Зеркала Art Home Decor':
+  weight: 8
+  input: [ 'Зеркала Art Home Decor' ]
+'Потолочные светильники iLedex':
+  weight: 8
+  input: [ 'Потолочные светильники iLedex' ]
+'Потолочные люстры iLedex':
+  weight: 8
+  input: [ 'Потолочные люстры iLedex' ]
+'Подвесные люстры iLedex':
+  weight: 8
+  input: [ 'Подвесные люстры iLedex' ]
+'Декоративные настольные лампы iLedex':
+  weight: 8
+  input: [ 'Декоративные настольные лампы iLedex' ]
+'Настенные светильники iLedex':
+  weight: 8
+  input: [ 'Настенные светильники iLedex' ]
+'Подвесные светильники iLedex':
+  weight: 8
+  input: [ 'Подвесные светильники iLedex' ]
+'Торшеры с двумя и более плафонами iLedex':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами iLedex' ]
+'Споты с двумя плафонами iLedex':
+  weight: 8
+  input: [ 'Споты с двумя плафонами iLedex' ]
+'Споты с одним плафоном iLedex':
+  weight: 8
+  input: [ 'Споты с одним плафоном iLedex' ]
+'Торшеры с одним плафоном iLedex':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном iLedex' ]
+'Аксессуары для подвесных и потолочных светильников Novotech':
+  weight: 8
+  input: [ 'Аксессуары для подвесных и потолочных светильников Novotech' ]
+'Наружные светильники на солнечных батареях Mantra':
+  weight: 8
+  input: [ 'Наружные светильники на солнечных батареях Mantra' ]
+'Комплектующие для треков Mantra':
+  weight: 8
+  input: [ 'Комплектующие для треков Mantra' ]
+'На ручную проверку Toplight':
+  weight: 8
+  input: [ 'На ручную проверку Toplight' ]
+'Уличные потолочные светильники Lucide':
+  weight: 8
+  input: [ 'Уличные потолочные светильники Lucide' ]
+'Основания для светильников Lucide':
+  weight: 8
+  input: [ 'Основания для светильников Lucide' ]
+'Шинопроводы Nowodvorski':
+  weight: 8
+  input: [ 'Шинопроводы Nowodvorski' ]
+'Комплектующие для треков Nowodvorski':
+  weight: 8
+  input: [ 'Комплектующие для треков Nowodvorski' ]
+'Галогенные лампы Nowodvorski':
+  weight: 8
+  input: [ 'Галогенные лампы Nowodvorski' ]
+'Основания для светильников Nowodvorski':
+  weight: 8
+  input: [ 'Основания для светильников Nowodvorski' ]
+'Датчики движения Nowodvorski':
+  weight: 8
+  input: [ 'Датчики движения Nowodvorski' ]
+'Светодиодные лампы Nowodvorski':
+  weight: 8
+  input: [ 'Светодиодные лампы Nowodvorski' ]
+'Управление светодиодными лентами Mw-Light':
+  weight: 8
+  input: [ 'Управление светодиодными лентами Mw-Light' ]
+'Аксессуары для люстр Mw-Light':
+  weight: 8
+  input: [ 'Аксессуары для люстр Mw-Light' ]
+'Аксессуары для бра Mw-Light':
+  weight: 8
+  input: [ 'Аксессуары для бра Mw-Light' ]
+'Подсветки для лестниц Elektrostandard':
+  weight: 8
+  input: [ 'Подсветки для лестниц Elektrostandard' ]
+'Основания для светильников Maytoni':
+  weight: 8
+  input: [ 'Основания для светильников Maytoni' ]
+'Основания для светильников Mantra':
+  weight: 8
+  input: [ 'Основания для светильников Mantra' ]
+'Розетки Mantra':
+  weight: 8
+  input: [ 'Розетки Mantra' ]
+'Уличные настенные светильники Crystal Lux':
+  weight: 8
+  input: [ 'Уличные настенные светильники Crystal Lux' ]
+'Световые фигуры Gauss':
+  weight: 8
+  input: [ 'Световые фигуры Gauss' ]
+'Настенные светильники Arlight':
+  weight: 8
+  input: [ 'Настенные светильники Arlight' ]
+'Уличные потолочные светильники Elektrostandard':
+  weight: 8
+  input: [ 'Уличные потолочные светильники Elektrostandard' ]
+'Выключатели, переключатели Bticino':
+  weight: 8
+  input: [ 'Выключатели, переключатели Bticino' ]
+'Рамки Bticino':
+  weight: 8
+  input: [ 'Рамки Bticino' ]
+'Распаячные коробки Bticino':
+  weight: 8
+  input: [ 'Распаячные коробки Bticino' ]
+'Розетки Bticino':
+  weight: 8
+  input: [ 'Розетки Bticino' ]
+'Диммеры, светорегуляторы Bticino':
+  weight: 8
+  input: [ 'Диммеры, светорегуляторы Bticino' ]
+'Датчики движения Bticino':
+  weight: 8
+  input: [ 'Датчики движения Bticino' ]
+'Терморегуляторы Bticino':
+  weight: 8
+  input: [ 'Терморегуляторы Bticino' ]
+'Споты с одним плафоном Bticino':
+  weight: 8
+  input: [ 'Споты с одним плафоном Bticino' ]
+'Мебельные светильники Bticino':
+  weight: 8
+  input: [ 'Мебельные светильники Bticino' ]
+'На ручную проверку Bticino':
+  weight: 8
+  input: [ 'На ручную проверку Bticino' ]
+'Звонки Bticino':
+  weight: 8
+  input: [ 'Звонки Bticino' ]
+'Клеммы Bticino':
+  weight: 8
+  input: [ 'Клеммы Bticino' ]
+'Управление светодиодными лентами Bticino':
+  weight: 8
+  input: [ 'Управление светодиодными лентами Bticino' ]
+'Клеммы Ospel':
+  weight: 8
+  input: [ 'Клеммы Ospel' ]
+'Розетки Ospel':
+  weight: 8
+  input: [ 'Розетки Ospel' ]
+'Распаячные коробки Ospel':
+  weight: 8
+  input: [ 'Распаячные коробки Ospel' ]
+'Рамки Ospel':
+  weight: 8
+  input: [ 'Рамки Ospel' ]
+'Терморегуляторы Ospel':
+  weight: 8
+  input: [ 'Терморегуляторы Ospel' ]
+'Зеркала Runden':
+  weight: 8
+  input: [ 'Зеркала Runden' ]
+'Трансформаторы Elektrostandard':
+  weight: 8
+  input: [ 'Трансформаторы Elektrostandard' ]
+'Розетки JUNG':
+  weight: 8
+  input: [ 'Розетки JUNG' ]
+'Выключатели, переключатели JUNG':
+  weight: 8
+  input: [ 'Выключатели, переключатели JUNG' ]
+'Распаячные коробки JUNG':
+  weight: 8
+  input: [ 'Распаячные коробки JUNG' ]
+'Диммеры, светорегуляторы JUNG':
+  weight: 8
+  input: [ 'Диммеры, светорегуляторы JUNG' ]
+'Рамки JUNG':
+  weight: 8
+  input: [ 'Рамки JUNG' ]
+'Терморегуляторы JUNG':
+  weight: 8
+  input: [ 'Терморегуляторы JUNG' ]
+'Таймеры JUNG':
+  weight: 8
+  input: [ 'Таймеры JUNG' ]
+'Датчики движения JUNG':
+  weight: 8
+  input: [ 'Датчики движения JUNG' ]
+'Клеммы JUNG':
+  weight: 8
+  input: [ 'Клеммы JUNG' ]
+'Звонки JUNG':
+  weight: 8
+  input: [ 'Звонки JUNG' ]
+'Выключатели, переключатели Abb':
+  weight: 8
+  input: [ 'Выключатели, переключатели Abb' ]
+'Терморегуляторы Abb':
+  weight: 8
+  input: [ 'Терморегуляторы Abb' ]
+'Датчики движения Abb':
+  weight: 8
+  input: [ 'Датчики движения Abb' ]
+'Таймеры Abb':
+  weight: 8
+  input: [ 'Таймеры Abb' ]
+'Розетки Abb':
+  weight: 8
+  input: [ 'Розетки Abb' ]
+'Рамки Abb':
+  weight: 8
+  input: [ 'Рамки Abb' ]
+'Диммеры, светорегуляторы Abb':
+  weight: 8
+  input: [ 'Диммеры, светорегуляторы Abb' ]
+'Датчики движения Legrand':
+  weight: 8
+  input: [ 'Датчики движения Legrand' ]
+'Выключатели, переключатели Legrand':
+  weight: 8
+  input: [ 'Выключатели, переключатели Legrand' ]
+'Рамки Legrand':
+  weight: 8
+  input: [ 'Рамки Legrand' ]
+'Розетки Legrand':
+  weight: 8
+  input: [ 'Розетки Legrand' ]
+'Распаячные коробки Legrand':
+  weight: 8
+  input: [ 'Распаячные коробки Legrand' ]
+'Терморегуляторы Legrand':
+  weight: 8
+  input: [ 'Терморегуляторы Legrand' ]
+'Звонки Legrand':
+  weight: 8
+  input: [ 'Звонки Legrand' ]
+'Диммеры, светорегуляторы Legrand':
+  weight: 8
+  input: [ 'Диммеры, светорегуляторы Legrand' ]
+'Точечные встраиваемые светильники Legrand':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Legrand' ]
+'Лицевые панели, заглушки Legrand':
+  weight: 8
+  input: [ 'Лицевые панели, заглушки Legrand' ]
+'Настенные светильники Legrand':
+  weight: 8
+  input: [ 'Настенные светильники Legrand' ]
+'Основания для светильников Markslojd':
+  weight: 8
+  input: [ 'Основания для светильников Markslojd' ]
+'Комплектующие для треков Markslojd':
+  weight: 8
+  input: [ 'Комплектующие для треков Markslojd' ]
+'Световые фигуры Markslojd':
+  weight: 8
+  input: [ 'Световые фигуры Markslojd' ]
+'Терморегуляторы Werkel':
+  weight: 8
+  input: [ 'Терморегуляторы Werkel' ]
+'Светодиодные лампы Eglo':
+  weight: 8
+  input: [ 'Светодиодные лампы Eglo' ]
+'Подвесы Kink Light':
+  weight: 8
+  input: [ 'Подвесы Kink Light' ]
+'Подсветки для картин Kink Light':
+  weight: 8
+  input: [ 'Подсветки для картин Kink Light' ]
+'Настенные светильники Kink Light':
+  weight: 8
+  input: [ 'Настенные светильники Kink Light' ]
+'Основания для светильников Kink Light':
+  weight: 8
+  input: [ 'Основания для светильников Kink Light' ]
+'Управление светодиодными лентами Kink Light':
+  weight: 8
+  input: [ 'Управление светодиодными лентами Kink Light' ]
+'Настенные светильники Divinare':
+  weight: 8
+  input: [ 'Настенные светильники Divinare' ]
+'Люстры на штанге Arte Lamp':
+  weight: 8
+  input: [ 'Люстры на штанге Arte Lamp' ]
+'Наружные светильники на солнечных батареях ST Luce':
+  weight: 8
+  input: [ 'Наружные светильники на солнечных батареях ST Luce' ]
+'Аксессуары для торшеров Nowodvorski':
+  weight: 8
+  input: [ 'Аксессуары для торшеров Nowodvorski' ]
+'Выключатели, переключатели Nowodvorski':
+  weight: 8
+  input: [ 'Выключатели, переключатели Nowodvorski' ]
+'Основания для светильников Lumion':
+  weight: 8
+  input: [ 'Основания для светильников Lumion' ]
+'Торшеры с одним плафоном -':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном -' ]
+'Распаячные коробки Novotech':
+  weight: 8
+  input: [ 'Распаячные коробки Novotech' ]
+'Трансформаторы Novotech':
+  weight: 8
+  input: [ 'Трансформаторы Novotech' ]
+'Датчики движения Gauss':
+  weight: 8
+  input: [ 'Датчики движения Gauss' ]
+'Розетки Gauss':
+  weight: 8
+  input: [ 'Розетки Gauss' ]
+'Профили для лент Elektrostandard':
+  weight: 8
+  input: [ 'Профили для лент Elektrostandard' ]
+'Рамки Werkel':
+  weight: 8
+  input: [ 'Рамки Werkel' ]
+'Распаячные коробки Werkel':
+  weight: 8
+  input: [ 'Распаячные коробки Werkel' ]
+'Потолочные люстры Zumaline':
+  weight: 8
+  input: [ 'Потолочные люстры Zumaline' ]
+'Подвесные люстры Zumaline':
+  weight: 8
+  input: [ 'Подвесные люстры Zumaline' ]
+'Настенные светильники Zumaline':
+  weight: 8
+  input: [ 'Настенные светильники Zumaline' ]
+'Бра Zumaline':
+  weight: 8
+  input: [ 'Бра Zumaline' ]
+'Подвесные светильники Zumaline':
+  weight: 8
+  input: [ 'Подвесные светильники Zumaline' ]
+'Потолочные светильники Zumaline':
+  weight: 8
+  input: [ 'Потолочные светильники Zumaline' ]
+'Торшеры с одним плафоном Zumaline':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Zumaline' ]
+'Декоративные настольные лампы Zumaline':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Zumaline' ]
+'Торшеры с двумя и более плафонами Zumaline':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Zumaline' ]
+'Споты с одним плафоном Zumaline':
+  weight: 8
+  input: [ 'Споты с одним плафоном Zumaline' ]
+'Споты с двумя плафонами Zumaline':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Zumaline' ]
+'Споты с тремя и более плафонами Zumaline':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Zumaline' ]
+'Декоративные подсветки Zumaline':
+  weight: 8
+  input: [ 'Декоративные подсветки Zumaline' ]
+'Точечные встраиваемые светильники Zumaline':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Zumaline' ]
+'Офисные настольные лампы Zumaline':
+  weight: 8
+  input: [ 'Офисные настольные лампы Zumaline' ]
+'Подсветки для картин Zumaline':
+  weight: 8
+  input: [ 'Подсветки для картин Zumaline' ]
+'Потолочные люстры Azzardo':
+  weight: 8
+  input: [ 'Потолочные люстры Azzardo' ]
+'Подвесные люстры Azzardo':
+  weight: 8
+  input: [ 'Подвесные люстры Azzardo' ]
+'Настенные светильники Azzardo':
+  weight: 8
+  input: [ 'Настенные светильники Azzardo' ]
+'Бра Azzardo':
+  weight: 8
+  input: [ 'Бра Azzardo' ]
+'Основания для светильников Azzardo':
+  weight: 8
+  input: [ 'Основания для светильников Azzardo' ]
+'Подвесные светильники Azzardo':
+  weight: 8
+  input: [ 'Подвесные светильники Azzardo' ]
+'Потолочные светильники Azzardo':
+  weight: 8
+  input: [ 'Потолочные светильники Azzardo' ]
+'Декоративные настольные лампы Azzardo':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Azzardo' ]
+'Торшеры с одним плафоном Azzardo':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Azzardo' ]
+'Торшеры с двумя и более плафонами Azzardo':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Azzardo' ]
+'Декоративные подсветки Azzardo':
+  weight: 8
+  input: [ 'Декоративные подсветки Azzardo' ]
+'Споты с одним плафоном Azzardo':
+  weight: 8
+  input: [ 'Споты с одним плафоном Azzardo' ]
+'Споты с тремя и более плафонами Azzardo':
+  weight: 8
+  input: [ 'Споты с тремя и более плафонами Azzardo' ]
+'Подсветки для картин Azzardo':
+  weight: 8
+  input: [ 'Подсветки для картин Azzardo' ]
+'Споты с двумя плафонами Azzardo':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Azzardo' ]
+'Зеркала Azzardo':
+  weight: 8
+  input: [ 'Зеркала Azzardo' ]
+'Подсветки для зеркал Azzardo':
+  weight: 8
+  input: [ 'Подсветки для зеркал Azzardo' ]
+'Точечные встраиваемые светильники Azzardo':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Azzardo' ]
+'Трековые светильники Azzardo':
+  weight: 8
+  input: [ 'Трековые светильники Azzardo' ]
+'Аксессуары для точечных светильников Azzardo':
+  weight: 8
+  input: [ 'Аксессуары для точечных светильников Azzardo' ]
+'Комплектующие для треков Azzardo':
+  weight: 8
+  input: [ 'Комплектующие для треков Azzardo' ]
+'Подсветки для лестниц Azzardo':
+  weight: 8
+  input: [ 'Подсветки для лестниц Azzardo' ]
+'На ручную проверку Azzardo':
+  weight: 8
+  input: [ 'На ручную проверку Azzardo' ]
+'Уличные потолочные светильники Azzardo':
+  weight: 8
+  input: [ 'Уличные потолочные светильники Azzardo' ]
+'Уличные настенные светильники Azzardo':
+  weight: 8
+  input: [ 'Уличные настенные светильники Azzardo' ]
+'Кольца и рамки Azzardo':
+  weight: 8
+  input: [ 'Кольца и рамки Azzardo' ]
+'Шинопроводы Azzardo':
+  weight: 8
+  input: [ 'Шинопроводы Azzardo' ]
+'Декоративные настольные лампы Ultraflash':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Ultraflash' ]
+'Точечные встраиваемые светильники Ultraflash':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Ultraflash' ]
+'Потолочные люстры Evoled':
+  weight: 8
+  input: [ 'Потолочные люстры Evoled' ]
+'Датчики движения Eglo':
+  weight: 8
+  input: [ 'Датчики движения Eglo' ]
+'Подвесные люстры Aployt':
+  weight: 8
+  input: [ 'Подвесные люстры Aployt' ]
+'Подвесные светильники Aployt':
+  weight: 8
+  input: [ 'Подвесные светильники Aployt' ]
+'Бра Aployt':
+  weight: 8
+  input: [ 'Бра Aployt' ]
+'Декоративные настольные лампы Aployt':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Aployt' ]
+'Торшеры с одним плафоном Aployt':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Aployt' ]
+'Потолочные люстры Aployt':
+  weight: 8
+  input: [ 'Потолочные люстры Aployt' ]
+'Настенные светильники Aployt':
+  weight: 8
+  input: [ 'Настенные светильники Aployt' ]
+'Потолочные светильники Aployt':
+  weight: 8
+  input: [ 'Потолочные светильники Aployt' ]
+'Точечные встраиваемые светильники Aployt':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Aployt' ]
+'Споты с одним плафоном Aployt':
+  weight: 8
+  input: [ 'Споты с одним плафоном Aployt' ]
+'Споты с двумя плафонами Aployt':
+  weight: 8
+  input: [ 'Споты с двумя плафонами Aployt' ]
+'Подсветки для картин Aployt':
+  weight: 8
+  input: [ 'Подсветки для картин Aployt' ]
+'Реле wifi Elektrostandard':
+  weight: 8
+  input: [ 'Реле wifi Elektrostandard' ]
+'Управление светодиодными лентами Elektrostandard':
+  weight: 8
+  input: [ 'Управление светодиодными лентами Elektrostandard' ]
+'Подсветки для лестниц Maytoni':
+  weight: 8
+  input: [ 'Подсветки для лестниц Maytoni' ]
+'Уличные потолочные светильники Maytoni':
+  weight: 8
+  input: [ 'Уличные потолочные светильники Maytoni' ]
+'Настенные светильники Brillica LED':
+  weight: 8
+  input: [ 'Настенные светильники Brillica LED' ]
+'Подвесные светильники Lumina Deco':
+  weight: 8
+  input: [ 'Подвесные светильники Lumina Deco' ]
+'Бра Lumina Deco':
+  weight: 8
+  input: [ 'Бра Lumina Deco' ]
+'Подвесные люстры Lumina Deco':
+  weight: 8
+  input: [ 'Подвесные люстры Lumina Deco' ]
+'Декоративные настольные лампы Lumina Deco':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Lumina Deco' ]
+'Торшеры с одним плафоном Lumina Deco':
+  weight: 8
+  input: [ 'Торшеры с одним плафоном Lumina Deco' ]
+'Потолочные светильники Lumina Deco':
+  weight: 8
+  input: [ 'Потолочные светильники Lumina Deco' ]
+'Торшеры с двумя и более плафонами Lumina Deco':
+  weight: 8
+  input: [ 'Торшеры с двумя и более плафонами Lumina Deco' ]
+'Подсветки для зеркал Lumina Deco':
+  weight: 8
+  input: [ 'Подсветки для зеркал Lumina Deco' ]
+'Точечные встраиваемые светильники Lumina Deco':
+  weight: 8
+  input: [ 'Точечные встраиваемые светильники Lumina Deco' ]
+'Потолочные люстры Lumina Deco':
+  weight: 8
+  input: [ 'Потолочные люстры Lumina Deco' ]
+'Настенные светильники Lumina Deco':
+  weight: 8
+  input: [ 'Настенные светильники Lumina Deco' ]
+'Основания для светильников Odeon Light':
+  weight: 8
+  input: [ 'Основания для светильников Odeon Light' ]
+'Гирлянды Vegas':
+  weight: 8
+  input: [ 'Гирлянды Vegas' ]
+'Розетки Vegas':
+  weight: 8
+  input: [ 'Розетки Vegas' ]
+'Свечи Vegas':
+  weight: 8
+  input: [ 'Свечи Vegas' ]
+'На ручную проверку Gauss':
+  weight: 8
+  input: [ 'На ручную проверку Gauss' ]
+'Настенные светильники Gauss':
+  weight: 8
+  input: [ 'Настенные светильники Gauss' ]
+'Офисные настольные лампы Gauss':
+  weight: 8
+  input: [ 'Офисные настольные лампы Gauss' ]
+'Консольные светильники Gauss':
+  weight: 8
+  input: [ 'Консольные светильники Gauss' ]
+'Подвесные светильники Gauss':
+  weight: 8
+  input: [ 'Подвесные светильники Gauss' ]
+'Декоративные настольные лампы Gauss':
+  weight: 8
+  input: [ 'Декоративные настольные лампы Gauss' ]
+'Уличные настенные светильники Gauss':
+  weight: 8
+  input: [ 'Уличные настенные светильники Gauss' ]
+'Трековые светильники Gauss':
+  weight: 8
+  input: [ 'Трековые светильники Gauss' ]
+'На ручную проверку Vegas':
+  weight: 8
+  input: [ 'На ручную проверку Vegas' ]
+'Световые фигуры Uniel':
+  weight: 8
+  input: [ 'Световые фигуры Uniel' ]
+'Гирлянды Uniel':
+  weight: 8
+  input: [ 'Гирлянды Uniel' ]
+'Светодиодные деревья Uniel':
+  weight: 8
+  input: [ 'Светодиодные деревья Uniel' ]
+'Светодиодные панели Eglo':
+  weight: 8
+  input: [ 'Светодиодные панели Eglo' ]
+'Гирлянды Gauss':
+  weight: 8
+  input: [ 'Гирлянды Gauss' ]
+'Офисные настольные лампы Uniel':
+  weight: 8
+  input: [ 'Офисные настольные лампы Uniel' ]

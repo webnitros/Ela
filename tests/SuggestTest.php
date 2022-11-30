@@ -39,5 +39,22 @@ class SuggestTest extends TestCase
               ->assertJsonStructure(['total', 'results']);*/
     }
 
+    /** @test */
+    public function searchCompletio()
+    {
+        $res = $this->postJson('/api/suggest/term', [
+            'text' => 'LIANTA',
+            #ALBERTINA
+            #'text' => 'Maytoni люстра коричнвая',
+        ]);
+
+        echo '<pre>';
+        print_r(json_decode($res->getContent(), 1));
+        die;
+
+        /*      ->assertSuccessful()
+              ->assertJsonStructure(['total', 'results']);*/
+    }
+
 
 }
