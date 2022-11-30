@@ -66,7 +66,6 @@ class Filter extends AggregationResult
     public function bucket($method, array $aggregation)
     {
         $type = Map::filter($this->field());
-        $result = [];
         switch ($type) {
             case 'terms':
                 $this->buckets($method, $aggregation['labels'], $aggregation['selected']);
@@ -80,8 +79,6 @@ class Filter extends AggregationResult
                     'min' => $aggregation['min']['value'],
                     'max' => $aggregation['max']['value']
                 ]);
-
-
                 if ($method === 'addDocCount') {
                     $this->values[$this->field()]['doc_count'] = $aggregation['doc_count'];
                 }
@@ -89,16 +86,14 @@ class Filter extends AggregationResult
                 if ($method === 'addDocCountDefault') {
                     $this->values[$this->field()]['default_doc_count'] = $aggregation['doc_count'];
                 }
-
-
                 break;
             default:
                 break;
         }
-        return $result;
+
     }
 
-    public function buckets($method, $labels, $selected, $term = false)
+    public function buckets($method, $labels, $selected)
     {
         if (!empty($labels['buckets'])) {
             foreach ($labels['buckets'] as $bucket) {
@@ -116,6 +111,10 @@ class Filter extends AggregationResult
 
     public function toArray()
     {
+        $type = Map::filter($this->field());
+        if ($this->values && $type === 'range') {
+            return $this->values[$this->field()];
+        }
         return $this->values;
     }
 

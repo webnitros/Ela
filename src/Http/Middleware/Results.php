@@ -36,6 +36,7 @@ class Results implements Middleware
 
 
                 $Fileds = Map::fieldsAggregation();
+
                 $Filters = new Filters();
                 foreach ($Fileds as $filed) {
                     $Filter = new Filter($filed);

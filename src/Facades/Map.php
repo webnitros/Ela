@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static void create(string $file, Request $request)
  * @method static boolean isAgg(string $field)
  * @method static boolean type(string $field)
+ * @method static boolean aggs(string $field)
  * @method static boolean bool(string $field)
  * @method static string filter(string $field)
  * @method static \Ela\Map setDocCount(string $field, int $doc_count)
