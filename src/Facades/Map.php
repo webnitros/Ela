@@ -31,6 +31,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static AggregationResult aggResult(string $field)
  * @method static array fieldsAggregation()
  * @method static array getResults()
+ * @method static array toArray()
  *
  * @see \Ela\Map
  */

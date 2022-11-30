@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Facade;
 
 /**
  * @method static \Elastica\Index createIndex()
+ * @method static \Elastica\Index removeIndex()
  * @method static \Elastica\Index createIndexAddDocuemnts()
  * @method static \Elastica\Response flush()
  * @method static array settings()

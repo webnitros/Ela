@@ -66,6 +66,10 @@ class Results implements Middleware
                     }
                 }
 
+                echo '<pre>';
+                print_r($arrays['completion']);
+                die;
+
                 $Response->setContent($arrays);
                 $event->setResponse($Response);
             }

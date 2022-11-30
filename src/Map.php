@@ -209,4 +209,9 @@ class Map
         }
         return $arrays;
     }
+
+    public function toArray()
+    {
+        return $this->map;
+    }
 }

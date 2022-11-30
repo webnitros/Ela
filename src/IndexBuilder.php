@@ -8,6 +8,7 @@
 
 namespace Ela;
 
+use Ela\Analysis\CharFilter\TranslitToEnglish;
 use Ela\Analysis\CharFilter\TranslitToRussia;
 use Ela\Analysis\StopWords;
 use Ela\Analysis\Synonym;
@@ -18,6 +19,14 @@ use Symfony\Component\Yaml\Yaml;
 
 class IndexBuilder
 {
+    public function removeIndex()
+    {
+        $Client = new Client(['host' => getenv('ES_HOST'), 'port' => getenv('ES_PORT')]);
+        $index = $Client->getIndex(getenv('ES_INDEX_PRODUCT'));
+        $index->delete();
+        return $index;
+    }
+
     /**
      * @return \Elastica\Index
      */
@@ -131,6 +140,7 @@ class IndexBuilder
 
 
         $analysis = (new TranslitToRussia())->update($analysis);
+        $analysis = (new TranslitToEnglish())->update($analysis);
 
 
         return $analysis;
