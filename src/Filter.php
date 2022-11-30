@@ -20,6 +20,7 @@ class Filter extends AggregationResult
         try {
             $field = $this->field();
             $filters = \Ela\Facades\MultiSearch::get('filters');
+
             if ($aggregation = $filters->getAggregation($field)) {
                 $this->bucket('addDocCountDefault', $aggregation);
             }
@@ -76,8 +77,8 @@ class Filter extends AggregationResult
             case 'range':
 
                 $this->create($this->field(), [
-                    'min' => $aggregation['min']['value'],
-                    'max' => $aggregation['max']['value']
+                    'min' => $aggregation['min']['value'] ?? 0,
+                    'max' => $aggregation['max']['value'] ?? 0
                 ]);
                 if ($method === 'addDocCount') {
                     $this->values[$this->field()]['doc_count'] = $aggregation['doc_count'];
