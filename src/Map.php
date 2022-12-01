@@ -13,7 +13,7 @@ use Ela\Interfaces\AggregationInterface;
 use Illuminate\Http\Request;
 use Symfony\Component\Yaml\Yaml;
 
-class Maps
+class Map
 {
     /**
      * @var array
