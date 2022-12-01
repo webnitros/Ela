@@ -58,6 +58,14 @@ class Map
         return false;
     }
 
+    public function frontend(string $field)
+    {
+        if ($meta = $this->get($field)) {
+            return !empty($meta['frontend']);
+        }
+        return false;
+    }
+
     public function type(string $field)
     {
         if ($meta = $this->get($field)) {
