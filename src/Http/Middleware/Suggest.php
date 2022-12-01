@@ -25,34 +25,6 @@ class Suggest implements Middleware
 
             $controller->Suggest()->setGlobalText($query);
 
-
-            /* $this->add('vendor_name');
-             $this->add('colors');
-             $this->add('collection');
-             $this->add('pagetitle');
-             $this->add('armature_material');
-             $this->add('armature_color');
-             $this->add('country_orig');
-             $this->add('diffuser');
-             $this->add('dopolnitelno');
-             $this->add('forma');
-             $this->add('forma_plafona');
-             $this->add('interer');
-             $this->add('krepej');
-             $this->add('lamp_style');
-             $this->add('lamp_type');
-             $this->add('mesto_montaza');
-             $this->add('mesto_prim');
-             $this->add('osobennost');
-             $this->add('ottenok');
-             $this->add('plafond_color');
-             $this->add('plafond_material');
-             $this->add('sub_oc_razm');
-             $this->add('tip_poverhnosti_plafonov_new');
-             $this->add('colors');
-             $this->add('materials');
-             $this->add('forms');*/
-
             ##############################
             ###### Для целых предложений
             ##############################
@@ -60,22 +32,10 @@ class Suggest implements Middleware
             ##############################
             ##############################
 
-
-            ##############################
-            ###### Автокомплиты
-            ##############################
-            $suggest = new Completion('completion', 'suggest_completion');
-            $suggest->setSize(5);
-            \Ela\Facades\Suggest::addSuggestion($suggest);
-            ##############################
-            ##############################
-
-
             $index = $controller->index();
 
             $Search = new Search($index->getClient());
             $Search->setSuggest($controller->Suggest());
-
             $controller->addSearch('suggest', $Search);
         }
     }

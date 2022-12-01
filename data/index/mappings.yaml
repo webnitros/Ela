@@ -59,6 +59,10 @@ storages:
   type: keyword
   ignore_above: 256
 
+hrustal:
+  type: keyword
+  ignore_above: 256
+
 vendor_name:
   type: text
   analyzer: russian_english
@@ -147,7 +151,6 @@ plafond_color:
       type: text
       analyzer: russian_english
       search_analyzer: russian_english
-
 
 lamp_style:
   type: keyword

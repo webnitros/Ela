@@ -4,6 +4,7 @@ namespace Ela\Http\Controllers\Suggest;
 
 use Ela\Facades\IndexBuilder;
 use Ela\Http\Controllers\Controller;
+use Elastica\Client;
 use Elastica\Document;
 use Elastica\Index;
 use Elastica\Mapping;
@@ -16,31 +17,20 @@ use Symfony\Component\Yaml\Yaml;
 
 class CompletionController extends Controller
 {
-
     public $field_search;
 
     public function get(Request $request)
     {
 
+        #$index = $this->_getIndexForTest();
+        $index = $this->getIndex();
 
-        /*   $this->validatorResponse($request, [
-               'text' => 'required',
-           ]);
-           $text = $request->get('text');*/
-        #$text = 'Уличный светильник';
-
-
-        $index = $this->_getIndexForTest();
-
-
-        $text = 'люстр';
-        #$text = 'фкеу дфьз';
+        $text = 'Arte ';
         $size = 5;
-        $suggest = new Completion('suggest', $this->field_search);
+        $suggest = new Completion('completion', 'word');
         $suggest->setSize($size);
-
         $suggest->setFuzzy([
-            "fuzziness" => 2
+            "fuzziness" => 1
         ]);
 
 
@@ -56,53 +46,53 @@ class CompletionController extends Controller
         $suggests = $resultSet->getSuggests();
 
         $texts = [];
-        foreach ($suggests['suggest'][0]['options'] as $suggest) {
+        foreach ($suggests['completion'][0]['options'] as $suggest) {
             $texts[] = $suggest['text'];
         }
         echo '<pre>';
         print_r($texts);
         die;
 
-
         return new JsonResponse($data, 200);
     }
 
+    /**
+     * @return \Elastica\Index
+     */
+    protected function getIndex(): Index
+    {
+        return (new Client(['host' => getenv('ES_HOST'), 'port' => getenv('ES_PORT')]))->getIndex(getenv('ES_INDEX_COMPLITION'));
+    }
 
     protected function _getIndexForTest(): Index
     {
-        $index = IndexBuilder::createIndex();
-        #$index = $this->index();
-        $this->field_search = 'suggest_completion';
-
+        $index = $this->getIndex();
+        $index->create([], ['recreate' => true]);
         $index->setMapping(new Mapping([
-            $this->field_search => [
+            'word' => [
                 'type' => 'completion'
             ]
         ]));
-
-        /*
-         *   analyzer: russian_english
-  search_analyzer: russian_english
-        */
-
-
         $index->flush();
 
+        // Директория с папкой
         $dir = getenv('ES_SETTINS_PATH');
 
-        $suggest = Yaml::parseFile($dir . 'completion/words.yaml');
+
+        $completion = Yaml::parseFile($dir . 'completion/words.yaml');
+
         $words = [];
 
         // Подсказки
-        foreach ($suggest as $k => $word) {
+        foreach ($completion as $k => $word) {
             $key = 'completion_' . $k;
             $words[] = new Document($key, [
-                $this->field_search => $word
+                'word' => $word
             ]);
         }
 
         // СЛОВА ДЛЯ ИСПРАВЛЕНИЯ
-        $wordComplite = true;
+        /*$wordComplite = true;
         if ($wordComplite) {
             $suggest = Yaml::parseFile($dir . 'suggest_word/words.yaml');
             foreach ($suggest as $k => $word) {
@@ -115,8 +105,7 @@ class CompletionController extends Controller
                 $key = 'suggest_word_' . $k;
                 $words[] = new Document($key, ['suggest_word' => $word]);
             }
-        }
-
+        }*/
 
         $index->addDocuments($words);
         $index->refresh();

@@ -36,9 +36,12 @@ abstract class Controller extends \AppM\Http\Controllers\Controller
         $this->searchs = [];
     }
 
-    public function addSearch(string $name, Search $search)
+    public function addSearch(string $name, Search $search, $index = null)
     {
-        $this->searchs[$name] = $search;
+        $this->searchs[$name] = [
+            'search' => $search,
+            'index' => $index,
+        ];
     }
 
 
@@ -51,8 +54,12 @@ abstract class Controller extends \AppM\Http\Controllers\Controller
         $client = $index->getClient();
         $multiSearch = new MultiSearch($client);
         /* @var \Elastica\Search $search */
-        foreach ($this->searchs as $key => $search) {
-            $search->addIndex($index);
+        foreach ($this->searchs as $key => $meta) {
+            $search = $meta['search'];
+            $CustomIndex = $meta['index'] ?? $index;
+            // Указываем в каком индексе будет поиск
+            $search->addIndex($CustomIndex);
+
             $multiSearch->addSearch($search, $key);
         }
         return $multiSearch;

@@ -32,9 +32,7 @@ class IndexBuilder
      */
     public function createIndex()
     {
-
         $Client = new Client(['host' => getenv('ES_HOST'), 'port' => getenv('ES_PORT')]);
-
         $index = $Client->getIndex(getenv('ES_INDEX_PRODUCT'));
 
         ######## Создаем индекс
@@ -150,6 +148,7 @@ class IndexBuilder
     {
         $dir = getenv('ES_SETTINS_PATH');
         return Yaml::parseFile($dir . 'mappings.yaml');
+
     }
 
 }

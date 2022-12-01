@@ -6,6 +6,7 @@ use Ela\Facades\Map;
 use Ela\Facades\MultiSearch;
 use Ela\Http\Controllers\Controller;
 use Ela\Http\Middleware\BoolQueryFilter;
+use Ela\Http\Middleware\Completion;
 use Ela\Http\Middleware\Feature\Marker;
 use Ela\Http\Middleware\Feature\ShopAvailability;
 use Ela\Http\Middleware\MapFilter;
@@ -55,7 +56,8 @@ class QueryController extends Controller
         Aggregation\CurrentPost::class, // Текущие агре
         Aggregation\OutOfStock::class, // при построении фильтро POST фильтры не должны накладывать
         // --------------
-        Suggest::class, // Предложения
+        #Suggest::class, // Предложения
+        Completion::class, // Автокомплиты
         Results::class // Записываем результаты поиска
     ];
 

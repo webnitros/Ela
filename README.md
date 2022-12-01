@@ -1,3 +1,10 @@
+### ПРОЧЕСТЬ
+https://habr.com/ru/company/lamoda/blog/557046/
+
+
+### Tutorial по скриптам
+https://www.compose.com/articles/how-to-script-painless-ly-in-elasticsearch/
+
 ## Auth Controller
 
 Контролеры для авторизации

@@ -2,12 +2,11 @@
 
 namespace Ela\Http\Controllers\Suggest;
 
+use Ela\Facades\Index;
+use Ela\Facades\IndexBuilder;
 use Ela\Http\Controllers\Controller;
-use Ela\Index;
-use Elastica\Document;
+
 use Elastica\Suggest;
-use Elastica\Suggest\CandidateGenerator\DirectGenerator;
-use Elastica\Suggest\Phrase;
 use Elastica\Suggest\Term;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
@@ -51,7 +50,7 @@ class TermController extends Controller
 
     protected function _getIndexForTest()
     {
-        $index = Index::createIndexAddDocuemnts();
+        $index = IndexBuilder::createIndexAddDocuemnts();
 
         /*$index->addDocuments([
             new Document('1', ['id' => 1, 'text' => 'ALBERTINA']),

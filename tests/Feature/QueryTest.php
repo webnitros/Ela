@@ -12,7 +12,9 @@ class QueryTest extends TestCase
     public function search()
     {
         $this->postJson('/api/search', [
-            'shop_availability' => [1, 3, 4],
+            'marker' => [
+                'out_of_stock'
+            ],
             'published' => '1',
         ])->assertSuccessful()
             ->assertJsonStructure([
@@ -76,6 +78,24 @@ class QueryTest extends TestCase
         ])
             ->assertSuccessful()
             ->assertJsonStructure(['total', 'results']);
+    }
+
+    /** @test */
+    public function searchCompletion()
+    {
+        $res = $this->postJson('/api/search', [
+            'query' => 'arte',
+            'published' => '1',
+        ]);
+        # ->assertSuccessful()
+        # ->assertJsonStructure(['total', 'results']);
+
+        $res = json_decode($res->getContent(), 1)['completion'];
+
+        echo '<pre>';
+        print_r(array_unique($res));
+        die;
+
     }
 
 

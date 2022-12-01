@@ -19,11 +19,14 @@ class Completion
             return null;
         }
 
-        $completion = $suggestes['completion'][0]['options'];
         $words = [];
+        $completion = $suggestes['completion'][0]['options'];
         foreach ($completion as $item) {
-            $words[] = $item['text'];
+            $tmp = mb_strtolower($item['text']);
+            if (!array_key_exists($tmp, $words)) {
+                $words[$tmp] = $item['text'];
+            }
         }
-        return $words;
+        return array_values($words);
     }
 }

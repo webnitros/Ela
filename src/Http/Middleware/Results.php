@@ -63,11 +63,14 @@ class Results implements Middleware
 
                     if ($suggest->hasSuggests()) {
                         $arrays['suggest'] = \Ela\Handle\Suggest::create($suggest);
-                        $arrays['completion'] = \Ela\Handle\Completion::create($suggest);
                     }
                 }
 
-
+                if ($completion = MultiSearch::get('completion')) {
+                    if ($completion->hasSuggests()) {
+                        $arrays['completion'] = \Ela\Handle\Completion::create($completion);
+                    }
+                }
 
                 $Response->setContent($arrays);
                 $event->setResponse($Response);

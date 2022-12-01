@@ -82,6 +82,14 @@ class Map
         return null;
     }
 
+    public function fielddata(string $field)
+    {
+        if ($meta = $this->get($field)) {
+            return !empty($meta['fielddata']);
+        }
+        return false;
+    }
+
 
     /**
      * @param string $field
