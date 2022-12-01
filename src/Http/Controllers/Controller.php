@@ -50,7 +50,9 @@ abstract class Controller extends \AppM\Http\Controllers\Controller
         $index = $this->index();
         $client = $index->getClient();
         $multiSearch = new MultiSearch($client);
+        /* @var \Elastica\Search $search */
         foreach ($this->searchs as $key => $search) {
+            $search->addIndex($index);
             $multiSearch->addSearch($search, $key);
         }
         return $multiSearch;
