@@ -109,6 +109,7 @@ class Map
                 $class = \Ela\Aggregation\Range::class;
                 break;
             default:
+                throw new \Exception("class '{$class}' not found. Filed '{$field}'");
                 break;
         }
 

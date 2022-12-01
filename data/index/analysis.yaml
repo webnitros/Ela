@@ -92,6 +92,7 @@ analyzer:
       - russian_english_stopwords
     char_filter:
       - ru_char_filter
+      - en_char_filter
 
   search_russian_english:
     type: custom
@@ -146,6 +147,16 @@ analyzer:
       - english_possessive_stemmer
       - lowercase
       - russian_stemmer
+
+  completion_word:
+    type: custom
+    tokenizer: standard
+    filter:
+      - lowercase
+      - autocomplete_filter
+    char_filter:
+      - ru_char_filter
+      - en_char_filter
 
 char_filter:
   my_char_filter:

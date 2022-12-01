@@ -65,9 +65,6 @@ class QueryController extends Controller
      */
     public function get(Request $request)
     {
-        echo '<pre>'; 
-        print_r(Map::fieldsAggregation()); die;
-        
         ########################
         ##### ВТОРОЙ ЗАПРОС С ТОВАРАМИ
         ########################

@@ -22,11 +22,17 @@ class CurrentPost implements Middleware
         // Далее все агрегации нужно добавить в основной запрос чтобы тот вернул данны
         $Query = $controller->query();
         $Post = $controller->PostFilter();
+        /*
         Map::aggregation('marker')->add($Query);
         Map::aggregation('lamp_style')->filter($Post)->add($Query);
         Map::aggregation('price')->filter($Post)->add($Query);
+        Map::aggregation('availability')->filter($Post)->add($Query);*/
 
-        Map::aggregation('availability')->filter($Post)->add($Query);
+        foreach (Map::fieldsAggregation() as $field) {
+            Map::aggregation($field)->filter($Post)->add($Query);
+        }
+
+
     }
 
 }

@@ -2,10 +2,12 @@ diff_price:
   filter: range
   type: long
   aggs: true
+  frontend: true
 price:
   filter: range
   type: long
   aggs: true
+  frontend: true
 remain_count:
   filter: range
   type: long
@@ -14,134 +16,166 @@ voltage:
   filter: range
   type: long
   aggs: true
+  frontend: true
 colors:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 materials:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 forms:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 ip_class:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 ploshad_osvesheniya:
   filter: range
   type: long
   aggs: true
+  frontend: true
 diametr_vrezki:
   filter: range
   type: long
   aggs: true
+  frontend: true
 diametr_vrezkis:
-  filter: facets
+  filter: terms
   field_rating: diametr_vrezki
   type: long
   aggs: true
+  frontend: true
 height:
   filter: range
   type: long
   aggs: true
+  frontend: true
 diameter:
   filter: range
   type: float
   aggs: true
+  frontend: true
 dlina_vrezki:
   filter: range
   type: long
   aggs: true
+  frontend: true
 length:
   filter: range
   type: float
   aggs: true
+  frontend: true
 shirina_vrezki:
   filter: range
   type: long
   aggs: true
+  frontend: true
 width:
   filter: range
   type: integer
   aggs: true
+  frontend: true
 power:
   filter: range
   type: long
   aggs: true
+  frontend: true
 num_of_socket:
   filter: range
   type: long
   aggs: true
+  frontend: true
 category:
   filter: terms
   type: keyword
   aggs: false
+  frontend: true
 popular_selling:
   filter: terms
   type: keyword
   aggs: false
+  frontend: true
 sub_category:
   filter: terms
   type: keyword
   aggs: false
+  frontend: true
 parent:
   filter: terms
   type: text
   aggs: false
   bool: true  # Накладывается на агрегации и на результаты поиска
   fielddata: true
+  frontend: true
 availability:
   filter: term
   type: boolean
   aggs: true
+  frontend: true
 sale:
   filter: term
   type: boolean
   aggs: false
+  frontend: true
 new:
   filter: term
   type: boolean
   aggs: false
+  frontend: true
 mega_sale:
   filter: term
   type: boolean
   aggs: false
+  frontend: true
 defective:
   filter: term
   type: boolean
   aggs: false
+  frontend: true
 published:
   filter: term
   type: boolean
   aggs: false
   bool: true # Накладывается на агрегации и на результаты поиска
+  frontend: true
 separate_on:
   filter: term
   type: boolean
   aggs: false
+  frontend: true
 marker:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 lamp_style:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 popular_count:
   filter: terms
   type: integer
   aggs: true
+  frontend: true
 interer:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 krepej:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 tags:
   filter: terms
   type: keyword
@@ -150,130 +184,167 @@ mesto_montaza:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 osobennost:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 lamp_type:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 ottenok:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 viklyuchatel:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 sub_lin_razm:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 sub_oc_razm:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 mesto_prim:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 country_orig:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 lamp_socket:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 pu_dimmer:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 forma:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 forma_plafona:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 armature_material:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 plafond_material:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 dopolnitelno:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 shop_availability:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
+storages:
+  filter: terms
+  type: keyword
+  aggs: true
+  frontend: true
 armature_color:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 plafond_color:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 tsvet_temp:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 light_flow:
   filter: range
   type: long
   aggs: true
+  frontend: true
 light_temperatures:
   filter: range
   type: long
   aggs: true
+  frontend: true
 diametr_plafona_sm:
   filter: range
   type: float
   aggs: true
+  frontend: true
 vysota_plafona_abazhura_sm:
   filter: range
   type: float
   aggs: true
+  frontend: true
 shade_direction:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 diffuser:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 tip_upravleniya:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 vid_vyklyuchatelya:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 tip_poverhnosti_plafonov_new:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 tip_podklyucheniya_new:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 napravlennyy_svet:
   filter: term
   type: boolean
   aggs: true
+  frontend: true
 plafon_share:
   filter: terms
   type: keyword
   aggs: true
+  frontend: true
 candle_lamp_vision:
   filter: terms
   type: keyword
@@ -282,14 +353,17 @@ hrustal:
   filter: terms
   type: keyword
   aggs: true
+  frontend: false
 file_is_3d_model:
   filter: term
   type: boolean
   aggs: false
+  frontend: true
 file_is_manual:
   filter: term
   type: boolean
   aggs: false
+  frontend: true
 in_order:
   filter: term
   type: boolean
