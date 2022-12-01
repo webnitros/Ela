@@ -17,7 +17,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method static void create(string $file, Request $request)
+ * @method static \Ela\Map create(string $file)
  * @method static boolean isAgg(string $field)
  * @method static boolean type(string $field)
  * @method static boolean aggs(string $field)

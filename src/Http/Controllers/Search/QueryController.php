@@ -2,6 +2,7 @@
 
 namespace Ela\Http\Controllers\Search;
 
+use Ela\Facades\Map;
 use Ela\Facades\MultiSearch;
 use Ela\Http\Controllers\Controller;
 use Ela\Http\Middleware\BoolQueryFilter;
@@ -64,6 +65,9 @@ class QueryController extends Controller
      */
     public function get(Request $request)
     {
+        echo '<pre>'; 
+        print_r(Map::fieldsAggregation()); die;
+        
         ########################
         ##### ВТОРОЙ ЗАПРОС С ТОВАРАМИ
         ########################

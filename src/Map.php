@@ -19,15 +19,12 @@ class Map
      * @var array
      */
     private $map;
-    /**
-     * @var \Illuminate\Http\Request
-     */
-    private array $doc_count = [];
     private array $values = [];
 
     public function create(string $file)
     {
         $this->map = Yaml::parseFile($file);
+        return $this;
     }
 
     public function bool(string $field)
