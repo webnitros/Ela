@@ -28,6 +28,7 @@ class Map
     public function create(string $file)
     {
         $this->map = Yaml::parseFile($file);
+        return $this;
     }
 
     public function setRequest(\Illuminate\Http\Request $request)

@@ -16,7 +16,8 @@ class MapFilter implements Middleware
         if (!file_exists($path)) {
             throw new \Exception('no file fields ' . $path);
         }
-        \Ela\Facades\Map::create($path, $request);
+        $Map = \Ela\Facades\Map::create($path);
+        $Map->setRequest($request);
     }
 
 }

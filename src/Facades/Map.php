@@ -28,6 +28,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static int doc_count(string $field)
  * @method static array|null values(string $field)
  * @method static \Illuminate\Http\Request request()
+ * @method static \Ela\Map setRequest(\Illuminate\Http\Request $request)
  * @method static AggregationInterface|Exception aggregation(string $field)
  * @method static AggregationResult aggResult(string $field)
  * @method static array fieldsAggregation()
