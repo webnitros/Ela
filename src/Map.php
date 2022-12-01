@@ -22,44 +22,12 @@ class Map
     /**
      * @var \Illuminate\Http\Request
      */
-    protected Request $request;
     private array $doc_count = [];
     private array $values = [];
 
-    public function create(string $file, Request $request)
+    public function create(string $file)
     {
         $this->map = Yaml::parseFile($file);
-        $this->request = $request;
-
-        // Поля по умолчаию для которых всегда включены агрегации
-        /* $keys = [
-             'marker',
-             'price',
-             'shop_availability',
-             'lamp_style',
-         ];
-
-         // Выстроить агрегации по указанным полям
-            $suggestionsFields = $request->get('suggestionsFields', null);
-            if ($suggestionsFields) {
-                $keysFields = explode(',', $suggestionsFields);
-                $keysFields = array_map('trim', $keysFields);
-                foreach ($keysFields as $key) {
-                    if ($request->request->has($key)) {
-                        if ($data = $request->request->get($key)) {
-                            if ($data['aggs']) {
-                                $keys[] = $key;
-                            }
-                        }
-                    }
-                }
-            }*/
-
-    }
-
-    public function request()
-    {
-        return $this->request;
     }
 
     public function bool(string $field)
