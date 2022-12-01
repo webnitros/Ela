@@ -10,6 +10,18 @@ class TranslitToRussia
     public $key = 'char_filter';
     public $name = 'ru_char_filter';
 
+    public function setKey(string $key)
+    {
+        $this->key = $key;
+        return $this;
+    }
+
+    public function setName(string $name)
+    {
+        $this->name = $name;
+        return $this;
+    }
+
     public function update(array $analysis)
     {
         return $this->add($analysis, [

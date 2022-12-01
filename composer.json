@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "tests": "phpunit --bootstrap bootstrap.php",
-    "up:release": "gh release create \"v1.3.5\" --generate-notes"
+    "up:release": "gh release create \"v1.3.6\" --generate-notes"
   },
   "keywords": [
     "client"
@@ -40,6 +40,9 @@
     "illuminate/testing": "^8.83"
   },
   "autoload": {
+    "files": [
+      "src/function.php"
+    ],
     "psr-4": {
       "Ela\\": "src/",
       "Database\\Factories\\": "database/factories/"
