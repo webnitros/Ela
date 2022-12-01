@@ -56,7 +56,7 @@ class CompletionIndex
         return $index;
     }
 
-    protected function createIndex(): Index
+    public function createIndex(): Index
     {
         $index = $this->getIndex();
 
