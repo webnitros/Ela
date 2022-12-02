@@ -36,7 +36,10 @@ class IndexBuilder
         $index = $Client->getIndex(getenv('ES_INDEX_PRODUCT'));
 
         ######## Создаем индекс
-        $index->create(['settings' => ['analysis' => $this->analysis()]], ['recreate' => true]);
+        $index->create(['settings' => [
+            'max_result_window' => 5000000,
+            'analysis' => $this->analysis()
+        ]], ['recreate' => true]);
 
         ######## Добавляем карты полей
         $data = $this->mappings();
