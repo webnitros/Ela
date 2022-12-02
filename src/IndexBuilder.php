@@ -36,10 +36,9 @@ class IndexBuilder
         $index = $Client->getIndex(getenv('ES_INDEX_PRODUCT'));
 
         $default = [
-            'settings' => array_merge([
-                'max_result_window' => 5000000,
+            'settings' => [
                 'analysis' => $this->analysis()
-            ], $settings)
+            ]
         ];
 
         if (is_array($settings)) {
