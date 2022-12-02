@@ -42,6 +42,10 @@ class IndexBuilder
             ], $settings)
         ];
 
+        if (is_array($settings)) {
+            $default['settings'] = array_merge($default['settings'], $settings);
+        }
+
         ######## Создаем индекс
         $index->create($default, ['recreate' => true]);
 
