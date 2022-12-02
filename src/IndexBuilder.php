@@ -30,16 +30,20 @@ class IndexBuilder
     /**
      * @return \Elastica\Index
      */
-    public function createIndex()
+    public function createIndex($settings = null)
     {
         $Client = new Client(['host' => getenv('ES_HOST'), 'port' => getenv('ES_PORT')]);
         $index = $Client->getIndex(getenv('ES_INDEX_PRODUCT'));
 
+        $default = [
+            'settings' => array_merge([
+                'max_result_window' => 5000000,
+                'analysis' => $this->analysis()
+            ], $settings)
+        ];
+
         ######## Создаем индекс
-        $index->create(['settings' => [
-            'max_result_window' => 5000000,
-            'analysis' => $this->analysis()
-        ]], ['recreate' => true]);
+        $index->create($default, ['recreate' => true]);
 
         ######## Добавляем карты полей
         $data = $this->mappings();
