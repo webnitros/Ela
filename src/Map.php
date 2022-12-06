@@ -66,6 +66,14 @@ class Map
         return false;
     }
 
+    public function deployed(string $field)
+    {
+        if ($meta = $this->get($field)) {
+            return !empty($meta['deployed']);
+        }
+        return false;
+    }
+
     public function type(string $field)
     {
         if ($meta = $this->get($field)) {

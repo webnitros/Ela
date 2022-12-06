@@ -19,6 +19,8 @@ use Illuminate\Support\Facades\Facade;
 /**
  * @method static \Ela\Map create(string $file)
  * @method static mixed get(string $field)
+ * @method static boolean deployed(string $field)
+ * @method static boolean frontend(string $field)
  * @method static boolean isAgg(string $field)
  * @method static boolean type(string $field)
  * @method static boolean aggs(string $field)
