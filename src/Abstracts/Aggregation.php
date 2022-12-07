@@ -86,8 +86,9 @@ abstract class Aggregation
      * @param \Elastica\Query\BoolQuery $BoolQuery
      * @return $this
      */
-    public function filter(BoolQuery $BoolQuery)
+    public function filter(BoolQuery $BoolQuery, $name = null)
     {
+        $this->name = $name ?? $this->field();
         $this->Filter = new Filter($this->field());
         $this->Filter->setFilter($this->bool($BoolQuery));
         return $this;
