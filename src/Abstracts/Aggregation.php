@@ -26,6 +26,7 @@ abstract class Aggregation
 
     /* @var \Elastica\Aggregation\Filter|null $Filter */
     protected $Filter;
+    private string $name;
 
     public function __construct(string $field)
     {
@@ -35,6 +36,11 @@ abstract class Aggregation
     public function field()
     {
         return $this->field;
+    }
+
+    public function name()
+    {
+        return $this->name;
     }
 
     public function bool(BoolQuery $BoolQuery)
@@ -90,12 +96,14 @@ abstract class Aggregation
 
     /**
      * @param \Elastica\Query $Query
+     * @param null $name - имя для агрегации
      * @return $this
      */
-    public function add(\Elastica\Query $Query)
+    public function add(\Elastica\Query $Query, $name = null)
     {
+        $this->name = $name ?? $this->field();
         if (!$Filter = $this->Filter) {
-            $Filter = new Filter($this->field());
+            $Filter = new Filter($this->name());
             $Filter->setFilter((new BoolQuery())->setParams(['must' => []]));
         }
 
