@@ -89,7 +89,7 @@ abstract class Aggregation
     public function filter(BoolQuery $BoolQuery, $name = null)
     {
         $this->name = $name ?? $this->field();
-        $this->Filter = new Filter($this->field());
+        $this->Filter = new Filter($this->name());
         $this->Filter->setFilter($this->bool($BoolQuery));
         return $this;
     }
@@ -102,8 +102,8 @@ abstract class Aggregation
      */
     public function add(\Elastica\Query $Query, $name = null)
     {
-        $this->name = $name ?? $this->field();
         if (!$Filter = $this->Filter) {
+            $this->name = $name ?? $this->field();
             $Filter = new Filter($this->name());
             $Filter->setFilter((new BoolQuery())->setParams(['must' => []]));
         }
