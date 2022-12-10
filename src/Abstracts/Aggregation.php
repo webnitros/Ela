@@ -75,9 +75,11 @@ abstract class Aggregation
         }
 
         $newBoolQuery = new BoolQuery();
-        $newBoolQuery->setParams([
-            'must' => $filter
-        ]);
+        if (!empty($filter)) {
+            $newBoolQuery->setParams([
+                'must' => $filter
+            ]);
+        }
         return $newBoolQuery;
     }
 
@@ -90,6 +92,7 @@ abstract class Aggregation
     {
         $this->name = $name ?? $this->field();
         $this->Filter = new Filter($this->name());
+
         $this->Filter->setFilter($this->bool($BoolQuery));
         return $this;
     }
