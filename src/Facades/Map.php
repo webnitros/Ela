@@ -26,6 +26,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static boolean aggs(string $field)
  * @method static boolean bool(string $field)
  * @method static string filter(string $field)
+ * @method static \Ela\Map setMap(array $arrays)
  * @method static \Ela\Map setDocCount(string $field, int $doc_count)
  * @method static \Ela\Map setValues(string $field, array $values)
  * @method static int doc_count(string $field)
