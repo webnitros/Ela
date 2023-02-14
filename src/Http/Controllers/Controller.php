@@ -14,7 +14,7 @@ use Illuminate\Http\Request;
 
 abstract class Controller extends \AppM\Http\Controllers\Controller
 {
-    private array $searchs = [];
+    protected array $searchs = [];
 
     public function newSearch(string $name, Query $query)
     {
