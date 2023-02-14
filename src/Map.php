@@ -31,6 +31,12 @@ class Map
         return $this;
     }
 
+    public function setMap(array $arrays)
+    {
+        $this->map = $arrays;
+        return $this;
+    }
+
     public function setRequest(\Illuminate\Http\Request $request)
     {
         $this->request = $request;
