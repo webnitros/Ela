@@ -29,13 +29,11 @@ class IndexBuilder
         $this->host = $host ?? getenv('ES_HOST');
         $this->port = $port ?? getenv('ES_PORT');
         $this->index = $index ?? getenv('ES_INDEX_PRODUCT');
+        $this->client = new Client(['host' => $this->host, 'port' => $this->port]);
     }
 
     public function client()
     {
-        if (is_null($this->client)) {
-            $this->client = new Client(['host' => $this->host, 'port' => $this->port]);
-        }
         return $this->client;
     }
 
