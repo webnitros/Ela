@@ -19,10 +19,34 @@ use Symfony\Component\Yaml\Yaml;
 
 class IndexBuilder
 {
+    /**
+     * @var \Elastica\Client
+     */
+    public Client $client;
+
+    public function __construct($index = null, $host = null, $port = null)
+    {
+        $this->host = $host ?? getenv('ES_HOST');
+        $this->port = $port ?? getenv('ES_PORT');
+        $this->index = $index ?? getenv('ES_INDEX_PRODUCT');
+    }
+
+    public function client()
+    {
+        if (is_null($this->client)) {
+            $this->client = new Client(['host' => $this->host, 'port' => $this->port]);
+        }
+        return $this->client;
+    }
+
+    public function index()
+    {
+        return $this->client()->getIndex($this->index);
+    }
+
     public function removeIndex()
     {
-        $Client = new Client(['host' => getenv('ES_HOST'), 'port' => getenv('ES_PORT')]);
-        $index = $Client->getIndex(getenv('ES_INDEX_PRODUCT'));
+        $index = $this->index();
         $index->delete();
         return $index;
     }
@@ -32,9 +56,7 @@ class IndexBuilder
      */
     public function createIndex($settings = null)
     {
-        $Client = new Client(['host' => getenv('ES_HOST'), 'port' => getenv('ES_PORT')]);
-        $index = $Client->getIndex(getenv('ES_INDEX_PRODUCT'));
-
+        $index = $this->index();
         $default = [
             'settings' => [
                 'analysis' => $this->analysis()
@@ -53,8 +75,6 @@ class IndexBuilder
 
         $mapping = new Mapping($data);
         $index->setMapping($mapping);
-
-
         return $index;
     }
 
@@ -63,9 +83,7 @@ class IndexBuilder
      */
     public function flush()
     {
-        $Client = new Client(['host' => getenv('ES_HOST'), 'port' => getenv('ES_PORT')]);
-        $index = $Client->getIndex(getenv('ES_INDEX_PRODUCT'));
-        return $index->flush();
+        return $this->index()->flush();
     }
 
     public function createIndexAddDocuemnts()
@@ -142,15 +160,10 @@ class IndexBuilder
     {
         $dir = getenv('ES_SETTINS_PATH');
         $analysis = Yaml::parseFile($dir . 'analysis.yaml');
-
         $analysis = Synonym::words($analysis);
         $analysis = StopWords::words($analysis);
-
-
         $analysis = (new TranslitToRussia())->update($analysis);
         $analysis = (new TranslitToEnglish())->update($analysis);
-
-
         return $analysis;
     }
 
@@ -158,7 +171,6 @@ class IndexBuilder
     {
         $dir = getenv('ES_SETTINS_PATH');
         return Yaml::parseFile($dir . 'mappings.yaml');
-
     }
 
 }
