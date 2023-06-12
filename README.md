@@ -1,6 +1,10 @@
 ### ПРОЧЕСТЬ
 https://habr.com/ru/company/lamoda/blog/557046/
 
+https://itnan.ru/post.php?c=1&p=595277
+### suggest - инструкция по исправлению бестолковых предложений
+https://habr.com/ru/company/digdes/blog/351002/
+
 
 ### Tutorial по скриптам
 https://www.compose.com/articles/how-to-script-painless-ly-in-elasticsearch/
@@ -31,6 +35,7 @@ https://antonshell.me/post/elastic-search-synonyms
 
 ```bash
 curl -X GET "localhost:9200/"
+curl -X GET "localhost:9200/_cat/plugins"
 ```
 
 ## Подключения в composer.json
@@ -58,3 +63,5 @@ try {
     echo $e->getMessage() . PHP_EOL;
 }
 ```
+
+

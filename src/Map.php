@@ -16,6 +16,10 @@ use Symfony\Component\Yaml\Yaml;
 class Map
 {
     /**
+     * @var array|false|mixed|string
+     */
+    public $pathSetting;
+    /**
      * @var array
      */
     private $map;
@@ -25,11 +29,22 @@ class Map
     private array $doc_count = [];
     private array $values = [];
 
+    public function __construct($pathSetting = null)
+    {
+        $this->pathSetting = $pathSetting ?? getenv('ES_SETTINS_PATH');
+    }
+
+    public function pathSetting()
+    {
+        return $this->pathSetting;
+    }
+
     public function create(string $file)
     {
         $this->map = Yaml::parseFile($file);
         return $this;
     }
+
 
     public function setMap(array $arrays)
     {

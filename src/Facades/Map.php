@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Facade;
 
 /**
  * @method static \Ela\Map create(string $file)
+ * @method static string pathSetting()
  * @method static mixed get(string $field)
  * @method static boolean deployed(string $field)
  * @method static boolean frontend(string $field)

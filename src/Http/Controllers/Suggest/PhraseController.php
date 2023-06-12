@@ -3,6 +3,7 @@
 namespace Ela\Http\Controllers\Suggest;
 
 use Ela\Facades\IndexBuilder;
+use Ela\Facades\Map;
 use Ela\Http\Controllers\Controller;
 use Elastica\Document;
 use Elastica\Suggest;
@@ -87,7 +88,7 @@ class PhraseController extends Controller
 
     protected function _getIndexForTest()
     {
-        $dir = getenv('ES_SETTINS_PATH');
+        $dir = Map::pathSetting();
         $in = true;
 
         if ($in) {

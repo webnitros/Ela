@@ -9,6 +9,7 @@
 namespace Ela\Analysis;
 
 
+use Ela\Facades\Map;
 use Symfony\Component\Yaml\Yaml;
 
 class Synonym
@@ -16,7 +17,7 @@ class Synonym
 
     public static function words(array $analysis)
     {
-        $dir = getenv('ES_SETTINS_PATH');
+        $dir = Map::pathSetting();
         $path = $dir . 'synonym.yaml';
 
         if (file_exists($path)) {

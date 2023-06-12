@@ -5,6 +5,7 @@ namespace Ela\Http\Controllers\Suggest;
 use Ela\Analysis\CharFilter\TranslitToEnglish;
 use Ela\Analysis\CharFilter\TranslitToRussia;
 use Ela\Facades\IndexBuilder;
+use Ela\Facades\Map;
 use Ela\Http\Controllers\Controller;
 use Ela\Templates\CompletionIndex;
 use Elastica\Client;
@@ -74,7 +75,7 @@ class CompletionController extends Controller
 
     protected function _getIndexForTest(): Index
     {
-        $completion = Yaml::parseFile(getenv('ES_SETTINS_PATH') . 'completion/words.yaml');
+        $completion = Yaml::parseFile(Map::pathSetting() . 'completion/words.yaml');
         $CompletionIndex = new CompletionIndex();
         $CompletionIndex->documents($completion);
         return $CompletionIndex->getIndex();

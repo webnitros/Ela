@@ -81,7 +81,6 @@ class QueryController extends Controller
             $Query = $Query->setPostFilter($this->PostFilter());
         }
 
-
         $this->newSearch('products', $Query);
 
 

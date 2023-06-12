@@ -9,6 +9,7 @@
 namespace Ela\Analysis;
 
 
+use Ela\Facades\Map;
 use Symfony\Component\Yaml\Yaml;
 
 class StopWords
@@ -16,10 +17,8 @@ class StopWords
 
     public static function words(array $analysis)
     {
-        $dir = getenv('ES_SETTINS_PATH');
+        $dir = Map::pathSetting();
         $path = $dir . 'stop_words.yaml';
-
-
         if (file_exists($path)) {
             $arrays = Yaml::parseFile($path);
 

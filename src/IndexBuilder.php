@@ -12,6 +12,7 @@ use Ela\Analysis\CharFilter\TranslitToEnglish;
 use Ela\Analysis\CharFilter\TranslitToRussia;
 use Ela\Analysis\StopWords;
 use Ela\Analysis\Synonym;
+use Ela\Facades\Map;
 use Elastica\Client;
 use Elastica\Document;
 use Elastica\Mapping;
@@ -150,13 +151,13 @@ class IndexBuilder
 
     public function settings()
     {
-        $dir = getenv('ES_SETTINS_PATH');
+        $dir = Map::pathSetting();
         return Yaml::parseFile($dir . 'settings.yaml');
     }
 
     public function analysis()
     {
-        $dir = getenv('ES_SETTINS_PATH');
+        $dir = Map::pathSetting();
         $analysis = Yaml::parseFile($dir . 'analysis.yaml');
         $analysis = Synonym::words($analysis);
         $analysis = StopWords::words($analysis);
@@ -167,7 +168,7 @@ class IndexBuilder
 
     public function mappings()
     {
-        $dir = getenv('ES_SETTINS_PATH');
+        $dir = Map::pathSetting();
         return Yaml::parseFile($dir . 'mappings.yaml');
     }
 
