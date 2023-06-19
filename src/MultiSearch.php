@@ -37,4 +37,12 @@ class MultiSearch
     {
         return array_key_exists($key, $this->ResultSet);
     }
+
+    /**
+     * @return \Elastica\ResultSet[]
+     */
+    public function getResult()
+    {
+        return $this->ResultSet;
+    }
 }
